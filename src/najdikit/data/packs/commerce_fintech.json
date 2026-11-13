@@ -1,0 +1,1698 @@
+{
+  "id": "commerce_fintech",
+  "name": "Saudi E-Commerce, Logistics & Fintech Pack",
+  "version": "2.0.0",
+  "domain": "commerce_fintech",
+  "priority": 30,
+  "license": "MIT",
+  "description": "Modern Saudi e-commerce, shipping/tracking, returns, digital wallets, banking, installments, and tax-invoicing terminology.",
+  "entry_count": 119,
+  "entries": [
+    {
+      "id": "comm_0001",
+      "term": "السلة",
+      "vocalized": "السَّلَّة",
+      "ipa_hint": "as-sallah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "سلة المشتريات في المتجر الإلكتروني",
+      "meaning_en": "Shopping cart",
+      "variants": [
+        "سلة التسوق"
+      ],
+      "example": "أضفت المنتجات في السلة وجاهزة للدفع."
+    },
+    {
+      "id": "comm_0002",
+      "term": "إتمام الشراء",
+      "vocalized": "إِتْمَامْ الشِّرَاءْ",
+      "ipa_hint": "itmam ash-shira'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "خطوة تأكيد ودفع الطلب",
+      "meaning_en": "Checkout",
+      "variants": [
+        "صفحة الدفع"
+      ],
+      "example": "تقدر تطبق كود الخصم عند إتمام الشراء."
+    },
+    {
+      "id": "comm_0003",
+      "term": "كود خصم",
+      "vocalized": "كُودْ خَصْمْ",
+      "ipa_hint": "kood khasm",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رمز ترويجي لتخفيض السعر",
+      "meaning_en": "Promo / Discount code",
+      "variants": [
+        "كوبون خصم",
+        "كوبون"
+      ],
+      "example": "عندك كود خصم فعال يعطيك عشرة بالمية."
+    },
+    {
+      "id": "comm_0004",
+      "term": "شحن مجاني",
+      "vocalized": "شَحْنْ مَجَّانِي",
+      "ipa_hint": "shahn majjani",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "توصيل بدون رسوم إضافية",
+      "meaning_en": "Free shipping",
+      "variants": [
+        "توصيل مجاني"
+      ],
+      "example": "الطلبات فوق ميتين ريال عليها شحن مجاني."
+    },
+    {
+      "id": "comm_0005",
+      "term": "شركة الشحن",
+      "vocalized": "شَرِكَةْ الشَّحْنْ",
+      "ipa_hint": "sharikat ash-shahn",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الناقل اللوجستي للطلبات",
+      "meaning_en": "Shipping carrier / Courier",
+      "variants": [
+        "شركة التوصيل"
+      ],
+      "example": "سلمنا الطلبية إلى شركة الشحن اليوم الصبح."
+    },
+    {
+      "id": "comm_0006",
+      "term": "رقم التتبع",
+      "vocalized": "رَقَمْ التَّتَبُّعْ",
+      "ipa_hint": "raqam at-tatabbu'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "معرف متابعة مسار الشحنة",
+      "meaning_en": "Tracking number",
+      "variants": [
+        "بوليصة الشحن",
+        "البوليصة"
+      ],
+      "example": "أرسلنا لك رقم التتبع في رسالة نصية."
+    },
+    {
+      "id": "comm_0007",
+      "term": "الشحنة",
+      "vocalized": "الشِّحْنَة",
+      "ipa_hint": "ash-shihnah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الطرد المرسل للعميل",
+      "meaning_en": "Shipment / Parcel",
+      "variants": [
+        "شحنة",
+        "شحنات",
+        "الطرد"
+      ],
+      "example": "الشحنة وصلت لمدينتك وبتطلع للتسليم اليوم."
+    },
+    {
+      "id": "comm_0008",
+      "term": "مندوب التوصيل",
+      "vocalized": "مَنْدُوبْ التَّوْصِيلْ",
+      "ipa_hint": "mandoob at-tawseel",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "موصل الطلبات للعميل",
+      "meaning_en": "Delivery courier / Driver",
+      "variants": [
+        "المندوب"
+      ],
+      "example": "مندوب التوصيل بيتواصل معك قبل يوصل."
+    },
+    {
+      "id": "comm_0009",
+      "term": "جاري التوصيل",
+      "vocalized": "جَارِي التَّوْصِيلْ",
+      "ipa_hint": "jari at-tawseel",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حالة الطلب أثناء توجه المندوب للعميل",
+      "meaning_en": "Out for delivery",
+      "variants": [
+        "في الطريق إليك"
+      ],
+      "example": "حالة طلبك الحين جاري التوصيل."
+    },
+    {
+      "id": "comm_0010",
+      "term": "تم التسليم",
+      "vocalized": "تَمّ التَّسْلِيمْ",
+      "ipa_hint": "tamm at-tasleem",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد وصول الطلب ليد العميل",
+      "meaning_en": "Delivered",
+      "variants": [],
+      "example": "تحدثت الحالة في النظام إلى تم التسليم."
+    },
+    {
+      "id": "comm_0011",
+      "term": "استرجاع",
+      "vocalized": "اِسْتِرْجَاعْ",
+      "ipa_hint": "istirja'",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "إعادة المنتج واسترداد قيمته",
+      "meaning_en": "Return / Refund",
+      "variants": [
+        "إرجاع",
+        "طلب استرجاع"
+      ],
+      "example": "رفعت لك طلب استرجاع فوري للمنتج."
+    },
+    {
+      "id": "comm_0012",
+      "term": "استبدال",
+      "vocalized": "اِسْتِبْدَالْ",
+      "ipa_hint": "istibdal",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "تغيير المنتج بمقاس أو صنف آخر",
+      "meaning_en": "Exchange / Replacement",
+      "variants": [
+        "طلب استبدال"
+      ],
+      "example": "الاستبدال متاح خلال أسبوعين من الاستلام."
+    },
+    {
+      "id": "comm_0013",
+      "term": "استرداد المبلغ",
+      "vocalized": "اِسْتِرْدَادْ الْمَبْلَغْ",
+      "ipa_hint": "istirdad al-mablagh",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إعادة المال لحساب العميل",
+      "meaning_en": "Money refund",
+      "variants": [
+        "ترجيع المبلغ"
+      ],
+      "example": "يتم استرداد المبلغ لنفس البطاقة خلال يومين عمل."
+    },
+    {
+      "id": "comm_0014",
+      "term": "يوم عمل",
+      "vocalized": "يَوْمْ عَمَلْ",
+      "ipa_hint": "yawm amal",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "يوم دوام بنكي أو رسمي",
+      "meaning_en": "Business day",
+      "variants": [
+        "أيام عمل"
+      ],
+      "example": "تستغرق الحوالة الدولية من يوم إلى يومين عمل."
+    },
+    {
+      "id": "comm_0015",
+      "term": "الدفع عند الاستلام",
+      "vocalized": "الدَّفْعْ عِنْدْ الْاِسْتِلَامْ",
+      "ipa_hint": "ad-daf' ind al-istilam",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سداد قيمة الطلب نقداً أو بالشبكة عند التسليم",
+      "meaning_en": "Cash/Card on delivery (COD)",
+      "variants": [],
+      "example": "خدمة الدفع عند الاستلام متوفرة لكل المدن."
+    },
+    {
+      "id": "comm_0016",
+      "term": "أبل باي",
+      "vocalized": "أَبِلْ بَايْ",
+      "ipa_hint": "apple pay",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الدفع السريع عبر محفظة أبل",
+      "meaning_en": "Apple Pay",
+      "variants": [],
+      "example": "تقدر تدفع بضغطة زر عن طريق أبل باي."
+    },
+    {
+      "id": "comm_0017",
+      "term": "اس تي سي باي",
+      "vocalized": "إِسْ تِي سِي بَايْ",
+      "ipa_hint": "stc pay",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "محفظة رقمية شائعة في السعودية",
+      "meaning_en": "STC Pay digital wallet",
+      "variants": [],
+      "example": "حولت لك المبلغ على المحفظة الرقمية."
+    },
+    {
+      "id": "comm_0018",
+      "term": "تقسيط",
+      "vocalized": "تَقْسِيطْ",
+      "ipa_hint": "taqseet",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "تجزئة المبلغ على دفعات ميسرة",
+      "meaning_en": "Installments",
+      "variants": [
+        "أقساط",
+        "دفعات"
+      ],
+      "example": "متاح تقسيط المبلغ على أربع دفعات بدون فوائد."
+    },
+    {
+      "id": "comm_0019",
+      "term": "دفعة أولى",
+      "vocalized": "دُفْعَة أُولَى",
+      "ipa_hint": "duf'ah oola",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المبلغ المقدم في نظام الدفعات",
+      "meaning_en": "First installment / Down payment",
+      "variants": [],
+      "example": "تم سداد أول دفعة بنجاح."
+    },
+    {
+      "id": "comm_0020",
+      "term": "تاريخ الاستحقاق",
+      "vocalized": "تَارِيخْ الْاِسْتِحْقَاقْ",
+      "ipa_hint": "tareekh al-istihqaq",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "الموعد المحدد لسداد الفاتورة أو الدفعة",
+      "meaning_en": "Due date",
+      "variants": [],
+      "example": "نذكرك بقرب تاريخ الاستحقاق للفاتورة الشهرية."
+    },
+    {
+      "id": "comm_0021",
+      "term": "مفوتر",
+      "vocalized": "مْفَوْتَرْ",
+      "ipa_hint": "mfawtar",
+      "category": "finance_commerce",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "باقة أو خدمة تصدر لها فاتورة شهرية",
+      "meaning_en": "Postpaid",
+      "variants": [
+        "باقة مفوتر"
+      ],
+      "example": "رقمي على باقة مفوتر والفاتورة تصدر أول الشهر."
+    },
+    {
+      "id": "comm_0022",
+      "term": "مسبق الدفع",
+      "vocalized": "مُسْبَقْ الدَّفْعْ",
+      "ipa_hint": "musbaq ad-daf'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "خدمة تشحن برصيد مقدم",
+      "meaning_en": "Prepaid",
+      "variants": [
+        "شحن رصيد"
+      ],
+      "example": "جددت الباقة من رصيد مسبق الدفع."
+    },
+    {
+      "id": "comm_0023",
+      "term": "تجديد الاشتراك",
+      "vocalized": "تَجْدِيدْ الْاِشْتِرَاكْ",
+      "ipa_hint": "tajdeed al-ishtirak",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تمديد صلاحية الخدمة لفترة جديدة",
+      "meaning_en": "Subscription renewal",
+      "variants": [
+        "اشتراك شهري",
+        "اشتراك سنوي"
+      ],
+      "example": "تم تجديد الاشتراك السنوي تلقائياً."
+    },
+    {
+      "id": "comm_0024",
+      "term": "إلغاء الاشتراك",
+      "vocalized": "إِلْغَاءْ الْاِشْتِرَاكْ",
+      "ipa_hint": "ilgha' al-ishtirak",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إيقاف التجديد المستقبلي للخدمة",
+      "meaning_en": "Cancel subscription",
+      "variants": [],
+      "example": "تقدر تطلب إلغاء الاشتراك بأي وقت بدون رسوم."
+    },
+    {
+      "id": "comm_0025",
+      "term": "الباقة",
+      "vocalized": "الْبَاقَة",
+      "ipa_hint": "al-baqah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "خطة الخدمة ومزاياها",
+      "meaning_en": "Plan / Package / Tier",
+      "variants": [
+        "باقة",
+        "باقات"
+      ],
+      "example": "الباقة هذي تشمل مكالمات لا محدودة."
+    },
+    {
+      "id": "comm_0026",
+      "term": "لا محدود",
+      "vocalized": "لَا مَحْدُودْ",
+      "ipa_hint": "la mahdood",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مفتوح السعة دون سقف استهلاك",
+      "meaning_en": "Unlimited",
+      "variants": [
+        "لامحدود"
+      ],
+      "example": "الإنترنت في الباقة الجديدة لا محدود."
+    },
+    {
+      "id": "comm_0027",
+      "term": "نقاط الولاء",
+      "vocalized": "نِقَاطْ الْوَلَاءْ",
+      "ipa_hint": "niqat al-wala'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مكافآت المشتريات المتراكمة للعميل",
+      "meaning_en": "Loyalty points",
+      "variants": [
+        "نقاط المكافآت"
+      ],
+      "example": "تقدر تستبدل نقاط الولاء برصيد فوري."
+    },
+    {
+      "id": "comm_0028",
+      "term": "رصيد مجاني",
+      "vocalized": "رَصِيدْ مَجَّانِي",
+      "ipa_hint": "raseed majjani",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مبلغ إضافي ممنوح كهدية أو تعويض",
+      "meaning_en": "Bonus / Free credit",
+      "variants": [
+        "كاش باك",
+        "استرداد نقدي"
+      ],
+      "example": "أضفنا لحسابك رصيد مجاني تعويضاً عن التأخير."
+    },
+    {
+      "id": "comm_0029",
+      "term": "نفد من المخزون",
+      "vocalized": "نَفَدْ مِنْ الْمَخْزُونْ",
+      "ipa_hint": "nafad min al-makhzoon",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "انتهاء الكمية المتاحة حالياً",
+      "meaning_en": "Out of stock",
+      "variants": [
+        "مخلص من المخزون"
+      ],
+      "example": "اللون هذا نفد من المخزون وبيتوفر الأسبوع الجاي."
+    },
+    {
+      "id": "comm_0030",
+      "term": "متوفر حالياً",
+      "vocalized": "مُتَوَفِّرْ حَالِيًّا",
+      "ipa_hint": "mutawaffir haliyyan",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "موجود بالمخزن وجاهز للطلب",
+      "meaning_en": "In stock now",
+      "variants": [
+        "متوفر بالمخزون"
+      ],
+      "example": "المقاس المطلوب متوفر حالياً وجاهز للشحن."
+    },
+    {
+      "id": "comm_0031",
+      "term": "طلب مسبق",
+      "vocalized": "طَلَبْ مُسْبَقْ",
+      "ipa_hint": "talab musbaq",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حجز المنتج قبل نزوله الرسمي",
+      "meaning_en": "Pre-order",
+      "variants": [
+        "حجز مسبق"
+      ],
+      "example": "فتحنا باب الطلب المسبق للإصدار الجديد."
+    },
+    {
+      "id": "comm_0032",
+      "term": "عرض خاص",
+      "vocalized": "عَرْضْ خَاصّ",
+      "ipa_hint": "ard khass",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تخفيض أو ميزة لفترة محدودة",
+      "meaning_en": "Special offer",
+      "variants": [
+        "عروض"
+      ],
+      "example": "عندنا عرض خاص لنهاية الأسبوع."
+    },
+    {
+      "id": "comm_0033",
+      "term": "سعر الجملة",
+      "vocalized": "سِعْرْ الْجُمْلَة",
+      "ipa_hint": "si'r al-jumlah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تسعيرة الكميات التجارية الكبيرة",
+      "meaning_en": "Wholesale price",
+      "variants": [],
+      "example": "للطلبات الكبيرة نحسب لك سعر الجملة."
+    },
+    {
+      "id": "comm_0034",
+      "term": "سعر القطاعي",
+      "vocalized": "سِعْرْ الْقَطَّاعِي",
+      "ipa_hint": "si'r al-qatta'i",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سعر البيع المفرد للمستهلك",
+      "meaning_en": "Retail price",
+      "variants": [
+        "سعر التجزئة"
+      ],
+      "example": "الفرق واضح بين سعر الجملة وسعر القطاعي."
+    },
+    {
+      "id": "comm_0035",
+      "term": "شامل الضريبة",
+      "vocalized": "شَامِلْ الضَّرِيبَة",
+      "ipa_hint": "shamil ad-dareebah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "يتضمن ضريبة القيمة المضافة",
+      "meaning_en": "VAT inclusive",
+      "variants": [],
+      "example": "المبلغ النهائي شامل الضريبة والتوصيل."
+    },
+    {
+      "id": "comm_0036",
+      "term": "ضمان سنتين",
+      "vocalized": "ضَمَانْ سَنْتَيْنْ",
+      "ipa_hint": "daman santain",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "كفالة المنتج لمدة عامين",
+      "meaning_en": "Two-year warranty",
+      "variants": [
+        "الضمان",
+        "تحت الضمان"
+      ],
+      "example": "الجهاز عليه ضمان سنتين لدى الوكيل."
+    },
+    {
+      "id": "comm_0037",
+      "term": "الوكيل المعتمد",
+      "vocalized": "الْوَكِيلْ الْمُعْتَمَدْ",
+      "ipa_hint": "al-wakeel al-mu'tamad",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الموزع الرسمي صاحب الضمان",
+      "meaning_en": "Authorized dealer",
+      "variants": [],
+      "example": "الصيانة مجانية عند الوكيل المعتمد."
+    },
+    {
+      "id": "comm_0038",
+      "term": "بطاقة ائتمانية",
+      "vocalized": "بِطَاقَة اِئْتِمَانِيَّة",
+      "ipa_hint": "bitaqah i'timaniyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بطاقة دفع بنكية ائتمانية",
+      "meaning_en": "Credit card",
+      "variants": [
+        "فيزا",
+        "ماستركارد"
+      ],
+      "example": "تمت عملية الشراء عبر بطاقة ائتمانية."
+    },
+    {
+      "id": "comm_0039",
+      "term": "بطاقة صراف",
+      "vocalized": "بِطَاقَة صَرَّافْ",
+      "ipa_hint": "bitaqah sarraf",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بطاقة السحب البنكي المباشر",
+      "meaning_en": "Debit / ATM card",
+      "variants": [
+        "بطاقة مدى"
+      ],
+      "example": "تقدر تسحب أو تدفع ببطاقة صراف مدى."
+    },
+    {
+      "id": "comm_0040",
+      "term": "حد السحب",
+      "vocalized": "حَدّ السَّحْبْ",
+      "ipa_hint": "hadd as-sahb",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "السقف اليومي المسموح به للعمليات",
+      "meaning_en": "Withdrawal / Spending limit",
+      "variants": [
+        "الحد اليومي"
+      ],
+      "example": "تأكد من رفع حد السحب للشراء الإلكتروني."
+    },
+    {
+      "id": "comm_0041",
+      "term": "عملية مرفوضة",
+      "vocalized": "عَمَلِيَّة مَرْفُوضَة",
+      "ipa_hint": "amaliyyah marfoodah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عدم اكتمال الدفع البنكي",
+      "meaning_en": "Declined transaction",
+      "variants": [
+        "انرفضت العملية"
+      ],
+      "example": "طلعت عملية مرفوضة بسبب عدم كفاية الرصيد."
+    },
+    {
+      "id": "comm_0042",
+      "term": "عملية ناجحة",
+      "vocalized": "عَمَلِيَّة نَاجِحَة",
+      "ipa_hint": "amaliyyah najihah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اكتمال خصم واعتماد الدفع",
+      "meaning_en": "Successful transaction",
+      "variants": [
+        "تم الدفع"
+      ],
+      "example": "ظهرت عندنا عملية ناجحة واعتمدنا طلبك."
+    },
+    {
+      "id": "comm_0043",
+      "term": "معلّقة بالبنك",
+      "vocalized": "مْعَلَّقَة بِالْبَنْكْ",
+      "ipa_hint": "m'allaqah bil-bank",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عملية قيد التسوية المصرفية المؤقتة",
+      "meaning_en": "Pending bank authorization",
+      "variants": [
+        "مبلغ محجوز"
+      ],
+      "example": "العملية معلّقة بالبنك وتنفك تلقائياً خلال يوم."
+    },
+    {
+      "id": "comm_0044",
+      "term": "حوالة فورية",
+      "vocalized": "حَوَالَة فَوْرِيَّة",
+      "ipa_hint": "hawalah fawriyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تحويل بنكي يصل في نفس اللحظة (سريع)",
+      "meaning_en": "Instant bank transfer (Sarie)",
+      "variants": [
+        "نظام سريع"
+      ],
+      "example": "أرسلت لك حوالة فورية وتوصل بنفس الدقيقة."
+    },
+    {
+      "id": "comm_0045",
+      "term": "إضافة مستفيد",
+      "vocalized": "إِضَافَة مُسْتَفِيدْ",
+      "ipa_hint": "idafat mustafeed",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تسجيل وتفعيل حساب بنكي جديد للتحويل",
+      "meaning_en": "Add beneficiary",
+      "variants": [
+        "تفعيل المستفيد"
+      ],
+      "example": "بعد إضافة مستفيد تقدر تحول له مباشرة."
+    },
+    {
+      "id": "comm_0046",
+      "term": "سند قبض",
+      "vocalized": "سَنَدْ قَبْضْ",
+      "ipa_hint": "sanad qabd",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "وثيقة محاسبية تثبت استلام مبلغ مالي",
+      "meaning_en": "Receipt voucher",
+      "variants": [],
+      "example": "أصدرنا سند قبض رسمي بالدفعة المستلمة."
+    },
+    {
+      "id": "comm_0047",
+      "term": "سند صرف",
+      "vocalized": "سَنَدْ صَرْفْ",
+      "ipa_hint": "sanad sarf",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "وثيقة محاسبية تثبت دفع مبلغ مالي",
+      "meaning_en": "Payment voucher",
+      "variants": [],
+      "example": "اعتمدت الإدارة المالية سند صرف الموردين."
+    },
+    {
+      "id": "comm_0048",
+      "term": "أمر شراء",
+      "vocalized": "أَمْرْ شِرَاءْ",
+      "ipa_hint": "amr shira'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تعميد رسمي بطلب توريد بضاعة أو خدمة",
+      "meaning_en": "Purchase order (PO)",
+      "variants": [
+        "تعميد"
+      ],
+      "example": "أرسلنا أمر شراء رسمي للمورد."
+    },
+    {
+      "id": "comm_0049",
+      "term": "عرض سعر",
+      "vocalized": "عَرْضْ سِعْرْ",
+      "ipa_hint": "ard si'r",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "وثيقة تسعير مبدئية قبل التعاقد",
+      "meaning_en": "Price quotation",
+      "variants": [
+        "تسعيرة"
+      ],
+      "example": "جهزت لك عرض سعر مفصل شامل كل البنود."
+    },
+    {
+      "id": "comm_0050",
+      "term": "فاتورة ضريبية",
+      "vocalized": "فَاتُورَة ضَرِيبِيَّة",
+      "ipa_hint": "fatoorah dareebiyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "فاتورة إلكترونية معتمدة برمز استجابة",
+      "meaning_en": "Tax invoice",
+      "variants": [],
+      "example": "توصلك فاتورة ضريبية معتمدة على البريد."
+    },
+    {
+      "id": "comm_0051",
+      "term": "الرقم الضريبي",
+      "vocalized": "الرَّقَمْ الضَّرِيبِي",
+      "ipa_hint": "ar-raqam ad-dareebi",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "معرف التسجيل في ضريبة القيمة المضافة",
+      "meaning_en": "VAT registration number",
+      "variants": [],
+      "example": "أضفنا الرقم الضريبي للمنشأة في الفاتورة."
+    },
+    {
+      "id": "comm_0052",
+      "term": "السجل التجاري",
+      "vocalized": "السِّجِلّ التِّجَارِي",
+      "ipa_hint": "as-sijill at-tijari",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "الترخيص الرسمي للمنشأة التجارية",
+      "meaning_en": "Commercial Registration (CR)",
+      "variants": [],
+      "example": "بيانات السجل التجاري محدثة وسارية."
+    },
+    {
+      "id": "comm_0053",
+      "term": "فرع الرياض",
+      "vocalized": "فَرْعْ الرِّيَاضْ",
+      "ipa_hint": "far' ar-riyad",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المقر أو المتجر في مدينة الرياض",
+      "meaning_en": "Riyadh branch",
+      "variants": [
+        "فرع جدة",
+        "فرع الدمام"
+      ],
+      "example": "الاستلام متاح مباشرة من فرع الرياض."
+    },
+    {
+      "id": "comm_0054",
+      "term": "استلام من الفرع",
+      "vocalized": "اِسْتِلَامْ مِنْ الْفَرْعْ",
+      "ipa_hint": "istilam min al-far'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب عبر الإنترنت واستلام شخصي من المتجر",
+      "meaning_en": "In-store pickup",
+      "variants": [],
+      "example": "اخترت استلام من الفرع عشان آخذها اليوم."
+    },
+    {
+      "id": "comm_0055",
+      "term": "مكالمة",
+      "vocalized": "مُكَالَمَة",
+      "ipa_hint": "mukalamah",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "اتصال هاتفي",
+      "meaning_en": "Phone call",
+      "variants": [
+        "المكالمة",
+        "مكالمات"
+      ],
+      "example": "كانت مكالمة مثمرة وواضحة."
+    },
+    {
+      "id": "comm_0056",
+      "term": "معاملة",
+      "vocalized": "مُعَامَلَة",
+      "ipa_hint": "mu'amalah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "إجراء رسمي أو مالي",
+      "meaning_en": "Transaction / Application",
+      "variants": [
+        "المعاملة",
+        "معاملات"
+      ],
+      "example": "خلصت كل إجراءات المعاملة بسهولة."
+    },
+    {
+      "id": "comm_0057",
+      "term": "شركة",
+      "vocalized": "شَرِكَة",
+      "ipa_hint": "sharikah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مؤسسة تجارية",
+      "meaning_en": "Company / Firm",
+      "variants": [
+        "الشركة",
+        "شركات"
+      ],
+      "example": "الشركة تقدم دعم فني متميز."
+    },
+    {
+      "id": "comm_0058",
+      "term": "مؤسسة",
+      "vocalized": "مُؤَسَّسَة",
+      "ipa_hint": "mu'assasah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "منشأة أعمال رسمية",
+      "meaning_en": "Establishment / Organization",
+      "variants": [
+        "المؤسسة"
+      ],
+      "example": "فتحنا حساب تجاري باسم المؤسسة."
+    },
+    {
+      "id": "comm_0059",
+      "term": "منشأة",
+      "vocalized": "مُنْشَأَة",
+      "ipa_hint": "munsha'ah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "كيان تجاري أو صناعي",
+      "meaning_en": "Enterprise / Facility",
+      "variants": [
+        "المنشأة"
+      ],
+      "example": "بيانات المنشأة موثقة في البوابة."
+    },
+    {
+      "id": "comm_0060",
+      "term": "فرع",
+      "vocalized": "فَرْعْ",
+      "ipa_hint": "far'",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مقر تابع للشركة أو البنك",
+      "meaning_en": "Branch",
+      "variants": [
+        "فروع",
+        "الفروع"
+      ],
+      "example": "زرنا أقرب فرع واستلمنا البطاقة."
+    },
+    {
+      "id": "comm_0061",
+      "term": "مستودع شحن",
+      "vocalized": "مُسْتَوْدَعْ شَحْنْ",
+      "ipa_hint": "mustawda' shahn",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مركز فرز وتخزين البضائع",
+      "meaning_en": "Fulfillment warehouse",
+      "variants": [],
+      "example": "طلعت الشحنة من مستودع شحن الرياض."
+    },
+    {
+      "id": "comm_0062",
+      "term": "مركز فرز",
+      "vocalized": "مَرْكَزْ فَرْزْ",
+      "ipa_hint": "markaz farz",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "محطة توزيع الطرود البريدية",
+      "meaning_en": "Sorting hub",
+      "variants": [],
+      "example": "وصل الطرد إلى مركز فرز المنطقة الشرقية."
+    },
+    {
+      "id": "comm_0063",
+      "term": "تغليف",
+      "vocalized": "تَغْلِيفْ",
+      "ipa_hint": "taghleef",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "تعبئة وحماية المنتج قبل الشحن",
+      "meaning_en": "Packaging / Gift wrap",
+      "variants": [
+        "تغليف هدايا"
+      ],
+      "example": "التغليف محكم ويحمي الجهاز وقت النقل."
+    },
+    {
+      "id": "comm_0064",
+      "term": "تجهيز الطلب",
+      "vocalized": "تَجْهِيزْ الطَّلَبْ",
+      "ipa_hint": "tajheez at-talab",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مرحلة تحضير المشتريات قبل تسليمها للناقل",
+      "meaning_en": "Order fulfillment / preparation",
+      "variants": [
+        "قيد التجهيز"
+      ],
+      "example": "طلبك الحين في مرحلة تجهيز الطلب."
+    },
+    {
+      "id": "comm_0065",
+      "term": "بانتظار الدفع",
+      "vocalized": "بِانْتِظَارْ الدَّفْعْ",
+      "ipa_hint": "bintidhar ad-daf'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الطلب محجوز ريثما يتم السداد",
+      "meaning_en": "Awaiting payment",
+      "variants": [],
+      "example": "حالة الطلب بانتظار الدفع لتأكيد الحجز."
+    },
+    {
+      "id": "comm_0066",
+      "term": "تم التأكيد",
+      "vocalized": "تَمّ التَّأْكِيدْ",
+      "ipa_hint": "tamm at-ta'keed",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اعتماد الطلب رسمياً بعد الدفع",
+      "meaning_en": "Order confirmed",
+      "variants": [],
+      "example": "تم التأكيد وبنرسل لك رابط التتبع قريب."
+    },
+    {
+      "id": "comm_0067",
+      "term": "ملغي",
+      "vocalized": "مَلْغِي",
+      "ipa_hint": "malghi",
+      "category": "finance_commerce",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "طلب أو موعد تم إلغاؤه",
+      "meaning_en": "Cancelled",
+      "variants": [
+        "ملغية"
+      ],
+      "example": "الطلب القديم طالع بالنظام ملغي."
+    },
+    {
+      "id": "comm_0068",
+      "term": "ساري المفعول",
+      "vocalized": "سَارِي الْمَفْعُولْ",
+      "ipa_hint": "sari al-maf'ool",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "فعال وغير منتهي الصلاحية",
+      "meaning_en": "Valid / Active",
+      "variants": [
+        "ساري",
+        "سارية"
+      ],
+      "example": "العرض ساري المفعول لنهاية الشهر."
+    },
+    {
+      "id": "comm_0069",
+      "term": "منتهي الصلاحية",
+      "vocalized": "مُنْتَهِي الصَّلَاحِيَّة",
+      "ipa_hint": "muntahi as-salahiyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "انتهت مدة سريانه المحددة",
+      "meaning_en": "Expired",
+      "variants": [
+        "منتهية"
+      ],
+      "example": "الكوبون القديم منتهي الصلاحية، تفضل كود جديد."
+    },
+    {
+      "id": "comm_0070",
+      "term": "تاريخ الانتهاء",
+      "vocalized": "تَارِيخْ الْاِنْتِهَاءْ",
+      "ipa_hint": "tareekh al-intiha'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "آخر يوم لصلاحية البطاقة أو العرض",
+      "meaning_en": "Expiry date",
+      "variants": [],
+      "example": "تأكد من تاريخ الانتهاء المكتوب على البطاقة."
+    },
+    {
+      "id": "comm_0071",
+      "term": "الرمز السري",
+      "vocalized": "الرَّمْزْ السِّرِّي",
+      "ipa_hint": "ar-ramz as-sirri",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الأرقام السرية للبطاقة أو الحساب",
+      "meaning_en": "PIN / Passcode",
+      "variants": [
+        "الرقم السري"
+      ],
+      "example": "لا تفصح عن الرمز السري لأي شخص."
+    },
+    {
+      "id": "comm_0072",
+      "term": "كشف مختصر",
+      "vocalized": "كَشْفْ مُخْتَصَرْ",
+      "ipa_hint": "kashf mukhtasar",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ملخص آخر العمليات المالية",
+      "meaning_en": "Mini statement",
+      "variants": [],
+      "example": "طلبت كشف مختصر لآخر عشر عمليات."
+    },
+    {
+      "id": "comm_0073",
+      "term": "حساب جاري",
+      "vocalized": "حِسَابْ جَارِي",
+      "ipa_hint": "hisab jari",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الحساب البنكي الأساسي للعمليات اليومية",
+      "meaning_en": "Current / Checking account",
+      "variants": [],
+      "example": "تم إيداع المبلغ في حساب جاري المنشأة."
+    },
+    {
+      "id": "comm_0074",
+      "term": "حساب ادخار",
+      "vocalized": "حِسَابْ اِدِّخَارْ",
+      "ipa_hint": "hisab iddikhar",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حساب مخصص لحفظ الفوائض المالية",
+      "meaning_en": "Savings account",
+      "variants": [],
+      "example": "نقلت الفائض الشهري إلى حساب ادخار."
+    },
+    {
+      "id": "comm_0075",
+      "term": "تحويل دولي",
+      "vocalized": "تَحْوِيلْ دَوْلِي",
+      "ipa_hint": "tahweel dawli",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إرسال أموال لبنك خارج الدولة",
+      "meaning_en": "International wire transfer",
+      "variants": [],
+      "example": "نفذنا تحويل دولي للمورد الخارجي."
+    },
+    {
+      "id": "comm_0076",
+      "term": "تحويل محلي",
+      "vocalized": "تَحْوِيلْ مَحَلِّي",
+      "ipa_hint": "tahweel mahalli",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حوالة بين البنوك داخل المملكة",
+      "meaning_en": "Domestic bank transfer",
+      "variants": [],
+      "example": "التحويل محلي ويوصل بنفس اللحظة."
+    },
+    {
+      "id": "comm_0077",
+      "term": "سعر الصرف",
+      "vocalized": "سِعْرْ الصَّرْفْ",
+      "ipa_hint": "si'r as-sarf",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "قيمة تبديل العملة مقابل الريال",
+      "meaning_en": "Exchange rate",
+      "variants": [],
+      "example": "سعر الصرف ثابت ومعلن بوضوح."
+    },
+    {
+      "id": "comm_0078",
+      "term": "رسوم إدارية",
+      "vocalized": "رُسُومْ إِدَارِيَّة",
+      "ipa_hint": "rusoom idariyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تكاليف إجرائية للخدمة",
+      "meaning_en": "Administrative fees",
+      "variants": [
+        "بدون رسوم إدارية"
+      ],
+      "example": "التمويل متاح حالياً بدون رسوم إدارية."
+    },
+    {
+      "id": "comm_0079",
+      "term": "إعفاء",
+      "vocalized": "إِعْفَاءْ",
+      "ipa_hint": "i'fa'",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "إسقاط الرسوم تقديراً للعميل",
+      "meaning_en": "Fee waiver / Exemption",
+      "variants": [],
+      "example": "سوينا لك إعفاء كامل من رسوم التوصيل."
+    },
+    {
+      "id": "comm_0080",
+      "term": "تعويض",
+      "vocalized": "تَعْوِيضْ",
+      "ipa_hint": "ta'weed",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "جبر الضرر أو التأخير للعميل",
+      "meaning_en": "Compensation",
+      "variants": [],
+      "example": "أضفنا قسيمة شرائية كتعويض عن التأخير."
+    },
+    {
+      "id": "comm_0081",
+      "term": "قسيمة شرائية",
+      "vocalized": "قَسِيمَة شِرَائِيَّة",
+      "ipa_hint": "qaseemah shira'iyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بطاقة رصيد مسبقة القيمة للتسوق",
+      "meaning_en": "Gift / Shopping voucher",
+      "variants": [
+        "بطاقة هدية"
+      ],
+      "example": "أرسلنا لك قسيمة شرائية بقيمة مية ريال."
+    },
+    {
+      "id": "comm_0082",
+      "term": "قائمة المنتجات",
+      "vocalized": "قَائِمَةْ الْمُنْتَجَاتْ",
+      "ipa_hint": "qa'imat al-muntajat",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "كتالوج الأصناف المعروضة",
+      "meaning_en": "Product catalog",
+      "variants": [
+        "المنتجات"
+      ],
+      "example": "تصفح قائمة المنتجات واختار اللي يناسبك."
+    },
+    {
+      "id": "comm_0083",
+      "term": "منتج أصلي",
+      "vocalized": "مُنْتَجْ أَصْلِي",
+      "ipa_hint": "muntaj asli",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سلعة مضمونة المصدر والماركة",
+      "meaning_en": "Genuine / Authentic product",
+      "variants": [],
+      "example": "كل المعروضات عندنا منتج أصلي بضمان رسمي."
+    },
+    {
+      "id": "comm_0084",
+      "term": "مواصفات",
+      "vocalized": "مُوَاصَفَاتْ",
+      "ipa_hint": "muwasafat",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "خصائص وتفاصيل المنتج التقنية",
+      "meaning_en": "Specifications (Specs)",
+      "variants": [
+        "المواصفات"
+      ],
+      "example": "المواصفات مكتوبة بالتفصيل تحت كل منتج."
+    },
+    {
+      "id": "comm_0085",
+      "term": "مقارنة أسعار",
+      "vocalized": "مُقَارَنَةْ أَسْعَارْ",
+      "ipa_hint": "muqaranat as'ar",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الموازنة بين العروض المختلفة",
+      "meaning_en": "Price comparison",
+      "variants": [],
+      "example": "سوينا مقارنة أسعار وطلع العرض هذا الأوفر."
+    },
+    {
+      "id": "comm_0086",
+      "term": "الأكثر مبيعاً",
+      "vocalized": "الْأَكْثَرْ مَبِيعًا",
+      "ipa_hint": "al-akthar mabee'an",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المنتج الأعلى طلباً من العملاء",
+      "meaning_en": "Best-seller",
+      "variants": [],
+      "example": "هذا الجهاز هو الأكثر مبيعاً هالشهر."
+    },
+    {
+      "id": "comm_0087",
+      "term": "تقييم العملاء",
+      "vocalized": "تَقْيِيمْ الْعُمَلَاءْ",
+      "ipa_hint": "taqyeem al-umala'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مراجعات وآراء المشترين السابقين",
+      "meaning_en": "Customer reviews",
+      "variants": [],
+      "example": "تقييم العملاء للمنتج خمس نجوم."
+    },
+    {
+      "id": "comm_0088",
+      "term": "سياسة الاسترجاع",
+      "vocalized": "سِيَاسَةْ الْاِسْتِرْجَاعْ",
+      "ipa_hint": "siyasat al-istirja'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "ضوابط وشروط إعادة المشتريات",
+      "meaning_en": "Return policy",
+      "variants": [],
+      "example": "سياسة الاسترجاع عندنا مرنة وواضحة للجميع."
+    },
+    {
+      "id": "comm_0089",
+      "term": "إشعار خصم",
+      "vocalized": "إِشْعَارْ خَصْمْ",
+      "ipa_hint": "ish'ar khasm",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "رسالة بنكية بخصم مبلغ من الحساب",
+      "meaning_en": "Debit notification",
+      "variants": [],
+      "example": "وصلني إشعار خصم بقيمة الفاتورة."
+    },
+    {
+      "id": "comm_0090",
+      "term": "إشعار إيداع",
+      "vocalized": "إِشْعَارْ إِيدَاعْ",
+      "ipa_hint": "ish'ar eeda'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "رسالة بنكية بدخول مبلغ للحساب",
+      "meaning_en": "Credit / Deposit notification",
+      "variants": [],
+      "example": "وصل إشعار إيداع الحوالة البنكية."
+    },
+    {
+      "id": "comm_0091",
+      "term": "إغلاق الحساب",
+      "vocalized": "إِغْلَاقْ الْحِسَابْ",
+      "ipa_hint": "ighlaq al-hisab",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "إنهاء وتسوية الحساب المالي",
+      "meaning_en": "Account closure",
+      "variants": [],
+      "example": "تمت التسوية النهائية قبل إغلاق الحساب."
+    },
+    {
+      "id": "comm_0092",
+      "term": "تنشيط الحساب",
+      "vocalized": "تَنْشِيطْ الْحِسَابْ",
+      "ipa_hint": "tansheet al-hisab",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إعادة تفعيل الحساب المجمد أو الجديد",
+      "meaning_en": "Account activation",
+      "variants": [],
+      "example": "اكتمل تنشيط الحساب وتقدر تستخدمه فوراً."
+    },
+    {
+      "id": "comm_0093",
+      "term": "رصيد متاح",
+      "vocalized": "رَصِيدْ مُتَاحْ",
+      "ipa_hint": "raseed mutah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المبلغ الجاهز للسحب أو الشراء",
+      "meaning_en": "Available balance",
+      "variants": [],
+      "example": "عندك رصيد متاح يغطي العملية بالكامل."
+    },
+    {
+      "id": "comm_0094",
+      "term": "دفعة مقدمة",
+      "vocalized": "دُفْعَة مُقَدَّمَة",
+      "ipa_hint": "duf'ah muqaddamah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "مبلغ يدفع عند بدء التعاقد",
+      "meaning_en": "Advance payment",
+      "variants": [],
+      "example": "استلمنا دفعة مقدمة بنسبة عشرين بالمية."
+    },
+    {
+      "id": "comm_0095",
+      "term": "دفعة أخيرة",
+      "vocalized": "دُفْعَة أَخِيرَة",
+      "ipa_hint": "duf'ah akheerah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "القسط الختامي للعقد أو المشروع",
+      "meaning_en": "Final payment / Balloon payment",
+      "variants": [],
+      "example": "تُصرف الدفعة الأخيرة عند التسليم النهائي."
+    },
+    {
+      "id": "comm_0096",
+      "term": "مخالصة مالية",
+      "vocalized": "مُخَالَصَة مَالِيَّة",
+      "ipa_hint": "mukhalasah maliyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "إقرار بإتمام كافة الحقوق المالية بين الطرفين",
+      "meaning_en": "Financial clearance / settlement",
+      "variants": [],
+      "example": "وقعنا مخالصة مالية بعد انتهاء المشروع."
+    },
+    {
+      "id": "comm_0097",
+      "term": "مطالبة مالية",
+      "vocalized": "مُطَالَبَة مَالِيَّة",
+      "ipa_hint": "mutalabah maliyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "طلب رسمي لسداد مستحقات",
+      "meaning_en": "Financial claim",
+      "variants": [],
+      "example": "رفعنا مطالبة مالية لشركة التأمين."
+    },
+    {
+      "id": "comm_0098",
+      "term": "بوليصة تأمين",
+      "vocalized": "بُولِيصَةْ تَأْمِينْ",
+      "ipa_hint": "boleesat ta'meen",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "وثيقة التغطية التأمينية",
+      "meaning_en": "Insurance policy",
+      "variants": [
+        "وثيقة التأمين"
+      ],
+      "example": "جددنا بوليصة تأمين المركبات إلكترونياً."
+    },
+    {
+      "id": "comm_0099",
+      "term": "تأمين شامل",
+      "vocalized": "تَأْمِينْ شَامِلْ",
+      "ipa_hint": "ta'meen shamil",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تغطية تأمينية كاملة للأضرار",
+      "meaning_en": "Comprehensive insurance",
+      "variants": [],
+      "example": "السيارة عليها تأمين شامل ساري المفعول."
+    },
+    {
+      "id": "comm_0100",
+      "term": "إيصال سداد",
+      "vocalized": "إِيصَالْ سَدَادْ",
+      "ipa_hint": "eesal sadad",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مستند إثبات دفع الفاتورة",
+      "meaning_en": "Payment receipt",
+      "variants": [],
+      "example": "أرفقت إيصال سداد الرسوم بالطلب."
+    },
+    {
+      "id": "comm_0101",
+      "term": "تأكيد الدفع",
+      "vocalized": "تَأْكِيدْ الدَّفْعْ",
+      "ipa_hint": "ta'keed ad-daf'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إشعار نجاح العملية المالية",
+      "meaning_en": "Payment confirmation",
+      "variants": [],
+      "example": "وصلك إيميل تأكيد الدفع فوراً."
+    },
+    {
+      "id": "comm_0102",
+      "term": "وسيلة دفع",
+      "vocalized": "وَسِيلَةْ دَفْعْ",
+      "ipa_hint": "waseelat daf'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طريقة السداد المختارة",
+      "meaning_en": "Payment method",
+      "variants": [
+        "وسائل الدفع"
+      ],
+      "example": "تقدر تضيف أكثر من وسيلة دفع بحسابك."
+    },
+    {
+      "id": "comm_0103",
+      "term": "محفظة رقمية",
+      "vocalized": "مِحْفَظَة رَقْمِيَّة",
+      "ipa_hint": "mihfadhah raqmiyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تطبيق دفع إلكتروني على الجوال",
+      "meaning_en": "Digital wallet",
+      "variants": [],
+      "example": "الدفع متاح عبر أي محفظة رقمية معتمدة."
+    },
+    {
+      "id": "comm_0104",
+      "term": "نقاط البيع",
+      "vocalized": "نِقَاطْ الْبَيْعْ",
+      "ipa_hint": "niqat al-bai'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "أجهزة الدفع بالبطاقة في المتاجر",
+      "meaning_en": "Point of Sale (POS)",
+      "variants": [
+        "جهاز الشبكة"
+      ],
+      "example": "تتم مطابقة عمليات نقاط البيع يومياً."
+    },
+    {
+      "id": "comm_0105",
+      "term": "توصيل سريع",
+      "vocalized": "تَوْصِيلْ سَرِيعْ",
+      "ipa_hint": "tawseel saree'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "خدمة استلام الطلب في نفس اليوم",
+      "meaning_en": "Express delivery",
+      "variants": [
+        "شحن سريع"
+      ],
+      "example": "فعلنا خيار توصيل سريع خلال ساعتين."
+    },
+    {
+      "id": "comm_0106",
+      "term": "توصيل بنفس اليوم",
+      "vocalized": "تَوْصِيلْ بِنَفْسْ الْيَوْمْ",
+      "ipa_hint": "tawseel bi-nafs al-yawm",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تسليم المشتريات في يوم الطلب ذاته",
+      "meaning_en": "Same-day delivery",
+      "variants": [],
+      "example": "داخل الرياض متوفر توصيل بنفس اليوم."
+    },
+    {
+      "id": "comm_0107",
+      "term": "وقت التسليم المتوقع",
+      "vocalized": "وَقْتْ التَّسْلِيمْ الْمُتَوَقَّعْ",
+      "ipa_hint": "waqt at-tasleem al-mutawaqqa'",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الموعد التقديري لوصول الشحنة",
+      "meaning_en": "Estimated delivery time (ETA)",
+      "variants": [],
+      "example": "وقت التسليم المتوقع بكرة قبل العصر."
+    },
+    {
+      "id": "comm_0108",
+      "term": "عنوان التوصيل",
+      "vocalized": "عُنْوَانْ التَّوْصِيلْ",
+      "ipa_hint": "unwan at-tawseel",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المكان المحدد لاستلام الطلبية",
+      "meaning_en": "Delivery address",
+      "variants": [],
+      "example": "حدثت عنوان التوصيل للمكتب الجديد."
+    },
+    {
+      "id": "comm_0109",
+      "term": "رسوم الشحن",
+      "vocalized": "رُسُومْ الشَّحْنْ",
+      "ipa_hint": "rusoom ash-shahn",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تكلفة نقل وتوصيل الطلبية",
+      "meaning_en": "Shipping fee",
+      "variants": [
+        "رسوم التوصيل"
+      ],
+      "example": "رسوم الشحن رمزية وثابتة لكل المناطق."
+    },
+    {
+      "id": "comm_0110",
+      "term": "سياسة الاستبدال",
+      "vocalized": "سِيَاسَةْ الْاِسْتِبْدَالْ",
+      "ipa_hint": "siyasat al-istibdal",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "ضوابط تغيير السلعة بعد الشراء",
+      "meaning_en": "Exchange policy",
+      "variants": [],
+      "example": "تسمح سياسة الاستبدال بتغيير المقاس مجاناً."
+    },
+    {
+      "id": "comm_0111",
+      "term": "حالة الشحنة",
+      "vocalized": "حَالَةْ الشِّحْنَة",
+      "ipa_hint": "halat ash-shihnah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المرحلة الحالية للطرد في مسار النقل",
+      "meaning_en": "Shipment status",
+      "variants": [],
+      "example": "شيكت على حالة الشحنة وطلعت واصلة للفرع."
+    },
+    {
+      "id": "comm_0112",
+      "term": "إشعار شحن",
+      "vocalized": "إِشْعَارْ شَحْنْ",
+      "ipa_hint": "ish'ar shahn",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تنبيه بخروج الطلب مع الناقل",
+      "meaning_en": "Shipping notification",
+      "variants": [],
+      "example": "وصلك إشعار شحن الطلب مع رقم البوليصة."
+    },
+    {
+      "id": "comm_0113",
+      "term": "خصم إضافي",
+      "vocalized": "خَصْمْ إِضَافِي",
+      "ipa_hint": "khasm idafi",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تخفيض فوق العرض الأساسي",
+      "meaning_en": "Extra discount",
+      "variants": [],
+      "example": "حصلت على خصم إضافي عند الدفع الإلكتروني."
+    },
+    {
+      "id": "comm_0114",
+      "term": "عرض لفترة محدودة",
+      "vocalized": "عَرْضْ لِفَتْرَة مَحْدُودَة",
+      "ipa_hint": "ard li-fatrah mahdoodah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تخفيض مؤقت ينتهي قريباً",
+      "meaning_en": "Limited-time offer",
+      "variants": [],
+      "example": "استفد من عرض لفترة محدودة قبل نهاية الأسبوع."
+    },
+    {
+      "id": "comm_0115",
+      "term": "باقة أعمال",
+      "vocalized": "بَاقَةْ أَعْمَالْ",
+      "ipa_hint": "baqat a'mal",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "خطة خدمة مخصصة للشركات",
+      "meaning_en": "Business tier / Enterprise plan",
+      "variants": [],
+      "example": "رقينا الاشتراك إلى باقة أعمال للشركات."
+    },
+    {
+      "id": "comm_0116",
+      "term": "فوترة شهرية",
+      "vocalized": "فَوْتَرَة شَهْرِيَّة",
+      "ipa_hint": "fawtarah shahriyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "إصدار الفواتير بنهاية كل شهر ميلادي",
+      "meaning_en": "Monthly billing",
+      "variants": [],
+      "example": "تعتمد المنصة نظام فوترة شهرية واضح."
+    },
+    {
+      "id": "comm_0117",
+      "term": "كشف تفصيلي",
+      "vocalized": "كَشْفْ تَفْصِيلِي",
+      "ipa_hint": "kashf tafseeli",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "بيان مالي يوضح كل عملية وتاريخها",
+      "meaning_en": "Itemized / Detailed statement",
+      "variants": [],
+      "example": "طلبت كشف تفصيلي لمصروفات الربع الحالي."
+    },
+    {
+      "id": "comm_0118",
+      "term": "سقف الائتمان",
+      "vocalized": "سَقْفْ الْاِئْتِمَانْ",
+      "ipa_hint": "saqf al-i'timan",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "الحد الأقصى المسموح به في البطاقة الائتمانية",
+      "meaning_en": "Credit limit",
+      "variants": [
+        "الحد الائتماني"
+      ],
+      "example": "سقف الائتمان كافي لتغطية حجوزات السفر."
+    },
+    {
+      "id": "comm_0119",
+      "term": "رسوم سنوية",
+      "vocalized": "رُسُومْ سَنَوِيَّة",
+      "ipa_hint": "rusoom sanawiyyah",
+      "category": "finance_commerce",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تكلفة اشتراك البطاقة أو الخدمة كل عام",
+      "meaning_en": "Annual fee",
+      "variants": [
+        "معفاة من الرسوم السنوية"
+      ],
+      "example": "البطاقة معفاة من أي رسوم سنوية."
+    }
+  ]
+}

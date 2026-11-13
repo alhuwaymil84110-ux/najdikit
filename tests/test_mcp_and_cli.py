@@ -1,4 +1,4 @@
-"""End-to-end tests for NajdiKit CLI, MCP JSON-RPC 2.0 stdio server, OpenClaw plugin, and path hygiene."""
+"""End-to-end tests for NajdiKit v2.0 CLI, MCP JSON-RPC 2.0 stdio server, OpenClaw plugin, and privacy hygiene."""
 
 from __future__ import annotations
 
@@ -34,10 +34,14 @@ class TestCLICommands(unittest.TestCase):
             check=True,
         )
 
-    def test_35_cli_speakable_plain_and_json(self) -> None:
+    def test_35_cli_speakable_plain_json_and_habibi_backend(self) -> None:
         plain = self._run_cli("speakable", "أبشر، شيكت على الفاتورة الحين بمبلغ 150 ريال")
         self.assertIn("أَبْشِرْ", plain.stdout)
         self.assertIn("مِيَّة وَخَمْسِينْ رِيَالْ", plain.stdout)
+
+        habibi = self._run_cli("speakable", "--backend", "habibi", "أبشر طال عمرك")
+        self.assertTrue(habibi.stdout.strip().startswith("②〈"))
+        self.assertTrue(habibi.stdout.strip().endswith("〉"))
 
         as_json = self._run_cli("speakable", "--json", "تعرف وشلون نقدر نشوف السجلات")
         parsed = json.loads(as_json.stdout)
@@ -54,42 +58,75 @@ class TestCLICommands(unittest.TestCase):
         self.assertEqual(parsed["text"], "إن شاء الله بشيك ع الموضوع الحين لاهنت.")
         self.assertIn("اشتركوا في القناة", parsed["removed_hallucinations"])
 
-    def test_37_cli_stt_prompt_command(self) -> None:
+    def test_37_cli_stt_prompt_command_including_telephony(self) -> None:
         res = self._run_cli(
             "stt-prompt",
             "--domain",
-            "tech",
+            "telephony",
             "--terms",
-            "داشبورد,سيرفر",
+            "تحويل,تأكيد",
             "--json",
         )
         parsed = json.loads(res.stdout)
-        self.assertEqual(parsed["domain"], "tech")
-        self.assertIn("داشبورد", parsed["initial_prompt"])
+        self.assertEqual(parsed["domain"], "telephony")
+        self.assertIn("تحويل", parsed["initial_prompt"])
 
-    def test_38_cli_grounding_command(self) -> None:
-        res = self._run_cli("grounding", "--profile", "executive", "--json")
+    def test_38_cli_grounding_command_realtime_call(self) -> None:
+        res = self._run_cli("grounding", "--profile", "voice_call_realtime", "--json")
         parsed = json.loads(res.stdout)
-        self.assertEqual(parsed["profile"], "executive")
+        self.assertEqual(parsed["profile"], "voice_call_realtime")
         self.assertIn("الهوية اللغوية", parsed["system_prompt"])
 
     def test_39_cli_lookup_and_stats(self) -> None:
         stats_res = self._run_cli("lookup", "--stats", "--json")
         stats = json.loads(stats_res.stdout)
-        self.assertGreaterEqual(stats["entry_count"], 500)
+        self.assertGreaterEqual(stats["entry_count"], 1250)
 
-        look_res = self._run_cli("lookup", "يمديك", "--json")
+        look_res = self._run_cli("lookup", "ثواني أشيك لك", "--pack-id", "telephony_calls", "--json")
         look = json.loads(look_res.stdout)
-        self.assertTrue(any(r["term"] == "يمديك" for r in look["results"]))
+        self.assertTrue(any(r["term"] == "ثواني أشيك لك" for r in look["results"]))
 
-    def test_40_cli_bench_submillisecond(self) -> None:
+    def test_40_cli_call_chunks_turn_check_score_morph_and_packs(self) -> None:
+        chunks_res = self._run_cli(
+            "call-chunks",
+            "--backend",
+            "habibi",
+            "--ack",
+            "lookup",
+            "--json",
+            "أبشر، المبلغ 1,250.50 ريال [ACTION: send_invoice].",
+        )
+        chunks = json.loads(chunks_res.stdout)
+        self.assertEqual(chunks["clause_count"], 2)
+        self.assertEqual(chunks["extracted_actions"], ["send_invoice"])
+        self.assertTrue(chunks["ack"].startswith("②〈"))
+
+        turn_res = self._run_cli("turn-check", "--ai-speaking", "--json", "طيب كمّل")
+        turn = json.loads(turn_res.stdout)
+        self.assertEqual(turn["kind"], "backchannel")
+        self.assertFalse(turn["should_abort_tts"])
+
+        score_res = self._run_cli("score", "--json", "سوف أقوم بالتحقق من الأمر الذي ذكرته")
+        sc = json.loads(score_res.stdout)
+        self.assertGreater(sc["msa_leakage_score"], 40.0)
+
+        morph_res = self._run_cli("morph", "--json", "وبنشيكها")
+        mp = json.loads(morph_res.stdout)
+        self.assertEqual(mp["vocalized"], "وَبِنْشَيِّكْهَا")
+
+        packs_res = self._run_cli("packs", "--json")
+        pk = json.loads(packs_res.stdout)
+        self.assertGreaterEqual(pk["total_lexicon_entries"], 1250)
+        self.assertGreaterEqual(len(pk["packs"]), 4)
+
+    def test_41_cli_bench_sub_100us(self) -> None:
         res = self._run_cli("bench", "--iterations", "200", "--json")
         bench = json.loads(res.stdout)
         for op_name, metrics in bench["operations"].items():
             self.assertLess(
                 metrics["mean_ms"],
-                0.3,
-                f"Operation {op_name} exceeded 0.3ms budget: {metrics['mean_ms']}ms",
+                0.15,
+                f"Operation {op_name} exceeded sub-millisecond gate: {metrics['mean_ms']}ms",
             )
 
 
@@ -109,7 +146,7 @@ class TestMCPStdioServer(unittest.TestCase):
         lines = [ln.strip() for ln in proc.stdout.splitlines() if ln.strip()]
         return [json.loads(ln) for ln in lines]
 
-    def test_41_mcp_initialize_and_tools_list(self) -> None:
+    def test_42_mcp_initialize_and_seven_tools_list(self) -> None:
         responses = self._exchange_newline_rpc(
             [
                 {
@@ -119,7 +156,7 @@ class TestMCPStdioServer(unittest.TestCase):
                     "params": {
                         "protocolVersion": "2024-11-05",
                         "capabilities": {},
-                        "clientInfo": {"name": "test-client", "version": "1.0"},
+                        "clientInfo": {"name": "test-client", "version": "2.0"},
                     },
                 },
                 {"jsonrpc": "2.0", "method": "notifications/initialized"},
@@ -129,6 +166,7 @@ class TestMCPStdioServer(unittest.TestCase):
         self.assertEqual(len(responses), 2)
         self.assertEqual(responses[0]["id"], 1)
         self.assertEqual(responses[0]["result"]["serverInfo"]["name"], "najdikit-mcp")
+        self.assertEqual(responses[0]["result"]["serverInfo"]["version"], "2.0.0")
 
         tools = responses[1]["result"]["tools"]
         tool_names = {t["name"] for t in tools}
@@ -136,13 +174,16 @@ class TestMCPStdioServer(unittest.TestCase):
             tool_names,
             {
                 "najdi_tts_prepare",
+                "najdi_call_stream_chunk",
+                "najdi_call_turn_analyze",
                 "najdi_stt_clean",
+                "najdi_dialect_score",
                 "najdi_style_grounding",
                 "najdi_lexicon_lookup",
             },
         )
 
-    def test_42_mcp_call_all_four_tools(self) -> None:
+    def test_43_mcp_call_all_seven_tools(self) -> None:
         responses = self._exchange_newline_rpc(
             [
                 {
@@ -151,7 +192,10 @@ class TestMCPStdioServer(unittest.TestCase):
                     "method": "tools/call",
                     "params": {
                         "name": "najdi_tts_prepare",
-                        "arguments": {"text": "أبشر، المبلغ 25 ريال الساعة 3:30 العصر"},
+                        "arguments": {
+                            "text": "أبشر، المبلغ 25 ريال الساعة 3:30 العصر",
+                            "backend": "habibi",
+                        },
                     },
                 },
                 {
@@ -159,11 +203,10 @@ class TestMCPStdioServer(unittest.TestCase):
                     "id": 11,
                     "method": "tools/call",
                     "params": {
-                        "name": "najdi_stt_clean",
+                        "name": "najdi_call_stream_chunk",
                         "arguments": {
-                            "text": "انشاءالله ارسلها الحيين لا هنت",
-                            "include_prompt": True,
-                            "domain": "tech",
+                            "text": "أبشر، شيكت لك على هالفاتورة بمبلغ 150.50 ريال [ACTION: mark_paid].",
+                            "ack_category": "lookup",
                         },
                     },
                 },
@@ -172,11 +215,8 @@ class TestMCPStdioServer(unittest.TestCase):
                     "id": 12,
                     "method": "tools/call",
                     "params": {
-                        "name": "najdi_style_grounding",
-                        "arguments": {
-                            "profile": "modern_white",
-                            "harmonize_text": "بدي أشوف الكود هلق",
-                        },
+                        "name": "najdi_call_turn_analyze",
+                        "arguments": {"text": "ثواني أشوف الرقم", "is_ai_speaking": False},
                     },
                 },
                 {
@@ -184,30 +224,76 @@ class TestMCPStdioServer(unittest.TestCase):
                     "id": 13,
                     "method": "tools/call",
                     "params": {
+                        "name": "najdi_stt_clean",
+                        "arguments": {
+                            "text": "انشاءالله ارسلها الحيين لا هنت",
+                            "include_prompt": True,
+                            "domain": "telephony",
+                        },
+                    },
+                },
+                {
+                    "jsonrpc": "2.0",
+                    "id": 14,
+                    "method": "tools/call",
+                    "params": {
+                        "name": "najdi_dialect_score",
+                        "arguments": {"text": "أبشر طال عمرك، الأمور طيبة وكل شي جاهز الحين."},
+                    },
+                },
+                {
+                    "jsonrpc": "2.0",
+                    "id": 15,
+                    "method": "tools/call",
+                    "params": {
+                        "name": "najdi_style_grounding",
+                        "arguments": {
+                            "profile": "voice_call_realtime",
+                            "harmonize_text": "بدي أشوف الكود هلق",
+                        },
+                    },
+                },
+                {
+                    "jsonrpc": "2.0",
+                    "id": 16,
+                    "method": "tools/call",
+                    "params": {
                         "name": "najdi_lexicon_lookup",
-                        "arguments": {"query": "أبشر", "limit": 3},
+                        "arguments": {"query": "خذ راحتك", "pack_id": "telephony_calls", "limit": 3},
                     },
                 },
             ]
         )
-        self.assertEqual(len(responses), 4)
+        self.assertEqual(len(responses), 7)
 
         tts_out = responses[0]["result"]["structuredContent"]
-        self.assertIn("أَبْشِرْ", tts_out["speakable"])
+        self.assertTrue(tts_out["speakable"].startswith("②〈"))
         self.assertIn("خَمْسَة وَعِشْرِينْ رِيَالْ", tts_out["speakable"])
 
-        stt_out = responses[1]["result"]["structuredContent"]
+        chunk_out = responses[1]["result"]["structuredContent"]
+        self.assertEqual(chunk_out["clause_count"], 2)
+        self.assertEqual(chunk_out["extracted_actions"], ["mark_paid"])
+        self.assertIn("أَشَيِّكْ", chunk_out["ack"])
+
+        turn_out = responses[2]["result"]["structuredContent"]
+        self.assertEqual(turn_out["kind"], "hold_request")
+        self.assertEqual(turn_out["recommended_wait_sec"], 20.0)
+
+        stt_out = responses[3]["result"]["structuredContent"]
         self.assertEqual(stt_out["text"], "إن شاء الله ارسلها الحين لاهنت")
         self.assertIn("initial_prompt", stt_out["stt_prompt"])
 
-        gnd_out = responses[2]["result"]["structuredContent"]
-        self.assertIn("الهوية اللغوية", gnd_out["system_prompt"])
+        score_out = responses[4]["result"]["structuredContent"]
+        self.assertGreaterEqual(score_out["saudi_alignment_score"], 90.0)
+
+        gnd_out = responses[5]["result"]["structuredContent"]
+        self.assertEqual(gnd_out["profile"], "voice_call_realtime")
         self.assertIn("أبي", gnd_out["harmonized_sample"]["harmonized"])
 
-        lex_out = responses[3]["result"]["structuredContent"]
-        self.assertEqual(lex_out["exact_match"]["term"], "أبشر")
+        lex_out = responses[6]["result"]["structuredContent"]
+        self.assertEqual(lex_out["exact_match"]["term"], "خذ راحتك")
 
-    def test_43_mcp_content_length_framing_and_error_codes(self) -> None:
+    def test_44_mcp_content_length_framing_and_error_codes(self) -> None:
         req1 = json.dumps({"jsonrpc": "2.0", "id": 1, "method": "ping"}).encode("utf-8")
         req2 = json.dumps({"jsonrpc": "2.0", "id": 2, "method": "nonexistent/method"}).encode("utf-8")
         req3 = json.dumps(
@@ -238,22 +324,28 @@ class TestMCPStdioServer(unittest.TestCase):
 
 
 class TestOpenClawPluginAndHygiene(unittest.TestCase):
-    def test_44_openclaw_plugin_registers_and_executes_tools(self) -> None:
+    def test_45_openclaw_plugin_registers_and_executes_all_seven_tools(self) -> None:
         js_code = """
         import plugin from './ts-plugin/index.mjs';
         const registered = new Map();
         const shutdowns = [];
         plugin.register({
-          pluginConfig: { defaultProfile: 'voice_assistant' },
+          pluginConfig: { defaultProfile: 'voice_call_realtime' },
           registerTool(tool) { registered.set(tool.name, tool); },
           onShutdown(fn) { shutdowns.push(fn); }
         });
-        const ttsRes = await registered.get('najdi_tts_prepare').execute('id1', { text: 'أبشر الحين' });
-        const gndRes = await registered.get('najdi_style_grounding').execute('id2', {});
+        const ttsRes = await registered.get('najdi_tts_prepare').execute('id1', { text: 'أبشر الحين', backend: 'habibi' });
+        const callRes = await registered.get('najdi_call_stream_chunk').execute('id2', { text: 'سم، شيكت لك الحين [ACTION: ok].' });
+        const turnRes = await registered.get('najdi_call_turn_analyze').execute('id3', { text: 'طيب', is_ai_speaking: true });
+        const scoreRes = await registered.get('najdi_dialect_score').execute('id4', { text: 'أبشر طال عمرك' });
+        const gndRes = await registered.get('najdi_style_grounding').execute('id5', {});
         for (const fn of shutdowns) fn();
         console.log(JSON.stringify({
           count: registered.size,
           speakable: ttsRes.details.speakable,
+          clauses: callRes.details.clause_count,
+          turnKind: turnRes.details.kind,
+          saudiScore: scoreRes.details.saudi_alignment_score,
           profile: gndRes.details.profile
         }));
         """
@@ -267,17 +359,21 @@ class TestOpenClawPluginAndHygiene(unittest.TestCase):
             check=True,
         )
         out = json.loads(proc.stdout.strip())
-        self.assertEqual(out["count"], 4)
-        self.assertEqual(out["speakable"], "أَبْشِرْ الْحِينْ")
-        self.assertEqual(out["profile"], "voice_assistant")
+        self.assertEqual(out["count"], 7)
+        self.assertEqual(out["speakable"], "②〈أَبْشِرْ الْحِينْ〉")
+        self.assertEqual(out["clauses"], 2)
+        self.assertEqual(out["turnKind"], "backchannel")
+        self.assertGreaterEqual(out["saudiScore"], 90.0)
+        self.assertEqual(out["profile"], "voice_call_realtime")
 
-    def test_45_plugin_manifest_schema_valid(self) -> None:
+    def test_46_plugin_manifest_schema_valid(self) -> None:
         manifest_path = REPO_ROOT / "openclaw.plugin.json"
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         self.assertEqual(manifest["id"], "najdikit")
-        self.assertEqual(len(manifest["contracts"]["tools"]), 4)
+        self.assertEqual(manifest["version"], "2.0.0")
+        self.assertEqual(len(manifest["contracts"]["tools"]), 7)
 
-    def test_46_no_hardcoded_home_paths_in_repository(self) -> None:
+    def test_47_no_hardcoded_home_paths_in_repository(self) -> None:
         forbidden_prefix = "/" + "Users" + "/"
         offenders: list[str] = []
         for path in REPO_ROOT.rglob("*"):

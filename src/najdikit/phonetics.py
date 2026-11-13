@@ -7,8 +7,12 @@ from dataclasses import dataclass
 from typing import Any
 
 from .lexicon import NajdiLexicon, get_default_lexicon, strip_diacritics
+from .morphology import NajdiMorphAnalyzer, get_default_morph_analyzer
 
 # Arabic-Indic digit translation table
+_ANY_DIGIT_RE = re.compile(r"[0-9]")
+_ANY_ASCII_ALPHA_RE = re.compile(r"[A-Za-z]")
+_TRAIL_PUNCT_SPACE_RE = re.compile(r"\s+([،.؟!,:؛])")
 _ARABIC_INDIC_TRANS = str.maketrans("٠١٢٣٤٥٦٧٨٩٫", "0123456789.")
 
 # Long IDs, URLs, UUIDs, IBANs, tokens, and phone numbers (privacy-clean generic patterns)
@@ -524,78 +528,31 @@ class PhoneticResult:
 class NajdiPhoneticsEngine:
     """Morpho-phonetic G2P & tashkeel processor for Modern White Saudi TTS."""
 
-    def __init__(self, lexicon: NajdiLexicon | None = None) -> None:
+    def __init__(
+        self,
+        lexicon: NajdiLexicon | None = None,
+        *,
+        morph: NajdiMorphAnalyzer | None = None,
+    ) -> None:
         self.lexicon = lexicon or get_default_lexicon()
-
-    def _vocalize_imperfective(self, plain: str) -> str | None:
-        """Apply Urban Najdi kasrah on imperfective prefixes (تِـ/يِـ/نِـ) & pausal sukun."""
-        if len(plain) < 3:
-            return None
-
-        future_ba = False
-        work = plain
-        if work.startswith("ب") and len(work) >= 4 and work[1] in ("ت", "ي", "ن"):
-            future_ba = True
-            work = work[1:]
-
-        prefix_char = work[0]
-        if prefix_char not in ("ت", "ي", "ن", "أ", "ا"):
-            return None
-
-        rest = work[1:]
-        enclitic_voc = ""
-        stem_candidate = rest
-
-        if stem_candidate not in _IMPERFECTIVE_STEMS:
-            for enc_plain, enc_v in _ENCLITICS:
-                if rest.endswith(enc_plain) and len(rest) - len(enc_plain) >= 2:
-                    cand = rest[: -len(enc_plain)]
-                    if cand in _IMPERFECTIVE_STEMS:
-                        stem_candidate = cand
-                        enclitic_voc = enc_v
-                        break
-            else:
-                return None
-
-        voc_stem = _IMPERFECTIVE_STEMS[stem_candidate]
-        if prefix_char in ("أ", "ا"):
-            voc_prefix = "بَأَ" if future_ba else "أَ"
-        else:
-            # Signature Najdi/White Saudi kasrah on mudara'ah prefix
-            voc_prefix = f"بِ{prefix_char}ْ" if future_ba else f"{prefix_char}ِ"
-
-        combined = f"{voc_prefix}{voc_stem}"
-        if enclitic_voc:
-            # Replace terminal sukun before vowel-initial enclitics like ـون / ـين
-            if enclitic_voc[0] in ("\u064F", "\u0650") and combined.endswith("ْ"):
-                combined = combined[:-1] + enclitic_voc
-            else:
-                combined = combined + enclitic_voc
-        return combined
+        self.morph = morph or (
+            NajdiMorphAnalyzer(lexicon=self.lexicon)
+            if lexicon is not None
+            else get_default_morph_analyzer()
+        )
 
     def _vocalize_with_clitics(self, word: str) -> tuple[str, bool, bool]:
-        """Return (vocalized_word, lexicon_hit, rule_hit)."""
-        direct = self.lexicon.vocalize_token(word)
-        if direct is not None:
-            return direct, True, False
-
+        """Return (vocalized_word, lexicon_hit, rule_hit) via lexicon + Gulf/Najdi morphology."""
         plain = strip_diacritics(word)
-        imp = self._vocalize_imperfective(plain)
-        if imp is not None:
-            return imp, False, True
+        if not plain.startswith(("هال", "وهال", "بهال", "لهال", "فهال", "كهال")):
+            direct = self.lexicon.vocalize_token(word)
+            if direct is not None:
+                return direct, True, False
 
-        # Try proclitic stripping (و، ف، ب، ال، وال، بال، لل)
-        for proc_plain, proc_voc in _PROCLITICS:
-            if plain.startswith(proc_plain) and len(plain) - len(proc_plain) >= 2:
-                remainder = plain[len(proc_plain) :]
-                rem_voc = self.lexicon.vocalize_token(remainder)
-                if rem_voc is not None:
-                    if proc_plain.endswith("ال") and rem_voc.startswith("ال"):
-                        return proc_voc[:-3] + rem_voc, True, False
-                    return proc_voc + rem_voc, True, False
-                rem_imp = self._vocalize_imperfective(remainder)
-                if rem_imp is not None and proc_plain in ("و", "ف"):
-                    return proc_voc + rem_imp, False, True
+        analysis = self.morph.analyze(word)
+        if analysis.vocalized is not None:
+            is_lex = analysis.source == "lexicon"
+            return analysis.vocalized, is_lex, not is_lex
 
         # Apply conversational pausal sukun cleanup if word carries formal MSA tanween
         cleaned = _FORMAL_TANWEEN_RE.sub("ْ", word)
@@ -618,39 +575,54 @@ class NajdiPhoneticsEngine:
 
         work = text.translate(_ARABIC_INDIC_TRANS)
         skipped_ids = 0
+        has_digit = _ANY_DIGIT_RE.search(work) is not None
+        has_ascii_alpha = _ANY_ASCII_ALPHA_RE.search(work) is not None
 
         if skip_long_ids:
-            for pattern in (_URL_RE, _UUID_RE, _TOKEN_ID_RE, _PHONE_RE, _LONG_DIGITS_RE):
-                work, n = pattern.subn(long_id_placeholder, work)
-                skipped_ids += n
+            if has_ascii_alpha:
+                for pattern in (_URL_RE, _UUID_RE, _TOKEN_ID_RE):
+                    work, n = pattern.subn(long_id_placeholder, work)
+                    skipped_ids += n
+            if has_digit:
+                for pattern in (_PHONE_RE, _LONG_DIGITS_RE):
+                    work, n = pattern.subn(long_id_placeholder, work)
+                    skipped_ids += n
+            if skipped_ids:
+                has_digit = _ANY_DIGIT_RE.search(work) is not None
+                has_ascii_alpha = _ANY_ASCII_ALPHA_RE.search(work) is not None
 
-        if expand_numbers:
+        if expand_numbers and has_digit:
             # 1. Dates before slash/hyphen numbers
-            work = _ISO_DATE_RE.sub(
-                lambda m: _convert_date(int(m.group(3)), int(m.group(2)), int(m.group(1))),
-                work,
-            )
-            work = _SLASH_DATE_RE.sub(
-                lambda m: _convert_date(int(m.group(1)), int(m.group(2)), int(m.group(3))),
-                work,
-            )
+            if "-" in work:
+                work = _ISO_DATE_RE.sub(
+                    lambda m: _convert_date(int(m.group(3)), int(m.group(2)), int(m.group(1))),
+                    work,
+                )
+            if "/" in work:
+                work = _SLASH_DATE_RE.sub(
+                    lambda m: _convert_date(int(m.group(1)), int(m.group(2)), int(m.group(3))),
+                    work,
+                )
             # 2. Times (3:30, 4:45 PM, etc.)
-            work = _TIME_RE.sub(_convert_time, work)
+            if ":" in work:
+                work = _TIME_RE.sub(_convert_time, work)
             # 3. Currencies ($100, 150 ريال, 45.50 SAR)
-            work = _PREFIX_USD_RE.sub(lambda m: _convert_currency(m.group("amount"), "USD"), work)
+            if "$" in work:
+                work = _PREFIX_USD_RE.sub(lambda m: _convert_currency(m.group("amount"), "USD"), work)
             work = _CURRENCY_RE.sub(
                 lambda m: _convert_currency(m.group("amount"), m.group("unit")),
                 work,
             )
             # 4. Percentages (25%)
-            work = _PERCENT_RE.sub(
-                lambda m: f"{_convert_decimal_or_int(m.group('amount'))} بِالْمِيَّة",
-                work,
-            )
+            if "%" in work or "٪" in work:
+                work = _PERCENT_RE.sub(
+                    lambda m: f"{_convert_decimal_or_int(m.group('amount'))} بِالْمِيَّة",
+                    work,
+                )
             # 5. Standalone numbers
             work = _NUMBER_RE.sub(lambda m: _convert_decimal_or_int(m.group(0)), work)
 
-        if expand_acronyms:
+        if expand_acronyms and has_ascii_alpha:
             def _replace_latin(match: re.Match[str]) -> str:
                 raw_tok = match.group(0)
                 mapped = _ENGLISH_PHONETIC_MAP.get(raw_tok.lower())
@@ -659,12 +631,13 @@ class NajdiPhoneticsEngine:
             work = _LATIN_WORD_RE.sub(_replace_latin, work)
 
         # Strip formal MSA dammatan/kasratan case endings
-        work = _FORMAL_TANWEEN_RE.sub("ْ", work)
+        if "\u064C" in work or "\u064D" in work:
+            work = _FORMAL_TANWEEN_RE.sub("ْ", work)
 
-        # Multi-word longest-match phrase vocalization + single-token morpho-phonetics
+        # Multi-word O(L) Radix Trie phrase vocalization + single-token Gulf/Najdi morphology
         lex_hits = 0
         rule_hits = 0
-        multi_idx = self.lexicon.multiword_index
+        phrase_trie = self.lexicon.phrase_trie
 
         # Split by whitespace while keeping punctuation attached cleanly
         raw_tokens = work.split()
@@ -674,36 +647,34 @@ class NajdiPhoneticsEngine:
 
         while i < n_toks:
             tok = raw_tokens[i]
-            # Extract leading/trailing non-Arabic punctuation around token
             m_first = _TOKEN_SPLIT_RE.search(tok)
-            if m_first is not None:
-                first_plain = strip_diacritics(m_first.group(1))
-                candidates = multi_idx.get(first_plain)
-                matched_span = 0
-                if candidates:
-                    for phrase_parts, entry in candidates:
-                        span_len = len(phrase_parts)
-                        if i + span_len <= n_toks:
-                            window_plains: list[str] = []
-                            ok = True
-                            for k in range(span_len):
-                                sub_m = _TOKEN_SPLIT_RE.search(raw_tokens[i + k])
-                                if sub_m is None:
-                                    ok = False
-                                    break
-                                window_plains.append(strip_diacritics(sub_m.group(1)))
-                            if ok and tuple(window_plains) == phrase_parts:
-                                lead = tok[: m_first.start()]
-                                last_tok = raw_tokens[i + span_len - 1]
-                                last_m = _TOKEN_SPLIT_RE.search(last_tok)
-                                trail = last_tok[last_m.end() :] if last_m else ""
-                                out_tokens.append(f"{lead}{entry.vocalized}{trail}")
-                                lex_hits += 1
-                                matched_span = span_len
-                                break
-                if matched_span:
-                    i += matched_span
-                    continue
+            if m_first is not None and m_first.end() == len(tok) and i + 1 < n_toks:
+                # Build punctuation-free lookahead window (up to 6 words) for Radix Trie match
+                window_plains: list[str] = [strip_diacritics(m_first.group(1))]
+                window_trails: list[str] = [""]
+                max_look = min(n_toks, i + 6)
+                for k in range(i + 1, max_look):
+                    sub_tok = raw_tokens[k]
+                    sub_m = _TOKEN_SPLIT_RE.search(sub_tok)
+                    if sub_m is None or sub_m.start() != 0:
+                        break
+                    window_plains.append(strip_diacritics(sub_m.group(1)))
+                    trail_k = sub_tok[sub_m.end() :]
+                    window_trails.append(trail_k)
+                    if trail_k:
+                        # Stop phrase growth at punctuation boundary
+                        break
+
+                if len(window_plains) > 1:
+                    trie_hit = phrase_trie.match_longest(window_plains)
+                    if trie_hit is not None:
+                        span_len, entry = trie_hit
+                        lead = tok[: m_first.start()]
+                        trail = window_trails[span_len - 1]
+                        out_tokens.append(f"{lead}{entry.vocalized}{trail}")
+                        lex_hits += 1
+                        i += span_len
+                        continue
 
             # Single-token processing (may contain punctuation like "أبشر،")
             parts = _TOKEN_SPLIT_RE.split(tok)
@@ -726,8 +697,8 @@ class NajdiPhoneticsEngine:
             i += 1
 
         speakable = _MULTI_SPACE_RE.sub(" ", " ".join(out_tokens)).strip()
-        # Clean stray spaces before punctuation when IDs are omitted
-        speakable = re.sub(r"\s+([،.؟!,:؛])", r"\1", speakable)
+        if skipped_ids:
+            speakable = _TRAIL_PUNCT_SPACE_RE.sub(r"\1", speakable)
         return PhoneticResult(
             original=text,
             speakable=speakable,

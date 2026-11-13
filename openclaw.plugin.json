@@ -1,15 +1,19 @@
 {
   "id": "najdikit",
   "name": "NajdiKit",
-  "description": "Sub-millisecond Modern White Saudi & Urban Najdi Arabic phonetics (TTS G2P/tashkeel), STT post-processing, lexicon lookup, and LLM style grounding.",
-  "categories": ["language", "voice", "arabic-nlp"],
+  "version": "2.0.0",
+  "description": "Microsecond Real-Time Voice Call Engine, Gulf/Najdi Morphology, Multi-Backend TTS G2P/Tashkeel, STT Post-Processing, Modular Dialect Packs, and Dialect Scorer for Modern White Saudi Arabic.",
+  "categories": ["language", "voice", "telephony", "arabic-nlp"],
   "activation": {
     "onStartup": true
   },
   "contracts": {
     "tools": [
       "najdi_tts_prepare",
+      "najdi_call_stream_chunk",
+      "najdi_call_turn_analyze",
       "najdi_stt_clean",
+      "najdi_dialect_score",
       "najdi_style_grounding",
       "najdi_lexicon_lookup"
     ]
@@ -26,6 +30,10 @@
         "type": "string",
         "description": "Optional path to an external user lexicon JSON overlay."
       },
+      "packsDir": {
+        "type": "string",
+        "description": "Optional directory path containing external modular DialectPack JSON files."
+      },
       "personalAdapterJson": {
         "type": "string",
         "description": "Optional path to a private runtime STT personal adapter JSON."
@@ -36,7 +44,7 @@
       },
       "defaultProfile": {
         "type": "string",
-        "enum": ["modern_white", "executive", "voice_assistant", "technical"],
+        "enum": ["modern_white", "executive", "voice_assistant", "voice_call_realtime", "technical"],
         "description": "Default LLM style grounding profile."
       }
     }

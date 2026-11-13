@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "najdikit"
-version = "1.0.0"
-description = "Sub-millisecond Computational Linguistics, Phonetic G2P/Tashkeel, STT Post-Processing, and LLM Grounding Toolkit for Modern White Saudi & Urban Najdi Arabic."
+version = "2.0.0"
+description = "Microsecond Real-Time Voice Call Engine, Gulf/Najdi Morphology, Multi-Backend TTS G2P/Tashkeel, STT Post-Processing, Modular Dialect Packs, and Alignment Scorer for Modern White Saudi Arabic."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
@@ -25,7 +25,12 @@ keywords = [
     "phonetics",
     "whisper",
     "mcp",
-    "llm-grounding"
+    "llm-grounding",
+    "voice-calls",
+    "telephony",
+    "habibi-tts",
+    "elevenlabs",
+    "morphology"
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -65,7 +70,7 @@ package-dir = { "" = "src" }
 where = ["src"]
 
 [tool.setuptools.package-data]
-najdikit = ["data/*.json"]
+najdikit = ["data/*.json", "data/packs/*.json"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

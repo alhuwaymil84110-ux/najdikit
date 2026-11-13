@@ -1,0 +1,1422 @@
+{
+  "id": "service_appointments",
+  "name": "Saudi Appointments, Healthcare, Hospitality & Services Pack",
+  "version": "2.0.0",
+  "domain": "services",
+  "priority": 40,
+  "license": "MIT",
+  "description": "Appointments, clinics, travel/hospitality, maintenance, and online service portal terminology in White Saudi Arabic.",
+  "entry_count": 100,
+  "entries": [
+    {
+      "id": "serv_0001",
+      "term": "حجز موعد",
+      "vocalized": "حَجْزْ مَوْعِدْ",
+      "ipa_hint": "hajz maw'id",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تحديد وقت مسبق للزيارة أو الخدمة",
+      "meaning_en": "Book an appointment",
+      "variants": [
+        "احجز موعد",
+        "حجزت موعد"
+      ],
+      "example": "ودّي أسوي حجز موعد ليوم الثلاثاء الصبح."
+    },
+    {
+      "id": "serv_0002",
+      "term": "تأكيد الموعد",
+      "vocalized": "تَأْكِيدْ الْمَوْعِدْ",
+      "ipa_hint": "ta'keed al-maw'id",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تثبيت الحجز رسمياً",
+      "meaning_en": "Appointment confirmation",
+      "variants": [
+        "الموعد مؤكد"
+      ],
+      "example": "وصلك مسج تأكيد الموعد مع رقم العيادة."
+    },
+    {
+      "id": "serv_0003",
+      "term": "تعديل الموعد",
+      "vocalized": "تَعْدِيلْ الْمَوْعِدْ",
+      "ipa_hint": "ta'deel al-maw'id",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تغيير يوم أو ساعة الحجز",
+      "meaning_en": "Reschedule appointment",
+      "variants": [
+        "تغيير الموعد"
+      ],
+      "example": "يمديني أسوي تعديل الموعد لبكرة العصر؟"
+    },
+    {
+      "id": "serv_0004",
+      "term": "إلغاء الموعد",
+      "vocalized": "إِلْغَاءْ الْمَوْعِدْ",
+      "ipa_hint": "ilgha' al-maw'id",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "شطب الحجز القائم",
+      "meaning_en": "Cancel appointment",
+      "variants": [],
+      "example": "سويت إلغاء الموعد القديم وحجزت الخميس."
+    },
+    {
+      "id": "serv_0005",
+      "term": "أقرب موعد",
+      "vocalized": "أَقْرَبْ مَوْعِدْ",
+      "ipa_hint": "aqrab maw'id",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أول وقت شاغر متاح",
+      "meaning_en": "Earliest available slot",
+      "variants": [
+        "أول موعد فاضي"
+      ],
+      "example": "شف لي لاهنت متى أقرب موعد متاح."
+    },
+    {
+      "id": "serv_0006",
+      "term": "موعد متاح",
+      "vocalized": "مَوْعِدْ مُتَاحْ",
+      "ipa_hint": "maw'id mutah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "وقت شاغر يمكن حجزه",
+      "meaning_en": "Available appointment slot",
+      "variants": [
+        "مواعيد متاحة"
+      ],
+      "example": "عندنا موعد متاح بكرة الساعة تسع ونص الصبح."
+    },
+    {
+      "id": "serv_0007",
+      "term": "تقديم الموعد",
+      "vocalized": "تَقْدِيمْ الْمَوْعِدْ",
+      "ipa_hint": "taqdeem al-maw'id",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تبكير وقت الحجز ليوم أقرب",
+      "meaning_en": "Move appointment earlier",
+      "variants": [
+        "نقدم الموعد"
+      ],
+      "example": "إذا فضت خانة اليوم عطني خبر نبي تقديم الموعد."
+    },
+    {
+      "id": "serv_0008",
+      "term": "تأخير الموعد",
+      "vocalized": "تَأْخِيرْ الْمَوْعِدْ",
+      "ipa_hint": "ta'kheer al-maw'id",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إرجاء وقت الحجز لساعة أو يوم لاحق",
+      "meaning_en": "Push appointment later",
+      "variants": [],
+      "example": "اضطريت أطلب تأخير الموعد ساعة بسبب الزحمة."
+    },
+    {
+      "id": "serv_0009",
+      "term": "حضوري",
+      "vocalized": "حُضُورِي",
+      "ipa_hint": "hudoori",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "زيارة شخصية في المقر (مقابل عن بعد)",
+      "meaning_en": "In-person",
+      "variants": [
+        "موعد حضوري"
+      ],
+      "example": "تفضل الموعد يكون حضوري ولا عن بعد؟"
+    },
+    {
+      "id": "serv_0010",
+      "term": "عن بعد",
+      "vocalized": "عَنْ بُعْدْ",
+      "ipa_hint": "an bu'd",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عبر الاتصال المرئي أو الهاتفي دون حضور",
+      "meaning_en": "Remote / Telehealth / Virtual",
+      "variants": [
+        "استشارة عن بعد"
+      ],
+      "example": "حجزت استشارة عن بعد وخلصتها بعشر دقايق."
+    },
+    {
+      "id": "serv_0011",
+      "term": "العيادة",
+      "vocalized": "الْعِيَادَة",
+      "ipa_hint": "al-iyadah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مقر الكشف الطبي",
+      "meaning_en": "Clinic",
+      "variants": [
+        "عيادة",
+        "عيادات"
+      ],
+      "example": "العيادة في الدور الثاني جنب الاستقبال."
+    },
+    {
+      "id": "serv_0012",
+      "term": "المستشفى",
+      "vocalized": "الْمُسْتَشْفَى",
+      "ipa_hint": "al-mustashfa",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "المركز الطبي المتكامل",
+      "meaning_en": "Hospital",
+      "variants": [
+        "مستشفى"
+      ],
+      "example": "راجعنا المستشفى وطمنونا على الفحوصات."
+    },
+    {
+      "id": "serv_0013",
+      "term": "الدكتور",
+      "vocalized": "الدُّكْتُورْ",
+      "ipa_hint": "ad-duktoor",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الطبيب المعالج أو الأكاديمي",
+      "meaning_en": "Doctor",
+      "variants": [
+        "دكتور",
+        "الدكتورة",
+        "الطبيب"
+      ],
+      "example": "الدكتور شاف التحاليل وقال كل شي سليم."
+    },
+    {
+      "id": "serv_0014",
+      "term": "التحاليل",
+      "vocalized": "التَّحَالِيلْ",
+      "ipa_hint": "at-tahaleel",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الفحوصات المخبرية",
+      "meaning_en": "Lab tests / Results",
+      "variants": [
+        "تحليل",
+        "نتيجة التحليل"
+      ],
+      "example": "طلعت نتيجة التحاليل والحمد لله ممتازة."
+    },
+    {
+      "id": "serv_0015",
+      "term": "الوصفة الطبية",
+      "vocalized": "الْوَصْفَة الطِّبِّيَّة",
+      "ipa_hint": "al-wasfah at-tibbiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إرشاد صرف الأدوية المعتمد",
+      "meaning_en": "Medical prescription",
+      "variants": [
+        "الوصفة"
+      ],
+      "example": "تقدر تصرف الوصفة الطبية من أقرب صيدلية."
+    },
+    {
+      "id": "serv_0016",
+      "term": "الصيدلية",
+      "vocalized": "الصَّيْدَلِيَّة",
+      "ipa_hint": "as-saidaliyyah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مكان صرف الأدوية",
+      "meaning_en": "Pharmacy",
+      "variants": [
+        "صيدلية"
+      ],
+      "example": "مريت الصيدلية واستلمت العلاج."
+    },
+    {
+      "id": "serv_0017",
+      "term": "التأمين الطبي",
+      "vocalized": "التَّأْمِينْ الطِّبِّي",
+      "ipa_hint": "at-ta'meen at-tibbi",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "التغطية التأمينية الصحية",
+      "meaning_en": "Health / Medical insurance",
+      "variants": [
+        "موافقة التأمين"
+      ],
+      "example": "وصلت موافقة التأمين الطبي خلال دقايق."
+    },
+    {
+      "id": "serv_0018",
+      "term": "الاستقبال",
+      "vocalized": "الْاِسْتِقْبَالْ",
+      "ipa_hint": "al-istiqbal",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مكتب الترحيب وتسجيل المراجعين أو النزلاء",
+      "meaning_en": "Reception / Front desk",
+      "variants": [
+        "موظف الاستقبال"
+      ],
+      "example": "تفضل سجل وصولك عند مكتب الاستقبال."
+    },
+    {
+      "id": "serv_0019",
+      "term": "تسجيل الدخول",
+      "vocalized": "تَسْجِيلْ الدُّخُولْ",
+      "ipa_hint": "tasjeel ad-dukhool",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إجراءات استلام الغرفة أو ولوج الحساب",
+      "meaning_en": "Check-in / Sign-in",
+      "variants": [],
+      "example": "يبدأ تسجيل الدخول في الفندق الساعة ثنتين الظهر."
+    },
+    {
+      "id": "serv_0020",
+      "term": "تسجيل الخروج",
+      "vocalized": "تَسْجِيلْ الْخُرُوجْ",
+      "ipa_hint": "tasjeel al-khurooj",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إجراءات مغادرة الغرفة أو الحساب",
+      "meaning_en": "Check-out / Sign-out",
+      "variants": [
+        "جك أوت"
+      ],
+      "example": "طلبنا تمديد تسجيل الخروج للساعة أربع العصر."
+    },
+    {
+      "id": "serv_0021",
+      "term": "حجز طاولة",
+      "vocalized": "حَجْزْ طَاوْلَة",
+      "ipa_hint": "hajz tawlah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تخصيص مقاعد في مطعم",
+      "meaning_en": "Table reservation",
+      "variants": [
+        "طاولة لأربع أشخاص"
+      ],
+      "example": "أبي حجز طاولة لخمس أشخاص الساعة ثمان المساء."
+    },
+    {
+      "id": "serv_0022",
+      "term": "جلسة خارجية",
+      "vocalized": "جَلْسَة خَارِجِيَّة",
+      "ipa_hint": "jalsah kharijiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طاولة في الهواء الطلق",
+      "meaning_en": "Outdoor seating",
+      "variants": [
+        "جلسات خارجية"
+      ],
+      "example": "الجو زين اليوم، نفضل جلسة خارجية."
+    },
+    {
+      "id": "serv_0023",
+      "term": "جلسة داخلية",
+      "vocalized": "جَلْسَة دَاخِلِيَّة",
+      "ipa_hint": "jalsah dakhiliyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طاولة داخل الصالة المكيفة",
+      "meaning_en": "Indoor seating",
+      "variants": [],
+      "example": "رتبت لكم جلسة داخلية هادية."
+    },
+    {
+      "id": "serv_0024",
+      "term": "طلب خارجي",
+      "vocalized": "طَلَبْ خَارِجِي",
+      "ipa_hint": "talab khariji",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب طعام أو قهوة للاستلام والمغادرة",
+      "meaning_en": "Takeaway / To-go order",
+      "variants": [
+        "سفري"
+      ],
+      "example": "جهز لي القهوة طلب خارجي لاهنت."
+    },
+    {
+      "id": "serv_0025",
+      "term": "محلي",
+      "vocalized": "مَحَلِّي",
+      "ipa_hint": "mahalli",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "تناول الطلب داخل المطعم أو المقهى، أو داخل البلد",
+      "meaning_en": "Dine-in / Local",
+      "variants": [],
+      "example": "الطلب محلي ولا سفري طال عمرك؟"
+    },
+    {
+      "id": "serv_0026",
+      "term": "صيانة دورية",
+      "vocalized": "صِيَانَة دَوْرِيَّة",
+      "ipa_hint": "siyanah dawriyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "فحص وقائي منتظم للسيارة أو الأجهزة",
+      "meaning_en": "Periodic maintenance",
+      "variants": [
+        "فحص دوري"
+      ],
+      "example": "حجزت موعد صيانة دورية للسيارة بكرة الصبح."
+    },
+    {
+      "id": "serv_0027",
+      "term": "فني الصيانة",
+      "vocalized": "فَنِّي الصِّيَانَة",
+      "ipa_hint": "fanni as-siyanah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المختص بإصلاح الأعطال",
+      "meaning_en": "Maintenance technician",
+      "variants": [
+        "الفني"
+      ],
+      "example": "فني الصيانة بيوصل للموقع الساعة عشر."
+    },
+    {
+      "id": "serv_0028",
+      "term": "قطع غيار",
+      "vocalized": "قِطَعْ غِيَارْ",
+      "ipa_hint": "qita' ghiyar",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الأجزاء البديلة الأصلية للإصلاح",
+      "meaning_en": "Spare parts",
+      "variants": [
+        "قطع أصلية"
+      ],
+      "example": "ركبنا قطع غيار أصلية مع الضمان."
+    },
+    {
+      "id": "serv_0029",
+      "term": "خدمة عملاء",
+      "vocalized": "خِدْمَةْ عُمَلَاءْ",
+      "ipa_hint": "khidmat umala'",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "قسم مساعدة ودعم المستفيدين",
+      "meaning_en": "Customer service / Support",
+      "variants": [
+        "الدعم الفني"
+      ],
+      "example": "تواصلت مع خدمة عملاء المتجر وما قصروا."
+    },
+    {
+      "id": "serv_0030",
+      "term": "رقم الطلب",
+      "vocalized": "رَقَمْ الطَّلَبْ",
+      "ipa_hint": "raqam at-talab",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المعرف المرجعي للمعاملة أو الشراء",
+      "meaning_en": "Order / Request number",
+      "variants": [
+        "رقم المرجع",
+        "الرقم المرجعي"
+      ],
+      "example": "زودني برقم الطلب عشان أطلع التفاصيل."
+    },
+    {
+      "id": "serv_0031",
+      "term": "قيد المراجعة",
+      "vocalized": "قَيْدْ الْمُرَاجَعَة",
+      "ipa_hint": "qaid al-muraja'ah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تحت الدراسة والتدقيق حالياً",
+      "meaning_en": "Under review",
+      "variants": [
+        "تحت الإجراء"
+      ],
+      "example": "معاملتك الحين قيد المراجعة وبتخلص اليوم."
+    },
+    {
+      "id": "serv_0032",
+      "term": "مكتمل",
+      "vocalized": "مُكْتَمِلْ",
+      "ipa_hint": "muktamil",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "منجز بالكامل",
+      "meaning_en": "Completed",
+      "variants": [
+        "مكتملة"
+      ],
+      "example": "حالة الطلب في البوابة صارت مكتمل."
+    },
+    {
+      "id": "serv_0033",
+      "term": "مرفوض",
+      "vocalized": "مَرْفُوضْ",
+      "ipa_hint": "marfood",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "لم تتم الموافقة عليه لنقص أو سبب",
+      "meaning_en": "Rejected / Declined",
+      "variants": [
+        "مرفوضة"
+      ],
+      "example": "إذا طلع الطلب مرفوض يوصلك سبب الرفض واضح."
+    },
+    {
+      "id": "serv_0034",
+      "term": "نواقص",
+      "vocalized": "نَوَاقِصْ",
+      "ipa_hint": "nawaqis",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "مستندات أو بيانات مطلوبة لاستكمال المعاملة",
+      "meaning_en": "Missing documents / items",
+      "variants": [
+        "إكمال النواقص"
+      ],
+      "example": "رفعنا المرفق الأخير وما بقى أي نواقص."
+    },
+    {
+      "id": "serv_0035",
+      "term": "المرفقات",
+      "vocalized": "الْمُرْفَقَاتْ",
+      "ipa_hint": "al-murfaqat",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الملفات الملحقة بالرسالة أو الطلب",
+      "meaning_en": "Attachments",
+      "variants": [
+        "مرفق"
+      ],
+      "example": "تأكدت من وضوح جميع المرفقات قبل الإرسال."
+    },
+    {
+      "id": "serv_0036",
+      "term": "التفويض",
+      "vocalized": "التَّفْوِيضْ",
+      "ipa_hint": "at-tafweed",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "منح صلاحية رسمية لشخص آخر لإنجاز إجراء",
+      "meaning_en": "Authorization / Delegation",
+      "variants": [
+        "تفويض إلكتروني"
+      ],
+      "example": "أصدرت التفويض الإلكتروني من المنصة مباشرة."
+    },
+    {
+      "id": "serv_0037",
+      "term": "تجديد الهوية",
+      "vocalized": "تَجْدِيدْ الْهُوِيَّة",
+      "ipa_hint": "tajdeed al-huwiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تمديد صلاحية بطاقة الهوية أو الإقامة",
+      "meaning_en": "ID renewal",
+      "variants": [
+        "تجديد الجواز",
+        "تجديد الرخصة"
+      ],
+      "example": "صار تجديد الهوية يتم إلكترونياً بسهولة."
+    },
+    {
+      "id": "serv_0038",
+      "term": "البوابة الإلكترونية",
+      "vocalized": "الْبَوَّابَة الْإِلِكْتْرُونِيَّة",
+      "ipa_hint": "al-bawwabah al-iliktroniyyah",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "منصة الخدمات الرقمية الموحدة",
+      "meaning_en": "Online portal",
+      "variants": [
+        "المنصة"
+      ],
+      "example": "تقدر تتابع الطلب من البوابة الإلكترونية."
+    },
+    {
+      "id": "serv_0039",
+      "term": "خدمة ذاتية",
+      "vocalized": "خِدْمَة ذَاتِيَّة",
+      "ipa_hint": "khidmah dhatiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إنجاز العميل لطلبه مباشرة دون انتظار موظف",
+      "meaning_en": "Self-service",
+      "variants": [
+        "الخدمة الذاتية"
+      ],
+      "example": "أجهزة الخدمة الذاتية متوفرة في كل الفروع."
+    },
+    {
+      "id": "serv_0040",
+      "term": "فرع نسائي",
+      "vocalized": "فَرْعْ نِسَائِي",
+      "ipa_hint": "far' nisa'i",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "قسم مخصص لخدمة السيدات",
+      "meaning_en": "Ladies' section / branch",
+      "variants": [],
+      "example": "يتوفر قسم مخصص ومستقل بكامل الخدمات."
+    },
+    {
+      "id": "serv_0041",
+      "term": "مواقف سيارات",
+      "vocalized": "مَوَاقِفْ سَيَّارَاتْ",
+      "ipa_hint": "mawaqif sayyarat",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أماكن ركن المركبات للمراجعين",
+      "meaning_en": "Parking spots",
+      "variants": [
+        "المواقف"
+      ],
+      "example": "المبنى قدامه مواقف سيارات واسعة."
+    },
+    {
+      "id": "serv_0042",
+      "term": "الدور الأرضي",
+      "vocalized": "الدَّوْرْ الْأَرْضِي",
+      "ipa_hint": "ad-dawr al-ardi",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الطابق السفلي عند المدخل",
+      "meaning_en": "Ground floor",
+      "variants": [
+        "الطابق الأول"
+      ],
+      "example": "مكتب خدمة المراجعين في الدور الأرضي."
+    },
+    {
+      "id": "serv_0043",
+      "term": "البوابة الرئيسية",
+      "vocalized": "الْبَوَّابَة الرَّئِيسِيَّة",
+      "ipa_hint": "al-bawwabah ar-ra'eesiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المدخل الأساسي للمبنى",
+      "meaning_en": "Main entrance / gate",
+      "variants": [
+        "المدخل الرئيسي"
+      ],
+      "example": "ادخل مع البوابة الرئيسية وتلقى اللوحة يمينك."
+    },
+    {
+      "id": "serv_0044",
+      "term": "لوحة إرشادية",
+      "vocalized": "لَوْحَة إِرْشَادِيَّة",
+      "ipa_hint": "lawhah irshadiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "علامة توجه الزوار للأقسام",
+      "meaning_en": "Signboard / Wayfinding sign",
+      "variants": [],
+      "example": "اتبع كل لوحة إرشادية لين توصل للقاعة."
+    },
+    {
+      "id": "serv_0045",
+      "term": "تأكيد الحضور",
+      "vocalized": "تَأْكِيدْ الْحُضُورْ",
+      "ipa_hint": "ta'keed al-hudoor",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إثبات نية المجيء للموعد المحجوز",
+      "meaning_en": "Attendance confirmation / RSVP",
+      "variants": [],
+      "example": "أرسلنا رسالة تذكير لطلب تأكيد الحضور."
+    },
+    {
+      "id": "serv_0046",
+      "term": "رسالة تذكير",
+      "vocalized": "رِسَالَةْ تَذْكِيرْ",
+      "ipa_hint": "risalat tadhkeer",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تنبيه قبل الموعد بوقت كافٍ",
+      "meaning_en": "Reminder message",
+      "variants": [
+        "تذكير بالموعد"
+      ],
+      "example": "توصلك رسالة تذكير قبل الموعد بيوم."
+    },
+    {
+      "id": "serv_0047",
+      "term": "فترة صباحية",
+      "vocalized": "فَتْرَة صَبَاحِيَّة",
+      "ipa_hint": "fatrah sabahiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مواعيد العمل من الصباح حتى الظهر",
+      "meaning_en": "Morning shift / slot",
+      "variants": [],
+      "example": "المواعيد متاحة في فترة صباحية ومسائية."
+    },
+    {
+      "id": "serv_0048",
+      "term": "فترة مسائية",
+      "vocalized": "فَتْرَة مَسَائِيَّة",
+      "ipa_hint": "fatrah masa'iyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مواعيد العمل بعد العصر أو المساء",
+      "meaning_en": "Evening shift / slot",
+      "variants": [],
+      "example": "اخترت فترة مسائية عشان تناسب وقت دوامي."
+    },
+    {
+      "id": "serv_0049",
+      "term": "رقم الانتظار",
+      "vocalized": "رَقَمْ الْاِنْتِظَارْ",
+      "ipa_hint": "raqam al-intidhar",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الرقم التسلسلي لخدمة المراجع في الفرع",
+      "meaning_en": "Queue ticket number",
+      "variants": [],
+      "example": "تفضل استلم رقم الانتظار من الشاشة."
+    },
+    {
+      "id": "serv_0050",
+      "term": "شباك الخدمة",
+      "vocalized": "شُبَّاكْ الْخِدْمَة",
+      "ipa_hint": "shubbak al-khidmah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "منفذ استقبال وإنهاء إجراءات المراجعين",
+      "meaning_en": "Service counter",
+      "variants": [
+        "كاونتر"
+      ],
+      "example": "تفضل توجه إلى شباك الخدمة رقم ثلاثة."
+    },
+    {
+      "id": "serv_0051",
+      "term": "زيارة منزلية",
+      "vocalized": "زِيَارَة مَنْزِلِيَّة",
+      "ipa_hint": "ziyarah manziliyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تقديم الخدمة الطبية أو الفنية في منزل العميل",
+      "meaning_en": "Home visit",
+      "variants": [],
+      "example": "وفرنا خدمة زيارة منزلية لسحب العينات."
+    },
+    {
+      "id": "serv_0052",
+      "term": "صيانة طارئة",
+      "vocalized": "صِيَانَة طَارِئَة",
+      "ipa_hint": "siyanah tari'ah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إصلاح عاجل للأعطال المفاجئة",
+      "meaning_en": "Emergency maintenance",
+      "variants": [],
+      "example": "أرسلنا فريق صيانة طارئة للموقع فوراً."
+    },
+    {
+      "id": "serv_0053",
+      "term": "فحص مجاني",
+      "vocalized": "فَحْصْ مَجَّانِي",
+      "ipa_hint": "fahs majjani",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "معاينة أولية دون تكلفة",
+      "meaning_en": "Free inspection / checkup",
+      "variants": [],
+      "example": "يشمل العرض فحص مجاني شامل للجهاز."
+    },
+    {
+      "id": "serv_0054",
+      "term": "تقرير فني",
+      "vocalized": "تَقْرِيرْ فَنِّي",
+      "ipa_hint": "taqreer fanni",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "ملخص تشخيص العطل والإصلاحات المنفذة",
+      "meaning_en": "Technical report",
+      "variants": [],
+      "example": "أرفق المهندس تقرير فني مفصل بالحالة."
+    },
+    {
+      "id": "serv_0055",
+      "term": "استلام الجهاز",
+      "vocalized": "اِسْتِلَامْ الْجِهَازْ",
+      "ipa_hint": "istilam al-jihaz",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تسلم العميل لجهازه بعد الصيانة أو الشراء",
+      "meaning_en": "Device pickup",
+      "variants": [],
+      "example": "جهازك جاهز، تقدر تشرفنا لاستلام الجهاز."
+    },
+    {
+      "id": "serv_0056",
+      "term": "جهاز بديل",
+      "vocalized": "جِهَازْ بَدِيلْ",
+      "ipa_hint": "jihaz badeel",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "جهاز مؤقت يُمنح للعميل ريثما تنتهي الصيانة",
+      "meaning_en": "Loaner / Replacement device",
+      "variants": [
+        "سيارة بديلة"
+      ],
+      "example": "وفرنا لك جهاز بديل لين تخلص الصيانة."
+    },
+    {
+      "id": "serv_0057",
+      "term": "حجز مؤكد",
+      "vocalized": "حَجْزْ مُؤَكَّدْ",
+      "ipa_hint": "hajz mu'akkad",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حجز مضمون ومعتمد في النظام",
+      "meaning_en": "Confirmed booking",
+      "variants": [],
+      "example": "تطمن، عندك حجز مؤكد باسمك الكامل."
+    },
+    {
+      "id": "serv_0058",
+      "term": "إلغاء مجاني",
+      "vocalized": "إِلْغَاءْ مَجَّانِي",
+      "ipa_hint": "ilgha' majjani",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إمكانية إلغاء الحجز دون غرامة",
+      "meaning_en": "Free cancellation",
+      "variants": [],
+      "example": "الحجز يشمل إلغاء مجاني قبل الموعد بيوم."
+    },
+    {
+      "id": "serv_0059",
+      "term": "شامل الإفطار",
+      "vocalized": "شَامِلْ الْإِفْطَارْ",
+      "ipa_hint": "shamil al-iftar",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حجز فندقي يتضمن وجبة الفطور",
+      "meaning_en": "Breakfast included",
+      "variants": [],
+      "example": "حجز الغرفة شامل الإفطار لشخصين."
+    },
+    {
+      "id": "serv_0060",
+      "term": "غرفة مزدوجة",
+      "vocalized": "غُرْفَة مُزْدَوِجَة",
+      "ipa_hint": "ghurfah muzdawijah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "غرفة فندقية تتسع لشخصين",
+      "meaning_en": "Double room",
+      "variants": [
+        "غرفة مفردة",
+        "جناح"
+      ],
+      "example": "رقينا حجزك إلى جناح واسع بدون فرق سعر."
+    },
+    {
+      "id": "serv_0061",
+      "term": "إطلالة",
+      "vocalized": "إِطْلَالَة",
+      "ipa_hint": "itlalah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "المنظر الخارجي المطل من الغرفة أو الجلسة",
+      "meaning_en": "View",
+      "variants": [
+        "إطلالة بحرية"
+      ],
+      "example": "اخترت لك غرفة بإطلالة جميلة وهادية."
+    },
+    {
+      "id": "serv_0062",
+      "term": "استقبال المطار",
+      "vocalized": "اِسْتِقْبَالْ الْمَطَارْ",
+      "ipa_hint": "istiqbal al-matar",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "خدمة التوصيل من المطار وإليه",
+      "meaning_en": "Airport pickup / transfer",
+      "variants": [],
+      "example": "رتبنا لك سيارة خاصة في استقبال المطار."
+    },
+    {
+      "id": "serv_0063",
+      "term": "رحلة داخلية",
+      "vocalized": "رِحْلَة دَاخِلِيَّة",
+      "ipa_hint": "rihlah dakhiliyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سفر جوي بين مدن المملكة",
+      "meaning_en": "Domestic flight",
+      "variants": [
+        "رحلة دولية"
+      ],
+      "example": "موعد إقلاع الرحلة الداخلية الساعة سبع الصبح."
+    },
+    {
+      "id": "serv_0064",
+      "term": "بطاقة صعود",
+      "vocalized": "بِطَاقَةْ صُعُودْ",
+      "ipa_hint": "bitaqat su'ood",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تصريح ركوب الطائرة",
+      "meaning_en": "Boarding pass",
+      "variants": [
+        "البوردنق"
+      ],
+      "example": "أصدرت بطاقة صعود الطائرة من الجوال."
+    },
+    {
+      "id": "serv_0065",
+      "term": "بوابة المغادرة",
+      "vocalized": "بَوَّابَةْ الْمُغَادَرَة",
+      "ipa_hint": "bawwabat al-mughadarah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "منفذ ركوب المسافرين للطائرة",
+      "meaning_en": "Departure gate",
+      "variants": [],
+      "example": "توجهنا إلى بوابة المغادرة قبل الإقلاع بنص ساعة."
+    },
+    {
+      "id": "serv_0066",
+      "term": "تعديل الحجز",
+      "vocalized": "تَعْدِيلْ الْحَجْزْ",
+      "ipa_hint": "ta'deel al-hajz",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تغيير بيانات أو وقت الحجز",
+      "meaning_en": "Modify booking",
+      "variants": [],
+      "example": "تم تعديل الحجز للرحلة المسائية بنجاح."
+    },
+    {
+      "id": "serv_0067",
+      "term": "استمارة",
+      "vocalized": "اِسْتِمَارَة",
+      "ipa_hint": "istimarah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "نموذج بيانات أو رخصة سير المركبة",
+      "meaning_en": "Form / Vehicle registration",
+      "variants": [
+        "الاستمارة"
+      ],
+      "example": "عبّيت البيانات المطلوبة في الاستمارة."
+    },
+    {
+      "id": "serv_0068",
+      "term": "إفادة رسمية",
+      "vocalized": "إِفَادَة رَسْمِيَّة",
+      "ipa_hint": "ifadah rasmiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "خطاب أو مشهد معتمد يثبت حالة أو حضور",
+      "meaning_en": "Official certificate / letter",
+      "variants": [
+        "مشهد حضور"
+      ],
+      "example": "تقدر تطبع إفادة رسمية من المنصة مباشرة."
+    },
+    {
+      "id": "serv_0069",
+      "term": "تصديق إلكتروني",
+      "vocalized": "تَصْدِيقْ إِلِكْتْرُونِي",
+      "ipa_hint": "tasdeeq iliktroni",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "اعتماد الوثائق رقمياً دون مراجعة ورقية",
+      "meaning_en": "Digital attestation",
+      "variants": [],
+      "example": "اعتمدنا الخطاب عبر خدمة تصديق إلكتروني."
+    },
+    {
+      "id": "serv_0070",
+      "term": "توقيع رقمي",
+      "vocalized": "تَوْقِيعْ رَقْمِي",
+      "ipa_hint": "tawqee' raqmi",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "توقيع إلكتروني موثق للعقود",
+      "meaning_en": "Digital signature",
+      "variants": [],
+      "example": "وقع الطرفان العقد عبر توقيع رقمي معتمد."
+    },
+    {
+      "id": "serv_0071",
+      "term": "إشعار فوري",
+      "vocalized": "إِشْعَارْ فَوْرِي",
+      "ipa_hint": "ish'ar fawri",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تنبيه لحظي يصل للمستخدم",
+      "meaning_en": "Instant alert / Push notification",
+      "variants": [],
+      "example": "يوصلك إشعار فوري عند تحديث حالة الطلب."
+    },
+    {
+      "id": "serv_0072",
+      "term": "متابعة الطلب",
+      "vocalized": "مُتَابَعَةْ الطَّلَبْ",
+      "ipa_hint": "mutaba'at at-talab",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الاستعلام عن مراحل سير المعاملة",
+      "meaning_en": "Order / Request tracking",
+      "variants": [],
+      "example": "تقدر تسوي متابعة الطلب برقم الهوية أو الجوال."
+    },
+    {
+      "id": "serv_0073",
+      "term": "أغلقت البلاغ",
+      "vocalized": "أَغْلَقْتْ الْبَلَاغْ",
+      "ipa_hint": "aghlaqt al-balagh",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "إتمام حل المشكلة وإقفال التذكرة",
+      "meaning_en": "Closed the ticket/report",
+      "variants": [],
+      "example": "بعد تأكدك من الحل، أغلقت البلاغ رسمياً."
+    },
+    {
+      "id": "serv_0074",
+      "term": "تم الحل",
+      "vocalized": "تَمّ الْحَلّ",
+      "ipa_hint": "tamm al-hall",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "انتهاء المشكلة بنجاح",
+      "meaning_en": "Resolved",
+      "variants": [],
+      "example": "تحدثت حالة التذكرة إلى تم الحل."
+    },
+    {
+      "id": "serv_0075",
+      "term": "بأسرع وقت",
+      "vocalized": "بِأَسْرَعْ وَقْتْ",
+      "ipa_hint": "bi-asra' waqt",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "على وجه الاستعجال والعناية",
+      "meaning_en": "As soon as possible (ASAP)",
+      "variants": [],
+      "example": "نتابع طلبك ونرد عليك بأسرع وقت."
+    },
+    {
+      "id": "serv_0076",
+      "term": "في أقرب فرصة",
+      "vocalized": "فِي أَقْرَبْ فُرْصَة",
+      "ipa_hint": "fi aqrab fursah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "حالما يتيسر الوقت القريب",
+      "meaning_en": "At the earliest opportunity",
+      "variants": [],
+      "example": "نرتب اجتماع متابعة في أقرب فرصة."
+    },
+    {
+      "id": "serv_0077",
+      "term": "دون تأخير",
+      "vocalized": "دُونْ تَأْخِيرْ",
+      "ipa_hint": "doon ta'kheer",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "فوراً وفي الموعد المحدد",
+      "meaning_en": "Without delay",
+      "variants": [
+        "بدون تأخير"
+      ],
+      "example": "تُنفذ الأوامر الصوتية دون تأخير."
+    },
+    {
+      "id": "serv_0078",
+      "term": "على الوجه الأكمل",
+      "vocalized": "عَلَى الْوَجْهْ الْأَكْمَلْ",
+      "ipa_hint": "ala al-wajh al-akmal",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "بأتم صورة وأعلى جودة",
+      "meaning_en": "To perfection / Thoroughly",
+      "variants": [],
+      "example": "أُنجزت المهمة على الوجه الأكمل."
+    },
+    {
+      "id": "serv_0079",
+      "term": "وفق المعايير",
+      "vocalized": "وَفْقْ الْمَعَايِيرْ",
+      "ipa_hint": "wafq al-ma'ayeer",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "مطابق للمواصفات القياسية المعتمدة",
+      "meaning_en": "According to standards",
+      "variants": [],
+      "example": "بُنيت جميع الوحدات وفق المعايير العالمية."
+    },
+    {
+      "id": "serv_0080",
+      "term": "قائمة المواعيد",
+      "vocalized": "قَائِمَةْ الْمَوَاعِيدْ",
+      "ipa_hint": "qa'imat al-mawa'eed",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "جدول الحجوزات المسجلة",
+      "meaning_en": "Appointments schedule",
+      "variants": [],
+      "example": "فتحت قائمة المواعيد ليوم غد."
+    },
+    {
+      "id": "serv_0081",
+      "term": "موعد بديل",
+      "vocalized": "مَوْعِدْ بَدِيلْ",
+      "ipa_hint": "maw'id badeel",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "وقت احتياطي آخر مناسب للمراجع",
+      "meaning_en": "Alternative slot",
+      "variants": [],
+      "example": "إذا ما يناسبك الصبح نقترح لك موعد بديل المساء."
+    },
+    {
+      "id": "serv_0082",
+      "term": "حجز فوري",
+      "vocalized": "حَجْزْ فَوْرِي",
+      "ipa_hint": "hajz fawri",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد الحجز في نفس اللحظة دون انتظار",
+      "meaning_en": "Instant booking",
+      "variants": [],
+      "example": "العيادة تدعم ميزة حجز فوري عبر التطبيق."
+    },
+    {
+      "id": "serv_0083",
+      "term": "إلغاء تلقائي",
+      "vocalized": "إِلْغَاءْ تِلْقَائِي",
+      "ipa_hint": "ilgha' tilqa'i",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "شطب الحجز آلياً عند عدم التأكيد",
+      "meaning_en": "Auto-cancellation",
+      "variants": [],
+      "example": "لتفادي إلغاء تلقائي للموعد يرجى تأكيد الحضور."
+    },
+    {
+      "id": "serv_0084",
+      "term": "حضور مبكر",
+      "vocalized": "حُضُورْ مُبَكِّرْ",
+      "ipa_hint": "hudoor mubakkir",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الوصول قبل الموعد بدقائق لإنهاء التسجيل",
+      "meaning_en": "Early arrival",
+      "variants": [],
+      "example": "ننصح بالحضور مبكر قبل الموعد بعشر دقايق."
+    },
+    {
+      "id": "serv_0085",
+      "term": "غرفة الانتظار",
+      "vocalized": "غُرْفَةْ الْاِنْتِظَارْ",
+      "ipa_hint": "ghurfat al-intidhar",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "صالة استراحة المراجعين قبل الدخول",
+      "meaning_en": "Waiting room / Lounge",
+      "variants": [
+        "صالة الانتظار"
+      ],
+      "example": "تفضل استرح في صالة الانتظار لين ينادى رقمك."
+    },
+    {
+      "id": "serv_0086",
+      "term": "كشف طبي",
+      "vocalized": "كَشْفْ طِبِّي",
+      "ipa_hint": "kashf tibbi",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "معاينة الطبيب للمراجع",
+      "meaning_en": "Medical examination",
+      "variants": [],
+      "example": "حجزنا موعد كشف طبي عام."
+    },
+    {
+      "id": "serv_0087",
+      "term": "مراجعة دورية",
+      "vocalized": "مُرَاجَعَة دَوْرِيَّة",
+      "ipa_hint": "muraja'ah dawriyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "زيارة متابعة منتظمة",
+      "meaning_en": "Routine follow-up",
+      "variants": [
+        "موعد متابعة"
+      ],
+      "example": "سجلنا لك موعد مراجعة دورية بعد شهر."
+    },
+    {
+      "id": "serv_0088",
+      "term": "تقرير طبي",
+      "vocalized": "تَقْرِيرْ طِبِّي",
+      "ipa_hint": "taqreer tibbi",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "وثيقة رسمية بالحالة الصحية",
+      "meaning_en": "Medical report",
+      "variants": [],
+      "example": "يصدر التقرير الطبي إلكترونياً بصيغة معتمدة."
+    },
+    {
+      "id": "serv_0089",
+      "term": "إجازة مرضية",
+      "vocalized": "إِجَازَة مَرَضِيَّة",
+      "ipa_hint": "ijazah maradiyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عذر طبي رسمي للغياب عن العمل",
+      "meaning_en": "Sick leave",
+      "variants": [],
+      "example": "نزلت الإجازة المرضية تلقائياً في المنصة."
+    },
+    {
+      "id": "serv_0090",
+      "term": "خدمة التوصيل للمنزل",
+      "vocalized": "خِدْمَةْ التَّوْصِيلْ لِلْمَنْزِلْ",
+      "ipa_hint": "khidmat at-tawseel lil-manzil",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إيصال الأدوية أو الطلبات للبيت",
+      "meaning_en": "Home delivery service",
+      "variants": [],
+      "example": "فعلنا خدمة التوصيل للمنزل مجاناً."
+    },
+    {
+      "id": "serv_0091",
+      "term": "ضمان الصيانة",
+      "vocalized": "ضَمَانْ الصِّيَانَة",
+      "ipa_hint": "daman as-siyanah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "كفالة جودة الإصلاح لفترة محددة",
+      "meaning_en": "Repair warranty",
+      "variants": [],
+      "example": "تشمل الخدمة ضمان الصيانة لمدة ثلاثة أشهر."
+    },
+    {
+      "id": "serv_0092",
+      "term": "معاينة الموقع",
+      "vocalized": "مُعَايَنَةْ الْمَوْقِعْ",
+      "ipa_hint": "mu'ayanat al-mawqi'",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "زيارة ميدانية لتقدير العمل المطلوب",
+      "meaning_en": "Site inspection",
+      "variants": [],
+      "example": "طلع المهندس الصبح لمعاينة الموقع."
+    },
+    {
+      "id": "serv_0093",
+      "term": "تأكيد الاستلام",
+      "vocalized": "تَأْكِيدْ الْاِسْتِلَامْ",
+      "ipa_hint": "ta'keed al-istilam",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إقرار رسمي بوصول الطرد أو الخدمة",
+      "meaning_en": "Delivery / Receipt confirmation",
+      "variants": [],
+      "example": "وقع العميل على تأكيد الاستلام."
+    },
+    {
+      "id": "serv_0094",
+      "term": "مركز الخدمة",
+      "vocalized": "مَرْكَزْ الْخِدْمَة",
+      "ipa_hint": "markaz al-khidmah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الفرع المخصص لاستقبال العملاء والصيانة",
+      "meaning_en": "Service center",
+      "variants": [],
+      "example": "تقدر تزور أقرب مركز الخدمة في حيّك."
+    },
+    {
+      "id": "serv_0095",
+      "term": "أوقات الزيارة",
+      "vocalized": "أَوْقَاتْ الزِّيَارَة",
+      "ipa_hint": "awqat az-ziyarah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الساعات المخصصة لاستقبال الزوار",
+      "meaning_en": "Visiting hours",
+      "variants": [],
+      "example": "أوقات الزيارة تمتد من العصر إلى العشاء."
+    },
+    {
+      "id": "serv_0096",
+      "term": "حجز جماعي",
+      "vocalized": "حَجْزْ جَمَاعِي",
+      "ipa_hint": "hajz jama'i",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ترتيب موعد أو مقاعد لمجموعة أشخاص",
+      "meaning_en": "Group booking",
+      "variants": [],
+      "example": "رتبنا حجز جماعي لوفد الشركة."
+    },
+    {
+      "id": "serv_0097",
+      "term": "قاعة اجتماعات",
+      "vocalized": "قَاعَةْ اِجْتِمَاعَاتْ",
+      "ipa_hint": "qa'at ijtima'at",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "غرفة مجهزة لعقد اللقاءات المهنية",
+      "meaning_en": "Meeting / Conference room",
+      "variants": [],
+      "example": "جهزنا قاعة اجتماعات الدور الثالث بالعرض."
+    },
+    {
+      "id": "serv_0098",
+      "term": "ضيافة",
+      "vocalized": "ضِيَافَة",
+      "ipa_hint": "diyafah",
+      "category": "greetings_courtesy",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "إكرام الضيف بالقهوة والتمر والترحيب",
+      "meaning_en": "Hospitality / Refreshments",
+      "variants": [
+        "الضيافة"
+      ],
+      "example": "ركن الضيافة جاهز بالقهوة السعودية والتمر."
+    },
+    {
+      "id": "serv_0099",
+      "term": "قهوة سعودية",
+      "vocalized": "قَهْوَة سُعُودِيَّة",
+      "ipa_hint": "qahwah su'oodiyyah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "القهوة العربية الأصيلة بالهيل والزعفران",
+      "meaning_en": "Saudi coffee",
+      "variants": [],
+      "example": "تفضلوا على فنجال قهوة سعودية."
+    },
+    {
+      "id": "serv_0100",
+      "term": "فنجال",
+      "vocalized": "فِنْجَالْ",
+      "ipa_hint": "finjal",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "قدح القهوة السعودية",
+      "meaning_en": "Coffee cup (finjal)",
+      "variants": [
+        "فناجيل"
+      ],
+      "example": "صب للضيف فنجال قهوة."
+    }
+  ]
+}

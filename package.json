@@ -1,7 +1,7 @@
 {
   "name": "najdikit",
-  "version": "1.0.0",
-  "description": "Modern White Saudi & Urban Najdi Arabic Phonetics (TTS), STT Post-Processor, Lexicon, OpenClaw Plugin, and MCP Server.",
+  "version": "2.0.0",
+  "description": "Real-Time Voice Call Engine, Gulf/Najdi Morphology, Multi-Backend TTS, STT Post-Processor, Dialect Scorer, OpenClaw Plugin, and MCP Server for Modern White Saudi Arabic.",
   "license": "MIT",
   "type": "module",
   "main": "./ts-plugin/index.mjs",

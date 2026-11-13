@@ -8,8 +8,8 @@ const REPO_ROOT = path.resolve(__dirname, "..");
 const SRC_DIR = path.join(REPO_ROOT, "src");
 
 /**
- * Persistent zero-dependency bridge to the Python `najdikit worker` process.
- * Keeps a warm worker alive so tool invocations complete in sub-millisecond to ~1ms latency.
+ * Persistent zero-dependency bridge to the Python `najdikit worker` process (v2.0).
+ * Keeps a warm worker alive so all 7 voice/linguistics tools execute in sub-millisecond latency.
  */
 export class NajdiWorkerBridge {
   constructor(options = {}) {
@@ -17,6 +17,7 @@ export class NajdiWorkerBridge {
     this.defaultCustomLexicon = options.customLexiconPath || process.env.NAJDIKIT_CUSTOM_LEXICON || undefined;
     this.defaultPersonalAdapter = options.personalAdapterJson || process.env.NAJDIKIT_PERSONAL_ADAPTER_JSON || undefined;
     this.defaultLocalLlmUrl = options.localLlmUrl || process.env.NAJDIKIT_LOCAL_LLM_URL || undefined;
+    this.defaultPacksDir = options.packsDir || process.env.NAJDIKIT_PACKS_DIR || undefined;
     this.proc = null;
     this.rl = null;
     this.seq = 0;
@@ -37,6 +38,7 @@ export class NajdiWorkerBridge {
         ...process.env,
         PYTHONPATH: mergedPyPath,
         PYTHONUTF8: "1",
+        ...(this.defaultPacksDir ? { NAJDIKIT_PACKS_DIR: this.defaultPacksDir } : {}),
       },
       stdio: ["pipe", "pipe", "pipe"],
     });
@@ -139,13 +141,18 @@ export const TOOL_DEFINITIONS = [
   {
     name: "najdi_tts_prepare",
     description:
-      "Prepare Arabic or mixed Arabic/English text for natural Modern White Saudi & Urban Najdi TTS synthesis (applies Najdi imperfective kasrah, conversational pausal sukun, shaddah/madd accuracy, Saudi currency/number/time expansion, acronym pronunciation, and optional long-ID elision).",
+      "Prepare Arabic or mixed Arabic/English text for natural Modern White Saudi & Urban Najdi TTS synthesis across ElevenLabs, Habibi-TTS (②〈...〉), OmniVoice, OpenAI Audio, or SIP 8kHz telephony.",
     inputSchema: {
       type: "object",
       properties: {
         text: {
           type: "string",
           description: "Input text to convert into phonetically vocalized Saudi Arabic.",
+        },
+        backend: {
+          type: "string",
+          enum: ["default", "elevenlabs", "omnivoice", "habibi", "openai", "sip_8khz"],
+          description: "Target TTS engine profile (default: default).",
         },
         skip_long_ids: {
           type: "boolean",
@@ -168,9 +175,61 @@ export const TOOL_DEFINITIONS = [
     },
   },
   {
+    name: "najdi_call_stream_chunk",
+    description:
+      "Chunk & vocalize LLM output into low-TTFA live phone-call breath groups (First-Clause Fast Lane, Atomic Guard on decimals/currencies/times/Saudi constructs, Breath-Group Overflow Splitter, and inline [ACTION: ...] extraction).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        text: {
+          type: "string",
+          description: "Assistant speech response to split into speakable real-time call clauses.",
+        },
+        backend: {
+          type: "string",
+          enum: ["default", "elevenlabs", "omnivoice", "habibi", "openai", "sip_8khz"],
+          description: "Target TTS backend formatting (default: default).",
+        },
+        max_words: {
+          type: "integer",
+          description: "Maximum words per unpunctuated breath group (default: 12, or 8 for sip_8khz).",
+        },
+        vocalize: {
+          type: "boolean",
+          description: "Apply Najdi/White Saudi phonetic vocalization to each emitted clause (default: true).",
+        },
+        ack_category: {
+          type: "string",
+          enum: ["lookup", "action", "confirm", "hold", "unclear"],
+          description: "Optional 0ms pre-cached Saudi call acknowledgment to include.",
+        },
+      },
+      required: ["text"],
+    },
+  },
+  {
+    name: "najdi_call_turn_analyze",
+    description:
+      "Analyze live caller speech in <10 µs for full-duplex telephony turn-taking (classifies backchannel, barge_in, hold_request, closing, incomplete_thought, or complete_turn with TTS abort & VAD grace decisions).",
+    inputSchema: {
+      type: "object",
+      properties: {
+        text: {
+          type: "string",
+          description: "Caller speech transcript chunk.",
+        },
+        is_ai_speaking: {
+          type: "boolean",
+          description: "Whether the AI voice agent is currently speaking when this caller speech arrived (default: false).",
+        },
+      },
+      required: ["text"],
+    },
+  },
+  {
     name: "najdi_stt_clean",
     description:
-      "Post-process Arabic ASR/STT transcripts (strips Whisper/Scribe silence hallucinations, normalizes Modern White Saudi orthography consistently, optionally runs personal adapter hooks, and optionally returns carry prompts).",
+      "Post-process Arabic ASR/STT transcripts (strips Whisper/Scribe silence hallucinations, normalizes Modern White Saudi & Gulf clitic orthography in O(N) time, runs optional personal adapter hooks, and generates carry prompts).",
     inputSchema: {
       type: "object",
       properties: {
@@ -184,7 +243,7 @@ export const TOOL_DEFINITIONS = [
         },
         domain: {
           type: "string",
-          enum: ["general", "tech", "finance", "customer_care"],
+          enum: ["general", "tech", "finance", "customer_care", "telephony"],
           description: "Conversational domain when generating STT prompts.",
         },
         extra_terms: {
@@ -197,15 +256,30 @@ export const TOOL_DEFINITIONS = [
     },
   },
   {
+    name: "najdi_dialect_score",
+    description:
+      "Evaluate Saudi dialect alignment (0-100), stiff MSA leakage, foreign dialect drift, and live voice-call suitability in <30 µs with exact flagged spans and White Saudi replacement suggestions.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        text: {
+          type: "string",
+          description: "Arabic draft or model output text to evaluate.",
+        },
+      },
+      required: ["text"],
+    },
+  },
+  {
     name: "najdi_style_grounding",
     description:
-      "Generate a positive, token-efficient System Prompt Grounding block so any LLM speaks authentic Modern White Saudi Arabic naturally without stiff MSA or regional dialect confusion.",
+      "Generate a positive, token-efficient System Prompt Grounding block (including `voice_call_realtime`) so any LLM speaks authentic Modern White Saudi naturally without stiff MSA or regional dialect confusion.",
     inputSchema: {
       type: "object",
       properties: {
         profile: {
           type: "string",
-          enum: ["modern_white", "executive", "voice_assistant", "technical"],
+          enum: ["modern_white", "executive", "voice_assistant", "voice_call_realtime", "technical"],
           description: "Target persona register (default: modern_white).",
         },
         compact: {
@@ -227,7 +301,7 @@ export const TOOL_DEFINITIONS = [
   {
     name: "najdi_lexicon_lookup",
     description:
-      "Look up or search the 600+ entry Modern White Saudi & Urban Najdi lexicon, including vocalization, IPA hints, meanings, examples, and anti-confusion dialect checks.",
+      "Look up or search the 1,250+ entry Modern White Saudi & Urban Najdi lexicon across core and modular domain packs (telephony_calls, sada_conversational, commerce_fintech, service_appointments).",
     inputSchema: {
       type: "object",
       properties: {
@@ -237,16 +311,20 @@ export const TOOL_DEFINITIONS = [
         },
         category: {
           type: "string",
-          description: "Optional category filter (e.g. greetings_courtesy, verbs_desire_cognition, tech_workplace, finance_commerce).",
+          description: "Optional category filter.",
         },
         register: {
           type: "string",
           enum: ["universal", "executive", "casual", "technical"],
           description: "Optional register filter.",
         },
+        pack_id: {
+          type: "string",
+          description: "Optional pack ID filter (core, telephony_calls, sada_conversational, commerce_fintech, service_appointments).",
+        },
         limit: {
           type: "integer",
-          description: "Maximum number of matching entries to return (default: 10).",
+          description: "Maximum number of matching entries to return (default: 15).",
         },
       },
     },
@@ -255,7 +333,10 @@ export const TOOL_DEFINITIONS = [
 
 const ACTION_BY_TOOL = {
   najdi_tts_prepare: "tts_prepare",
+  najdi_call_stream_chunk: "call_stream_chunk",
+  najdi_call_turn_analyze: "call_turn_analyze",
   najdi_stt_clean: "stt_clean",
+  najdi_dialect_score: "dialect_score",
   najdi_style_grounding: "style_grounding",
   najdi_lexicon_lookup: "lexicon_lookup",
 };

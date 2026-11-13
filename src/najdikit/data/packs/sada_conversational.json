@@ -1,0 +1,3798 @@
+{
+  "id": "sada_conversational",
+  "name": "SADA-Grounded Spontaneous Conversational Saudi Pack",
+  "version": "2.0.0",
+  "domain": "conversational",
+  "priority": 20,
+  "license": "MIT",
+  "description": "Spontaneous Modern White Saudi & Urban Najdi conversational vocabulary, core morphological stems, idioms, and everyday discourse markers.",
+  "entry_count": 262,
+  "entries": [
+    {
+      "id": "sada_0001",
+      "term": "وش صاير",
+      "vocalized": "وِشْ صَايِرْ",
+      "ipa_hint": "wish sayir",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ماذا يحدث الآن؟",
+      "meaning_en": "What's happening / going on?",
+      "variants": [
+        "ايش صاير"
+      ],
+      "example": "طمني، وش صاير على موضوع الترقية؟"
+    },
+    {
+      "id": "sada_0002",
+      "term": "وش الجديد",
+      "vocalized": "وِشْ الْجَدِيدْ",
+      "ipa_hint": "wish al-jadeed",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ما آخر المستجدات؟",
+      "meaning_en": "What's new?",
+      "variants": [
+        "ايش الجديد"
+      ],
+      "example": "ها بشر، وش الجديد عندكم؟"
+    },
+    {
+      "id": "sada_0003",
+      "term": "ما فيه جديد",
+      "vocalized": "مَا فِيهْ جَدِيدْ",
+      "ipa_hint": "ma feeh jadeed",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الوضع على حاله دون تغييرات",
+      "meaning_en": "Nothing new yet",
+      "variants": [
+        "لا جديد"
+      ],
+      "example": "للحين ما فيه جديد، ننتظر الاعتماد."
+    },
+    {
+      "id": "sada_0004",
+      "term": "على حطّة يدك",
+      "vocalized": "عَلَى حَطَّةْ يَدِّكْ",
+      "ipa_hint": "ala hattat yaddik",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "casual",
+      "meaning_ar": "لم يتغير شيء عما تركته عليه",
+      "meaning_en": "Unchanged / Just as you left it",
+      "variants": [],
+      "example": "الموضوع باقي على حطّة يدك."
+    },
+    {
+      "id": "sada_0005",
+      "term": "من جد",
+      "vocalized": "مِنْ جِدّ",
+      "ipa_hint": "min jidd",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حقاً؟ / بجدية تامة",
+      "meaning_en": "Seriously / Really",
+      "variants": [
+        "والله من جد"
+      ],
+      "example": "من جد السرعة فرقت كثير بعد التعديل."
+    },
+    {
+      "id": "sada_0006",
+      "term": "أمزح معك",
+      "vocalized": "أَمْزَحْ مَعِكْ",
+      "ipa_hint": "amzah ma'ik",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "أداعبك بالحديث",
+      "meaning_en": "Just kidding with you",
+      "variants": [
+        "نمزح"
+      ],
+      "example": "لا تاخذ بخاطرك، أمزح معك."
+    },
+    {
+      "id": "sada_0007",
+      "term": "بيني وبينك",
+      "vocalized": "بَيْنِي وَبَيْنِكْ",
+      "ipa_hint": "baini w bainik",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "بصراحة وود خاص",
+      "meaning_en": "Between you and me / Frankly",
+      "variants": [],
+      "example": "بيني وبينك، الخيار الأول أنسب بكثير."
+    },
+    {
+      "id": "sada_0008",
+      "term": "خل عنك",
+      "vocalized": "خَلّ عَنِّكْ",
+      "ipa_hint": "khall annik",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "casual",
+      "meaning_ar": "دعك من المبالغة، الحقيقة أن...",
+      "meaning_en": "Set doubts aside / Honestly though",
+      "variants": [],
+      "example": "خل عنك، التنظيم الجديد مريح جداً."
+    },
+    {
+      "id": "sada_0009",
+      "term": "ما شاء الله تبارك الله",
+      "vocalized": "مَا شَاءَ اللَّهْ تَبَارَكْ اللَّهْ",
+      "ipa_hint": "ma sha allah tabarak allah",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ثناء وإعجاب مبارك كامل",
+      "meaning_en": "Wonderful indeed, bless it",
+      "variants": [],
+      "example": "ما شاء الله تبارك الله، إنجاز متكامل."
+    },
+    {
+      "id": "sada_0010",
+      "term": "اللهم لك الحمد",
+      "vocalized": "اللَّهُمَّ لَكْ الْحَمْدْ",
+      "ipa_hint": "allahumma lak al-hamd",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تعبير شكر وامتنان لله عند تمام النعمة",
+      "meaning_en": "Praise be to God",
+      "variants": [
+        "ولله الحمد"
+      ],
+      "example": "نجح الإطلاق ولله الحمد."
+    },
+    {
+      "id": "sada_0011",
+      "term": "عسى الله يطرح البركة",
+      "vocalized": "عَسَى اللَّهْ يِطْرَحْ الْبَرَكَة",
+      "ipa_hint": "asa allah yitrah al-barakah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "دعاء مبارك للمشاريع والأعمال الجديدة",
+      "meaning_en": "May God bless this endeavor",
+      "variants": [
+        "الله يبارك"
+      ],
+      "example": "مشروع ممتاز، عسى الله يطرح البركة."
+    },
+    {
+      "id": "sada_0012",
+      "term": "يبي له",
+      "vocalized": "يِبِي لِهْ",
+      "ipa_hint": "yibi lih",
+      "category": "verbs_desire_cognition",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "يحتاج إلى",
+      "meaning_en": "It needs / requires",
+      "variants": [
+        "يبيله",
+        "يبي لها"
+      ],
+      "example": "الملف يبي له مراجعة أخيرة بس."
+    },
+    {
+      "id": "sada_0013",
+      "term": "ما له داعي",
+      "vocalized": "مَا لِهْ دَاعِي",
+      "ipa_hint": "ma lih da'i",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "غير ضروري ولا حاجة إليه",
+      "meaning_en": "Unnecessary / No need for it",
+      "variants": [
+        "ماله داعي"
+      ],
+      "example": "التعقيد الزايد ما له داعي."
+    },
+    {
+      "id": "sada_0014",
+      "term": "له داعي",
+      "vocalized": "لِهْ دَاعِي",
+      "ipa_hint": "lih da'i",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مهم وله مبرر وجيه",
+      "meaning_en": "Justified / Necessary",
+      "variants": [],
+      "example": "كل فحص أمان له داعي ومهم."
+    },
+    {
+      "id": "sada_0015",
+      "term": "على طول الخط",
+      "vocalized": "عَلَى طُولْ الْخَطّ",
+      "ipa_hint": "ala tool al-khatt",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "باستمرار وثبات دائم",
+      "meaning_en": "Consistently / All the way",
+      "variants": [],
+      "example": "الأداء ثابت على طول الخط."
+    },
+    {
+      "id": "sada_0016",
+      "term": "أول مرة",
+      "vocalized": "أَوَّلْ مَرَّة",
+      "ipa_hint": "awwal marrah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "للمرة الأولى",
+      "meaning_en": "First time",
+      "variants": [],
+      "example": "من أول مرة اشتغل الكود بدون أخطاء."
+    },
+    {
+      "id": "sada_0017",
+      "term": "كل مرة",
+      "vocalized": "كِلّ مَرَّة",
+      "ipa_hint": "kill marrah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "في كل تكرار أو محاولة",
+      "meaning_en": "Every time",
+      "variants": [],
+      "example": "يعطيك نفس الدقة كل مرة."
+    },
+    {
+      "id": "sada_0018",
+      "term": "آخر مرة",
+      "vocalized": "آخِرْ مَرَّة",
+      "ipa_hint": "akhir marrah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المرة السابقة الأخيرة",
+      "meaning_en": "Last time",
+      "variants": [],
+      "example": "آخر مرة حدثنا فيها القاموس زادت الدقة."
+    },
+    {
+      "id": "sada_0019",
+      "term": "هالمرة",
+      "vocalized": "هَااللْمَرَّة",
+      "ipa_hint": "hal-marrah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "في هذه المرة تحديداً",
+      "meaning_en": "This time",
+      "variants": [],
+      "example": "هالمرة ركزنا على المكالمات الصوتية الحية."
+    },
+    {
+      "id": "sada_0020",
+      "term": "هالموضوع",
+      "vocalized": "هَااللْمَوْضُوعْ",
+      "ipa_hint": "hal-mawdoo'",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "هذا الموضوع (بإدغام هاء التنبيه النجدي/الأبيض)",
+      "meaning_en": "This topic / matter",
+      "variants": [],
+      "example": "ناقشنا هالموضوع بالتفصيل أمس."
+    },
+    {
+      "id": "sada_0021",
+      "term": "هالفكرة",
+      "vocalized": "هَااللْفِكْرَة",
+      "ipa_hint": "hal-fikrah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "هذه الفكرة",
+      "meaning_en": "This idea",
+      "variants": [],
+      "example": "هالفكرة بتختصر وقت طويل على المطورين."
+    },
+    {
+      "id": "sada_0022",
+      "term": "هالنظام",
+      "vocalized": "هَااللنِّظَامْ",
+      "ipa_hint": "han-nidham",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "هذا النظام",
+      "meaning_en": "This system",
+      "variants": [],
+      "example": "هالنظام مبني عشان يتحمل الضغط العالي."
+    },
+    {
+      "id": "sada_0023",
+      "term": "هاليوم",
+      "vocalized": "هَااللْيَوْمْ",
+      "ipa_hint": "hal-yawm",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "في هذا اليوم",
+      "meaning_en": "Today / This day",
+      "variants": [],
+      "example": "خلصنا مهام كثيرة هاليوم."
+    },
+    {
+      "id": "sada_0024",
+      "term": "هالوقت",
+      "vocalized": "هَااللْوَقْتْ",
+      "ipa_hint": "hal-waqt",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "في مثل هذا الوقت",
+      "meaning_en": "At this time / Nowadays",
+      "variants": [],
+      "example": "أغلب الخدمات صارت رقمية بهالوقت."
+    },
+    {
+      "id": "sada_0025",
+      "term": "وش الفايدة",
+      "vocalized": "وِشْ الْفَايْدَة",
+      "ipa_hint": "wish al-faidah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ما العائد أو المنفعة العملية؟",
+      "meaning_en": "What is the benefit / point?",
+      "variants": [],
+      "example": "وش الفايدة من السرعة إذا الدقة ناقصة؟ لازم الاثنين."
+    },
+    {
+      "id": "sada_0026",
+      "term": "الفايدة",
+      "vocalized": "الْفَايْدَة",
+      "ipa_hint": "al-faidah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "المنفعة والثمرة العملية",
+      "meaning_en": "Benefit / Utility",
+      "variants": [
+        "فايدة"
+      ],
+      "example": "الفايدة الأساسية هي سرعة الاستجابة."
+    },
+    {
+      "id": "sada_0027",
+      "term": "ما قصّرنا",
+      "vocalized": "مَا قَصَّرْنَا",
+      "ipa_hint": "ma qassarna",
+      "category": "verbs_action_motion",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بذلنا وسعنا كاملاً",
+      "meaning_en": "We did our full part",
+      "variants": [],
+      "example": "تأكدنا من كل التفصيلات وما قصّرنا بالفحص."
+    },
+    {
+      "id": "sada_0028",
+      "term": "بيّضها",
+      "vocalized": "بَيَّضْهَا",
+      "ipa_hint": "bayyadha",
+      "category": "idioms_expressions",
+      "pos": "verb",
+      "register": "casual",
+      "meaning_ar": "أبدع وأنجز عملاً مشرفاً",
+      "meaning_en": "Nailed it / Did brilliantly",
+      "variants": [],
+      "example": "الفريق الهندسي بيّضها في الإصدار الثاني."
+    },
+    {
+      "id": "sada_0029",
+      "term": "جبتها",
+      "vocalized": "جِبْتْهَا",
+      "ipa_hint": "jibtha",
+      "category": "idioms_expressions",
+      "pos": "verb",
+      "register": "casual",
+      "meaning_ar": "أصبت الفكرة الدقيقة تماماً",
+      "meaning_en": "You nailed it / Got it right!",
+      "variants": [
+        "والله جبتها"
+      ],
+      "example": "أيوه صح عليك، والله جبتها!"
+    },
+    {
+      "id": "sada_0030",
+      "term": "ما جت على بالي",
+      "vocalized": "مَا جَتْ عَلَى بَالِي",
+      "ipa_hint": "ma jat ala bali",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "لم تخطر في ذهني سابقاً",
+      "meaning_en": "Didn't cross my mind",
+      "variants": [
+        "راحت عن بالي"
+      ],
+      "example": "ملاحظة ذكية، الصراحة ما جت على بالي."
+    },
+    {
+      "id": "sada_0031",
+      "term": "على بالي",
+      "vocalized": "عَلَى بَالِي",
+      "ipa_hint": "ala bali",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ظننت أن / في ذهني",
+      "meaning_en": "I thought that / On my mind",
+      "variants": [
+        "عبالي"
+      ],
+      "example": "كان على بالي إن الاجتماع الساعة عشر."
+    },
+    {
+      "id": "sada_0032",
+      "term": "خل بالك",
+      "vocalized": "خَلّ بَالِكْ",
+      "ipa_hint": "khall balik",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "انتبه وكن واعياً لـ",
+      "meaning_en": "Keep in mind / Be careful",
+      "variants": [
+        "حط ببالك"
+      ],
+      "example": "خل بالك من حدود الوقت في المكالمات."
+    },
+    {
+      "id": "sada_0033",
+      "term": "حط ببالك",
+      "vocalized": "حُطّ بِبَالِكْ",
+      "ipa_hint": "hutt bi-balik",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ضع في اعتبارك",
+      "meaning_en": "Keep in mind / Note that",
+      "variants": [],
+      "example": "حط ببالك إن المتصل يبي إجابة سريعة."
+    },
+    {
+      "id": "sada_0034",
+      "term": "وسّع صدرك",
+      "vocalized": "وَسِّعْ صَدْرِكْ",
+      "ipa_hint": "wassi' sadrik",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "تحلَّ بالصبر والهدوء وطول البال",
+      "meaning_en": "Be patient / Take it easy",
+      "variants": [
+        "طول بالك"
+      ],
+      "example": "وسّع صدرك، كل مشكلة ولها حل."
+    },
+    {
+      "id": "sada_0035",
+      "term": "طوّل بالك",
+      "vocalized": "طَوِّلْ بَالِكْ",
+      "ipa_hint": "tawwil balik",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "تمهل واصبر بلطف",
+      "meaning_en": "Be patient / Bear with me",
+      "variants": [],
+      "example": "طوّل بالك معي ثواني وتضبط."
+    },
+    {
+      "id": "sada_0036",
+      "term": "ما عندي مانع",
+      "vocalized": "مَا عِنْدِي مَانِعْ",
+      "ipa_hint": "ma indi mani'",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "موافق تماماً ولا اعتراض لدي",
+      "meaning_en": "I have no objection / Fine by me",
+      "variants": [
+        "لا مانع"
+      ],
+      "example": "ما عندي مانع نقدم الموعد نص ساعة."
+    },
+    {
+      "id": "sada_0037",
+      "term": "فوق الممتاز",
+      "vocalized": "فَوْقْ الْمُمْتَازْ",
+      "ipa_hint": "fawq al-mumtaz",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "جودة فائقة تتجاوز التوقعات",
+      "meaning_en": "Beyond excellent / Outstanding",
+      "variants": [],
+      "example": "أداء المحرك الجديد فوق الممتاز."
+    },
+    {
+      "id": "sada_0038",
+      "term": "أولاً بأول",
+      "vocalized": "أَوَّلًا بِأَوَّلْ",
+      "ipa_hint": "awwalan bi-awwal",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "بمتابعة فورية مستمرة",
+      "meaning_en": "Real-time / Continuously",
+      "variants": [],
+      "example": "نعالج الجمل الصوتية أولاً بأول."
+    },
+    {
+      "id": "sada_0039",
+      "term": "تحت السيطرة",
+      "vocalized": "تَحَتْ السَّيْطَرَة",
+      "ipa_hint": "tahat as-saytarah",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مضبوط ومنظم دون مشاكل",
+      "meaning_en": "Under control",
+      "variants": [],
+      "example": "تطمن، كل الأنظمة تحت السيطرة."
+    },
+    {
+      "id": "sada_0040",
+      "term": "على قدم وساق",
+      "vocalized": "عَلَى قَدَمْ وَسَاقْ",
+      "ipa_hint": "ala qadam w saq",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "executive",
+      "meaning_ar": "بنشاط وهمة عالية",
+      "meaning_en": "In full swing",
+      "variants": [],
+      "example": "التطوير شغال على قدم وساق."
+    },
+    {
+      "id": "sada_0041",
+      "term": "مكسب",
+      "vocalized": "مَكْسَبْ",
+      "ipa_hint": "maksab",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "إضافة قيّمة وربح معنوي أو مادي",
+      "meaning_en": "Valuable asset / Win",
+      "variants": [],
+      "example": "المكتبة هذي مكسب لكل مطور عربي."
+    },
+    {
+      "id": "sada_0042",
+      "term": "ثقة",
+      "vocalized": "ثِقَة",
+      "ipa_hint": "thiqah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "جدير بالاعتماد والاطمئنان",
+      "meaning_en": "Trustworthy / Reliable",
+      "variants": [
+        "موضع ثقة"
+      ],
+      "example": "شغل متقن ومصدر ثقة."
+    },
+    {
+      "id": "sada_0043",
+      "term": "كلام كبار",
+      "vocalized": "كَلَامْ كْبَارْ",
+      "ipa_hint": "kalam kbar",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "casual",
+      "meaning_ar": "تعبير إعجاب بمستوى احترافي رفيع",
+      "meaning_en": "Top-tier work / Serious quality",
+      "variants": [
+        "شغل كبار"
+      ],
+      "example": "أقل من أربعين مايكروثانية؟ هذا شغل كبار!"
+    },
+    {
+      "id": "sada_0044",
+      "term": "لا يعلى عليه",
+      "vocalized": "لَا يُعْلَى عَلَيْهْ",
+      "ipa_hint": "la yu'la alaih",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "في قمة الإتقان والجودة",
+      "meaning_en": "Second to none",
+      "variants": [],
+      "example": "تنظيم الكود لا يعلى عليه."
+    },
+    {
+      "id": "sada_0045",
+      "term": "وافي وكافي",
+      "vocalized": "وَافِي وَكَافِي",
+      "ipa_hint": "wafi w kafi",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "شامل يغني عن غيره",
+      "meaning_en": "Thorough and sufficient",
+      "variants": [],
+      "example": "الملخص وافي وكافي لاتخاذ القرار."
+    },
+    {
+      "id": "sada_0046",
+      "term": "من طقطق لسلام عليكم",
+      "vocalized": "مِنْ طَقْطَقْ لِسَلَامْ عَلَيْكُمْ",
+      "ipa_hint": "min taqtaq li-salam alaikum",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "casual",
+      "meaning_ar": "من البداية إلى النهاية بكل التفاصيل",
+      "meaning_en": "From A to Z / Completely",
+      "variants": [],
+      "example": "اختبرنا المسار كامل من طقطق لسلام عليكم."
+    },
+    {
+      "id": "sada_0047",
+      "term": "على أتم استعداد",
+      "vocalized": "عَلَى أَتَمّ اِسْتِعْدَادْ",
+      "ipa_hint": "ala atamm isti'dad",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "جاهز تماماً للتنفيذ",
+      "meaning_en": "Fully ready",
+      "variants": [],
+      "example": "الفريق على أتم استعداد للإطلاق."
+    },
+    {
+      "id": "sada_0048",
+      "term": "بلمح البصر",
+      "vocalized": "بِلَمْحْ الْبَصَرْ",
+      "ipa_hint": "bi-lamh al-basar",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "بسرعة خاطفة فورية",
+      "meaning_en": "In the blink of an eye",
+      "variants": [
+        "برمشة عين"
+      ],
+      "example": "يجهز التشكيل الصوتي بلمح البصر."
+    },
+    {
+      "id": "sada_0049",
+      "term": "صافي",
+      "vocalized": "صَافِي",
+      "ipa_hint": "safi",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "نقي وواضح بلا شوائب",
+      "meaning_en": "Pure / Crystal clear / Net",
+      "variants": [
+        "صافية"
+      ],
+      "example": "الصوت طالع صافي وواضح جداً."
+    },
+    {
+      "id": "sada_0050",
+      "term": "موزونة",
+      "vocalized": "مَوْزُونَة",
+      "ipa_hint": "mawzoonah",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "متزنة ومقدرة بعناية",
+      "meaning_en": "Well-balanced",
+      "variants": [],
+      "example": "الجمل الصوتية قصيرة وموزونة للمكالمات."
+    },
+    {
+      "id": "sada_0051",
+      "term": "سلسة",
+      "vocalized": "سَلِسَة",
+      "ipa_hint": "salisah",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "انسيابية سهلة النطق والفهم",
+      "meaning_en": "Smooth / Fluent",
+      "variants": [],
+      "example": "العبارات سلسة على اللسان والأذن."
+    },
+    {
+      "id": "sada_0052",
+      "term": "دارجة",
+      "vocalized": "دَارِجَة",
+      "ipa_hint": "darijah",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "متداولة ومألوفة بين الناس",
+      "meaning_en": "Commonly used",
+      "variants": [],
+      "example": "جمعنا المفردات الدارجة في الحياة اليومية."
+    },
+    {
+      "id": "sada_0053",
+      "term": "مألوف",
+      "vocalized": "مَأْلُوفْ",
+      "ipa_hint": "ma'loof",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "معروف ومقرب للنفس",
+      "meaning_en": "Familiar",
+      "variants": [
+        "مألوفة"
+      ],
+      "example": "أسلوب الحديث مألوف ومريح للمتصل."
+    },
+    {
+      "id": "sada_0054",
+      "term": "مختصر",
+      "vocalized": "مُخْتَصَرْ",
+      "ipa_hint": "mukhtasar",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "موجز غير مطول",
+      "meaning_en": "Concise / Brief",
+      "variants": [
+        "مختصرة"
+      ],
+      "example": "عطني رد مختصر ومباشر."
+    },
+    {
+      "id": "sada_0055",
+      "term": "مفصل",
+      "vocalized": "مْفَصَّلْ",
+      "ipa_hint": "mfassal",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "موضح بجميع جزئياته",
+      "meaning_en": "Detailed",
+      "variants": [
+        "مفصلة"
+      ],
+      "example": "تلقى شرح مفصل في دليل المطور."
+    },
+    {
+      "id": "sada_0056",
+      "term": "مباشر",
+      "vocalized": "مُبَاشِرْ",
+      "ipa_hint": "mubashir",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "صريح وفوري بلا التفاف",
+      "meaning_en": "Direct / Live",
+      "variants": [
+        "مباشرة"
+      ],
+      "example": "البث الصوتي مباشر بدون تأخير."
+    },
+    {
+      "id": "sada_0057",
+      "term": "مركّز",
+      "vocalized": "مْرَكَّزْ",
+      "ipa_hint": "mrakkaz",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "مكثف ومحدد الهدف",
+      "meaning_en": "Focused / Concentrated",
+      "variants": [
+        "مركزة"
+      ],
+      "example": "اجتماع اليوم كان قصير ومركّز."
+    },
+    {
+      "id": "sada_0058",
+      "term": "متكامل",
+      "vocalized": "مُتَكَامِلْ",
+      "ipa_hint": "mutakamil",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "شامل لكل الأجزاء المطلوبة",
+      "meaning_en": "Integrated / Complete",
+      "variants": [
+        "متكاملة"
+      ],
+      "example": "بنينا منظومة صوتية متكاملة."
+    },
+    {
+      "id": "sada_0059",
+      "term": "مستمر",
+      "vocalized": "مُسْتَمِرّ",
+      "ipa_hint": "mustamirr",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "متواصل بلا انقطاع",
+      "meaning_en": "Continuous / Ongoing",
+      "variants": [
+        "مستمرة"
+      ],
+      "example": "التطوير والتحسين مستمر بإذن الله."
+    },
+    {
+      "id": "sada_0060",
+      "term": "متاح",
+      "vocalized": "مُتَاحْ",
+      "ipa_hint": "mutah",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "متوفر وممكن الاستخدام",
+      "meaning_en": "Available",
+      "variants": [
+        "متاحة"
+      ],
+      "example": "الحزمة متاحة للجميع برخصة مفتوحة."
+    },
+    {
+      "id": "sada_0061",
+      "term": "مضمون",
+      "vocalized": "مَضْمُونْ",
+      "ipa_hint": "madmoon",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "موثوق النتيجة ومكفول",
+      "meaning_en": "Guaranteed / Reliable",
+      "variants": [
+        "مضمونة"
+      ],
+      "example": "أداء حتمي ومضمون بدون مفاجآت."
+    },
+    {
+      "id": "sada_0062",
+      "term": "مجرّب",
+      "vocalized": "مْجَرَّبْ",
+      "ipa_hint": "mjarrab",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "مختبر عملياً ومثبت الكفاءة",
+      "meaning_en": "Tested / Proven",
+      "variants": [
+        "مجربة"
+      ],
+      "example": "حل مجرّب على آلاف الجمل الحوارية."
+    },
+    {
+      "id": "sada_0063",
+      "term": "معتمد",
+      "vocalized": "مُعْتَمَدْ",
+      "ipa_hint": "mu'tamad",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "executive",
+      "meaning_ar": "مقرّ رسمياً",
+      "meaning_en": "Approved / Certified",
+      "variants": [
+        "معتمدة"
+      ],
+      "example": "هذا هو المعيار المعتمد في المشروع."
+    },
+    {
+      "id": "sada_0064",
+      "term": "محدود",
+      "vocalized": "مَحْدُودْ",
+      "ipa_hint": "mahdood",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "مقيد بسقف معين",
+      "meaning_en": "Limited",
+      "variants": [
+        "محدودة"
+      ],
+      "example": "زمن الانتظار في المكالمة محدود جداً."
+    },
+    {
+      "id": "sada_0065",
+      "term": "مفتوح",
+      "vocalized": "مَفْتُوحْ",
+      "ipa_hint": "maftooh",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "متاح وقابل للإضافة",
+      "meaning_en": "Open",
+      "variants": [
+        "مفتوحة"
+      ],
+      "example": "باب المساهمة مفتوح لكل المطورين."
+    },
+    {
+      "id": "sada_0066",
+      "term": "مرصوص",
+      "vocalized": "مَرْصُوصْ",
+      "ipa_hint": "marsoos",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "casual",
+      "meaning_ar": "متقن البناء ومتراص",
+      "meaning_en": "Tightly packed / Solidly built",
+      "variants": [],
+      "example": "الكود نظيف ومرصوص بعناية."
+    },
+    {
+      "id": "sada_0067",
+      "term": "متين",
+      "vocalized": "مَتِينْ",
+      "ipa_hint": "mateen",
+      "category": "everyday_urban",
+      "pos": "adj",
+      "register": "executive",
+      "meaning_ar": "قوي البنية صلب الأساس",
+      "meaning_en": "Robust / Solid",
+      "variants": [
+        "متينة"
+      ],
+      "example": "هندسة متينة تتحمل التوسع المستقبلي."
+    },
+    {
+      "id": "sada_0068",
+      "term": "يفصل",
+      "vocalized": "يِفْصِلْ",
+      "ipa_hint": "yifsil",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "ينقطع أو يقسم بين جزئين",
+      "meaning_en": "Disconnects / Splits",
+      "variants": [
+        "تفصل"
+      ],
+      "example": "المقسم الذكي يفصل الجمل الطويلة بسلاسة."
+    },
+    {
+      "id": "sada_0069",
+      "term": "يجمع",
+      "vocalized": "يِجْمَعْ",
+      "ipa_hint": "yijma'",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يضم ويوحد بين ميزتين",
+      "meaning_en": "Combines / Gathers",
+      "variants": [
+        "تجمع"
+      ],
+      "example": "يجمع بين سرعة القواعد ودقة اللغة."
+    },
+    {
+      "id": "sada_0070",
+      "term": "يرسل",
+      "vocalized": "يِرْسِلْ",
+      "ipa_hint": "yirsil",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يبعث البيانات أو الرسائل",
+      "meaning_en": "Sends",
+      "variants": [
+        "ترسل",
+        "نرسل"
+      ],
+      "example": "يرسل أول جزء صوتي فوراً بدون انتظار."
+    },
+    {
+      "id": "sada_0071",
+      "term": "يستقبل",
+      "vocalized": "يِسْتَقْبِلْ",
+      "ipa_hint": "yistaqbil",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يتلقى المكالمة أو النص",
+      "meaning_en": "Receives",
+      "variants": [
+        "تستقبل",
+        "نستقبل"
+      ],
+      "example": "يستقبل تدفق الكلمات كلمة بكلمة."
+    },
+    {
+      "id": "sada_0072",
+      "term": "يقاطع",
+      "vocalized": "يِقَاطِعْ",
+      "ipa_hint": "yiqati'",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يتدخل أثناء حديث الطرف الآخر",
+      "meaning_en": "Interrupts",
+      "variants": [
+        "تقاطع"
+      ],
+      "example": "يميز إذا المتصل يقاطع أو بس يتابع."
+    },
+    {
+      "id": "sada_0073",
+      "term": "ينتظر",
+      "vocalized": "يِنْتَظِرْ",
+      "ipa_hint": "yintadhir",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يتمهل ريثما يكتمل الكلام",
+      "meaning_en": "Waits",
+      "variants": [
+        "تنتظر",
+        "ننتظر"
+      ],
+      "example": "ينتظر ربع ثانية إذا الجملة ما اكتملت."
+    },
+    {
+      "id": "sada_0074",
+      "term": "يقيّم",
+      "vocalized": "يِقَيِّمْ",
+      "ipa_hint": "yiqayyim",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يقيس مستوى الجودة والأصالة",
+      "meaning_en": "Scores / Evaluates",
+      "variants": [
+        "تقييم"
+      ],
+      "example": "يقيّم مدى أصالة اللهجة بلمح البصر."
+    },
+    {
+      "id": "sada_0075",
+      "term": "يحلّل",
+      "vocalized": "يِحَلِّلْ",
+      "ipa_hint": "yihallil",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "technical",
+      "meaning_ar": "يفكك بنية الكلمة أو الجملة",
+      "meaning_en": "Analyzes / Parses",
+      "variants": [
+        "تحليل"
+      ],
+      "example": "يحلّل السوابق واللواحق في الكلمة الخليجية."
+    },
+    {
+      "id": "sada_0076",
+      "term": "يفكّك",
+      "vocalized": "يِفَكِّكْ",
+      "ipa_hint": "yifakkik",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "technical",
+      "meaning_ar": "يجزئ الكلمة المركبة لأصلها",
+      "meaning_en": "Decomposes",
+      "variants": [],
+      "example": "يفكّك الكلمات المتصلة مثل وبنشيكها."
+    },
+    {
+      "id": "sada_0077",
+      "term": "يركّب",
+      "vocalized": "يِرَكِّبْ",
+      "ipa_hint": "yirakkib",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يجمع الأجزاء أو يثبت الإضافة",
+      "meaning_en": "Assembles / Installs",
+      "variants": [
+        "تركيب"
+      ],
+      "example": "يركّب الحزم الإضافية بدون تعديل الكود."
+    },
+    {
+      "id": "sada_0078",
+      "term": "يتوسّع",
+      "vocalized": "يِتْوَسَّعْ",
+      "ipa_hint": "yitwassa'",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "technical",
+      "meaning_ar": "يكبر ويستوعب إضافات جديدة",
+      "meaning_en": "Scales / Expands",
+      "variants": [
+        "تتوسع"
+      ],
+      "example": "المعجم يتوسّع لآلاف الكلمات بنفس السرعة."
+    },
+    {
+      "id": "sada_0079",
+      "term": "يراقب",
+      "vocalized": "يِرَاقِبْ",
+      "ipa_hint": "yiraqib",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يتابع الأداء والجودة",
+      "meaning_en": "Monitors",
+      "variants": [
+        "تراقب",
+        "نراقب"
+      ],
+      "example": "يراقب طول الجملة عشان تناسب النفس الصوتي."
+    },
+    {
+      "id": "sada_0080",
+      "term": "يلتزم",
+      "vocalized": "يِلْتَزِمْ",
+      "ipa_hint": "yiltazim",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "executive",
+      "meaning_ar": "يحافظ بدقة على المعيار",
+      "meaning_en": "Adheres / Commits",
+      "variants": [
+        "تلتزم",
+        "نلتزم"
+      ],
+      "example": "يلتزم بضوابط الخصوصية الصارمة."
+    },
+    {
+      "id": "sada_0081",
+      "term": "يتفادى",
+      "vocalized": "يِتْفَادَى",
+      "ipa_hint": "yitfada",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يتجنب الوقوع في الخطأ",
+      "meaning_en": "Avoids",
+      "variants": [
+        "نتفادى"
+      ],
+      "example": "يتفادى تقطيع الأرقام والعملات وسط الكلام."
+    },
+    {
+      "id": "sada_0082",
+      "term": "يكتشف",
+      "vocalized": "يِكْتِشِفْ",
+      "ipa_hint": "yiktishif",
+      "category": "verbs_desire_cognition",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يرصد ويعثر على",
+      "meaning_en": "Detects / Discovers",
+      "variants": [
+        "تكتشف"
+      ],
+      "example": "يكتشف الكلمات الدخيلة على اللهجة فوراً."
+    },
+    {
+      "id": "sada_0083",
+      "term": "يقترح",
+      "vocalized": "يِقْتَرِحْ",
+      "ipa_hint": "yiqtarih",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يقدم بديلاً مناسباً",
+      "meaning_en": "Suggests",
+      "variants": [
+        "تقترح",
+        "نقترح"
+      ],
+      "example": "يقترح البديل السعودي الطبيعي تلقائياً."
+    },
+    {
+      "id": "sada_0084",
+      "term": "يختبر",
+      "vocalized": "يِخْتِبِرْ",
+      "ipa_hint": "yikhtibir",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "technical",
+      "meaning_ar": "يفحص صلاحية وسرعة النظام",
+      "meaning_en": "Tests",
+      "variants": [
+        "نختبر"
+      ],
+      "example": "يختبر كل الدوال قبل اعتماد النسخة."
+    },
+    {
+      "id": "sada_0085",
+      "term": "يعتمدون",
+      "vocalized": "يِعْتَمِدُونْ",
+      "ipa_hint": "yi'tamidoon",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يوافقون أو يرتكزون على",
+      "meaning_en": "They approve / rely on",
+      "variants": [
+        "تعتمدون"
+      ],
+      "example": "المطورون يعتمدون على السرعة والثبات."
+    },
+    {
+      "id": "sada_0086",
+      "term": "يسمعون",
+      "vocalized": "يِسْمَعُونْ",
+      "ipa_hint": "yisma'oon",
+      "category": "verbs_desire_cognition",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "ينصتون للصوت",
+      "meaning_en": "They hear / listen",
+      "variants": [
+        "تسمعون"
+      ],
+      "example": "المتصلون يسمعون نطق سعودي طبيعي وواضح."
+    },
+    {
+      "id": "sada_0087",
+      "term": "يتكلمون",
+      "vocalized": "يِتْكَلَّمُونْ",
+      "ipa_hint": "yitkallamoon",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يتحدثون",
+      "meaning_en": "They speak",
+      "variants": [
+        "تتكلمون",
+        "يتكلم"
+      ],
+      "example": "يتكلمون بعفوية ويفهمهم النظام على طول."
+    },
+    {
+      "id": "sada_0088",
+      "term": "يسألون",
+      "vocalized": "يِسْأَلُونْ",
+      "ipa_hint": "yis'aloon",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يستفسرون",
+      "meaning_en": "They ask",
+      "variants": [
+        "يسأل",
+        "تسأل"
+      ],
+      "example": "العملاء دايم يسألون عن سرعة التوصيل."
+    },
+    {
+      "id": "sada_0089",
+      "term": "يردّون",
+      "vocalized": "يِرِدُّونْ",
+      "ipa_hint": "yiriddoon",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يجيبون بسرعة",
+      "meaning_en": "They reply / answer",
+      "variants": [
+        "يرد",
+        "ترد"
+      ],
+      "example": "فريق الدعم يردّون خلال ثواني."
+    },
+    {
+      "id": "sada_0090",
+      "term": "يخلصون",
+      "vocalized": "يِخَلِّصُونْ",
+      "ipa_hint": "yikhallisoon",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "ينهون المهام",
+      "meaning_en": "They finish",
+      "variants": [],
+      "example": "يخلصون المعاملة بمكالمة وحدة."
+    },
+    {
+      "id": "sada_0091",
+      "term": "شرايك",
+      "vocalized": "شْرَايِكْ",
+      "ipa_hint": "shrayik",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "ما رأيك؟ (صيغة مختصرة شائعة في الحديث)",
+      "meaning_en": "What do you think?",
+      "variants": [
+        "إيش رأيك"
+      ],
+      "example": "شرايك نجرب المحرك على مكالمة حية؟"
+    },
+    {
+      "id": "sada_0092",
+      "term": "عشانهم",
+      "vocalized": "عَشَانْهُمْ",
+      "ipa_hint": "ashanhum",
+      "category": "connectors_discourse",
+      "pos": "particle",
+      "register": "universal",
+      "meaning_ar": "لأجلهم",
+      "meaning_en": "For them / Because of them",
+      "variants": [
+        "عشانك",
+        "عشاني",
+        "عشاننا"
+      ],
+      "example": "بنينا هالميزة عشانهم وعشان راحتهم."
+    },
+    {
+      "id": "sada_0093",
+      "term": "عشانك",
+      "vocalized": "عَشَانِكْ",
+      "ipa_hint": "ashanik",
+      "category": "connectors_discourse",
+      "pos": "particle",
+      "register": "universal",
+      "meaning_ar": "لأجلك",
+      "meaning_en": "For you",
+      "variants": [],
+      "example": "أبشر، نرتب الموعد عشانك."
+    },
+    {
+      "id": "sada_0094",
+      "term": "توهّا",
+      "vocalized": "تَوْهَا",
+      "ipa_hint": "tawha",
+      "category": "connectors_discourse",
+      "pos": "adv",
+      "register": "universal",
+      "meaning_ar": "للتو (للمؤنث الغائبة)",
+      "meaning_en": "She/It just now",
+      "variants": [
+        "توها"
+      ],
+      "example": "الرسالة توهّا واصلة على الجوال."
+    },
+    {
+      "id": "sada_0095",
+      "term": "توّهم",
+      "vocalized": "تَوْهُمْ",
+      "ipa_hint": "tawhum",
+      "category": "connectors_discourse",
+      "pos": "adv",
+      "register": "universal",
+      "meaning_ar": "للتو (للجمع)",
+      "meaning_en": "They just now",
+      "variants": [
+        "توهم"
+      ],
+      "example": "الشباب توّهم داخلين قاعة الاجتماع."
+    },
+    {
+      "id": "sada_0096",
+      "term": "كلّنا",
+      "vocalized": "كِلْنَا",
+      "ipa_hint": "kilna",
+      "category": "connectors_discourse",
+      "pos": "pronoun",
+      "register": "universal",
+      "meaning_ar": "جميعنا",
+      "meaning_en": "All of us",
+      "variants": [
+        "كلنا"
+      ],
+      "example": "كلّنا متفقين على أهمية الجودة."
+    },
+    {
+      "id": "sada_0097",
+      "term": "كلّهم",
+      "vocalized": "كِلْهُمْ",
+      "ipa_hint": "kilhum",
+      "category": "connectors_discourse",
+      "pos": "pronoun",
+      "register": "universal",
+      "meaning_ar": "جميعهم",
+      "meaning_en": "All of them",
+      "variants": [
+        "كلهم"
+      ],
+      "example": "الاختبارات كلّهم نجحوا مية بالمية."
+    },
+    {
+      "id": "sada_0098",
+      "term": "بعضهم",
+      "vocalized": "بَعْضْهُمْ",
+      "ipa_hint": "ba'dhum",
+      "category": "connectors_discourse",
+      "pos": "pronoun",
+      "register": "universal",
+      "meaning_ar": "قسم منهم",
+      "meaning_en": "Some of them",
+      "variants": [],
+      "example": "بعضهم يفضل الصوت السريع بالمكالمات."
+    },
+    {
+      "id": "sada_0099",
+      "term": "أغلبهم",
+      "vocalized": "أَغْلَبْهُمْ",
+      "ipa_hint": "aghlabhum",
+      "category": "connectors_discourse",
+      "pos": "pronoun",
+      "register": "universal",
+      "meaning_ar": "معظمهم",
+      "meaning_en": "Most of them",
+      "variants": [
+        "الأغلب"
+      ],
+      "example": "أغلبهم يستخدمون اللهجة البيضاء اليومية."
+    },
+    {
+      "id": "sada_0100",
+      "term": "ودّكم",
+      "vocalized": "وِدِّكُمْ",
+      "ipa_hint": "widdikum",
+      "category": "verbs_desire_cognition",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "هل ترغبون؟",
+      "meaning_en": "Would you (all) like?",
+      "variants": [
+        "ودكم"
+      ],
+      "example": "ودّكم نضيف أمثلة زيادة للتوثيق؟"
+    },
+    {
+      "id": "sada_0101",
+      "term": "ودّهم",
+      "vocalized": "وِدِّهُمْ",
+      "ipa_hint": "widdihum",
+      "category": "verbs_desire_cognition",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "يرغبون في",
+      "meaning_en": "They would like",
+      "variants": [
+        "ودهم"
+      ],
+      "example": "المستخدمين ودّهم بتجربة صوتية سريعة."
+    },
+    {
+      "id": "sada_0102",
+      "term": "يمديه",
+      "vocalized": "يِمْدِيهْ",
+      "ipa_hint": "yimdeeh",
+      "category": "verbs_desire_cognition",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يستطيع أو يتسع له الوقت",
+      "meaning_en": "He/It can in time",
+      "variants": [
+        "يمديها",
+        "يمديهم"
+      ],
+      "example": "المحرك يمديه يعالج آلاف المكالمات بنفس اللحظة."
+    },
+    {
+      "id": "sada_0103",
+      "term": "ما يخالفك",
+      "vocalized": "مَا يْخَالْفِكْ",
+      "ipa_hint": "ma ykhalfik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أوافقك الرأي ولا أعارضك",
+      "meaning_en": "I agree with you / No objection",
+      "variants": [],
+      "example": "رأيك سليم وما يخالفك فيه أحد."
+    },
+    {
+      "id": "sada_0104",
+      "term": "على راحتك",
+      "vocalized": "عَلَى رَاحْتِكْ",
+      "ipa_hint": "ala rahtik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "كما تفضل وتختار دون أي ضغط",
+      "meaning_en": "As you wish / At your convenience",
+      "variants": [
+        "براحتك"
+      ],
+      "example": "تبيها اليوم أو بكرة، على راحتك."
+    },
+    {
+      "id": "sada_0105",
+      "term": "على هواك",
+      "vocalized": "عَلَى هَوَاكْ",
+      "ipa_hint": "ala hawak",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "كما تحب وترغب",
+      "meaning_en": "Whatever suits you",
+      "variants": [
+        "على كيفك"
+      ],
+      "example": "اختار التصميم اللي يعجبك، على هواك."
+    },
+    {
+      "id": "sada_0106",
+      "term": "لا تكلّف على نفسك",
+      "vocalized": "لَا تْكَلِّفْ عَلَى نَفْسِكْ",
+      "ipa_hint": "la tkallif ala nafsik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عبارة تقدير تعفي المخاطب من المشقة",
+      "meaning_en": "Don't go to any trouble",
+      "variants": [
+        "لا تكلف عمرك"
+      ],
+      "example": "يكفي حضورك، لا تكلّف على نفسك."
+    },
+    {
+      "id": "sada_0107",
+      "term": "حق وواجب",
+      "vocalized": "حَقّ وَوَاجِبْ",
+      "ipa_hint": "haqq w wajib",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تعبير كرم وتواضع عند تقديم خدمة أو ضيافة",
+      "meaning_en": "It is my duty and pleasure",
+      "variants": [
+        "هذا الواجب"
+      ],
+      "example": "لا شكر على واجب، هذا حق وواجب."
+    },
+    {
+      "id": "sada_0108",
+      "term": "من عيوني",
+      "vocalized": "مِنْ عْيُونِي",
+      "ipa_hint": "min uyooni",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "تلبية ودودة جداً للطلب",
+      "meaning_en": "Gladly / With pleasure",
+      "variants": [
+        "تامر عيوني"
+      ],
+      "example": "تبي نسخة مختصرة؟ من عيوني."
+    },
+    {
+      "id": "sada_0109",
+      "term": "غالي والطلب رخيص",
+      "vocalized": "غَالِي وَالطَّلَبْ رَخِيصْ",
+      "ipa_hint": "ghali wat-talab rakhees",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "عبارة كرم سعودية شهيرة تعلي قدر السائل وتسهّل طلبه",
+      "meaning_en": "You are dear to us and your request is easy",
+      "variants": [],
+      "example": "أبشر بعزك، غالي والطلب رخيص."
+    },
+    {
+      "id": "sada_0110",
+      "term": "الله لا يهينك",
+      "vocalized": "اللَّهْ لَا يْهِينِكْ",
+      "ipa_hint": "allah la yheenik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عبارة طلب راقية بمعنى لو تفضلت",
+      "meaning_en": "Please / Kindly (lit. may God never demean you)",
+      "variants": [
+        "ولا يهينك"
+      ],
+      "example": "راجع لي هالبند الله لا يهينك."
+    },
+    {
+      "id": "sada_0111",
+      "term": "يرحم والديك",
+      "vocalized": "يِرْحَمْ وَالْدَيْكْ",
+      "ipa_hint": "yirham waldaik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "دعاء صادق بالشكر والامتنان",
+      "meaning_en": "May God have mercy on your parents (thank you)",
+      "variants": [
+        "الله يرحم والديك"
+      ],
+      "example": "يرحم والديك، حليت لي أزمة."
+    },
+    {
+      "id": "sada_0112",
+      "term": "ووالديك",
+      "vocalized": "وَوَالْدَيْكْ",
+      "ipa_hint": "wa waldaik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الرد على دعاء يرحم والديك",
+      "meaning_en": "And your parents too",
+      "variants": [],
+      "example": "ووالديك ومن يسمع."
+    },
+    {
+      "id": "sada_0113",
+      "term": "بشرنا عنك",
+      "vocalized": "بَشِّرْنَا عَنِّكْ",
+      "ipa_hint": "bashshirna annik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طمئنا عن أحوالك وأخبارك",
+      "meaning_en": "Tell us how you've been",
+      "variants": [],
+      "example": "من زمان عنك، بشرنا عنك وعن أخبارك."
+    },
+    {
+      "id": "sada_0114",
+      "term": "علومنا زينة",
+      "vocalized": "عْلُومْنَا زَيْنَة",
+      "ipa_hint": "uloomna zainah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "أخبارنا طيبة وسارة",
+      "meaning_en": "Our news is all good",
+      "variants": [
+        "الأخبار زينة"
+      ],
+      "example": "الحمد لله علومنا زينة تسر الخاطر."
+    },
+    {
+      "id": "sada_0115",
+      "term": "تسر الخاطر",
+      "vocalized": "تْسِرّ الْخَاطِرْ",
+      "ipa_hint": "tsirr al-khatir",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مبهجة وتبعث على الرضا والسرور",
+      "meaning_en": "Pleasing / Heartwarming",
+      "variants": [
+        "يسر الخاطر"
+      ],
+      "example": "نتائج المشروع تسر الخاطر."
+    },
+    {
+      "id": "sada_0116",
+      "term": "طاب خاطرك",
+      "vocalized": "طَابْ خَاطْرِكْ",
+      "ipa_hint": "tab khatrik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "دعاء بطيب النفس والرضا",
+      "meaning_en": "May your heart be content",
+      "variants": [],
+      "example": "طاب خاطرك وطابت أيامك."
+    },
+    {
+      "id": "sada_0117",
+      "term": "ما يغلى عليك",
+      "vocalized": "مَا يِغْلَى عَلَيْكْ",
+      "ipa_hint": "ma yighla alaik",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "مجاملة كريمة تعني كل ما لدينا تحت تصرفك",
+      "meaning_en": "Nothing is too precious for you",
+      "variants": [],
+      "example": "الكود والمشروع كله ما يغلى عليك."
+    },
+    {
+      "id": "sada_0118",
+      "term": "عساكم على القوة",
+      "vocalized": "عَسَاكُمْ عَلَى الْقُوَّة",
+      "ipa_hint": "asakum ala al-quwwah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تحية تشجيع لفريق العمل",
+      "meaning_en": "Keep up the strong work, everyone",
+      "variants": [],
+      "example": "يعطيكم العافية يا شباب وعساكم على القوة."
+    },
+    {
+      "id": "sada_0119",
+      "term": "ما شاء الله عليكم",
+      "vocalized": "مَا شَاءَ اللَّهْ عَلَيْكُمْ",
+      "ipa_hint": "ma sha allah alaikum",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إشادة بإنجاز الفريق وهمته",
+      "meaning_en": "Well done to you all!",
+      "variants": [],
+      "example": "ما شاء الله عليكم، خلصتوا قبل الوقت."
+    },
+    {
+      "id": "sada_0120",
+      "term": "أبد",
+      "vocalized": "أَبَدْ",
+      "ipa_hint": "abad",
+      "category": "connectors_discourse",
+      "pos": "adv",
+      "register": "universal",
+      "meaning_ar": "إطلاقاً / لا شيء يدعو للقلق (تأتي لتأكيد النفي أو البساطة)",
+      "meaning_en": "Not at all / Simply",
+      "variants": [],
+      "example": "أبد، الموضوع سهل وما ياخذ دقيقة."
+    },
+    {
+      "id": "sada_0121",
+      "term": "والله إني",
+      "vocalized": "وَاللَّهْ إِنِّي",
+      "ipa_hint": "wallah inni",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "استفتاح تأكيدي صادق في الحديث",
+      "meaning_en": "Honestly I...",
+      "variants": [],
+      "example": "والله إني حريص يطلع المشروع بأفضل صورة."
+    },
+    {
+      "id": "sada_0122",
+      "term": "تصدق",
+      "vocalized": "تْصَدِّقْ",
+      "ipa_hint": "tsaddiq",
+      "category": "connectors_discourse",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "أداة تشويق ولفت انتباه في السرد",
+      "meaning_en": "Would you believe /Actually",
+      "variants": [],
+      "example": "تصدق إن المحرك يشتغل بدون أي مكتبة خارجية؟"
+    },
+    {
+      "id": "sada_0123",
+      "term": "المشكلة إن",
+      "vocalized": "الْمُشْكِلَة إِنّ",
+      "ipa_hint": "al-mushkilah inn",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "توضيح سبب العائق الأساسي",
+      "meaning_en": "The issue is that...",
+      "variants": [],
+      "example": "المشكلة إن النماذج العادية تخلط بين اللهجات."
+    },
+    {
+      "id": "sada_0124",
+      "term": "الحل إننا",
+      "vocalized": "الْحَلّ إِنَّنَا",
+      "ipa_hint": "al-hall innana",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طرح المخرج العملي المباشر",
+      "meaning_en": "The solution is for us to...",
+      "variants": [],
+      "example": "الحل إننا نضبط القواعد من المنبع."
+    },
+    {
+      "id": "sada_0125",
+      "term": "الميزة إن",
+      "vocalized": "الْمِيزَة إِنّ",
+      "ipa_hint": "al-meezah inn",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إبراز نقطة القوة الرئيسية",
+      "meaning_en": "The advantage is that...",
+      "variants": [],
+      "example": "الميزة إن السرعة ثابتة مهما كبر القاموس."
+    },
+    {
+      "id": "sada_0126",
+      "term": "الفكرة وما فيها",
+      "vocalized": "الْفِكْرَة وَمَا فِيهَا",
+      "ipa_hint": "al-fikrah w ma feeha",
+      "category": "connectors_discourse",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "خلاصة الموضوع ببساطة",
+      "meaning_en": "Simply put, the whole idea is...",
+      "variants": [],
+      "example": "الفكرة وما فيها نبي صوت طبيعي وسريع."
+    },
+    {
+      "id": "sada_0127",
+      "term": "كل ما في الموضوع",
+      "vocalized": "كِلّ مَا فِي الْمَوْضُوعْ",
+      "ipa_hint": "kill ma fil-mawdoo'",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حقيقة الأمر باختصار",
+      "meaning_en": "All there is to it",
+      "variants": [],
+      "example": "كل ما في الموضوع خطوتين تثبيت وتشغيل."
+    },
+    {
+      "id": "sada_0128",
+      "term": "لا أكثر ولا أقل",
+      "vocalized": "لَا أَكْثَرْ وَلَا أَقَلّ",
+      "ipa_hint": "la akthar wala aqall",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تحديد دقيق دون مبالغة",
+      "meaning_en": "Nothing more, nothing less",
+      "variants": [],
+      "example": "نحتاج ملف إعداد واحد لا أكثر ولا أقل."
+    },
+    {
+      "id": "sada_0129",
+      "term": "على سبيل المثال",
+      "vocalized": "عَلَى سَبِيلْ الْمِثَالْ",
+      "ipa_hint": "ala sabeel al-mithal",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "لطرح نموذج توضيحي",
+      "meaning_en": "For example",
+      "variants": [],
+      "example": "على سبيل المثال، تقدر تضيف حزمة طبية مستقلة."
+    },
+    {
+      "id": "sada_0130",
+      "term": "من باب الاحتياط",
+      "vocalized": "مِنْ بَابْ الْاِحْتِيَاطْ",
+      "ipa_hint": "min bab al-ihtiyat",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "كإجراء وقائي استباقي",
+      "meaning_en": "Just in case / As a precaution",
+      "variants": [
+        "احتياطاً"
+      ],
+      "example": "أخذنا نسخة ثانية من باب الاحتياط."
+    },
+    {
+      "id": "sada_0131",
+      "term": "في النهاية",
+      "vocalized": "فِي النِّهَايَة",
+      "ipa_hint": "fin-nihayah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ختاماً وفي المحصلة",
+      "meaning_en": "Ultimately / At the end",
+      "variants": [
+        "بالنهاية"
+      ],
+      "example": "في النهاية تجربة المستخدم هي الحكم."
+    },
+    {
+      "id": "sada_0132",
+      "term": "في البداية",
+      "vocalized": "فِي الْبِدَايَة",
+      "ipa_hint": "fil-bidayah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عند الانطلاق أول الأمر",
+      "meaning_en": "At the beginning / Initially",
+      "variants": [
+        "بالبداية"
+      ],
+      "example": "في البداية نفحص توافق الحروف والتشكيل."
+    },
+    {
+      "id": "sada_0133",
+      "term": "في الوقت الحالي",
+      "vocalized": "فِي الْوَقْتْ الْحَالِي",
+      "ipa_hint": "fil-waqt al-hali",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "حالياً وفي المرحلة الراهنة",
+      "meaning_en": "Currently / At present",
+      "variants": [
+        "حالياً"
+      ],
+      "example": "في الوقت الحالي ندعم ست واجهات نطق صوتي."
+    },
+    {
+      "id": "sada_0134",
+      "term": "من الحين",
+      "vocalized": "مِنْ الْحِينْ",
+      "ipa_hint": "min al-heen",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ابتداءً من هذه اللحظة",
+      "meaning_en": "Starting right now",
+      "variants": [],
+      "example": "تقدر تستخدم الحزمة الجديدة من الحين."
+    },
+    {
+      "id": "sada_0135",
+      "term": "إلى بكرة",
+      "vocalized": "إِلَى بُكْرَة",
+      "ipa_hint": "ila bukrah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "حتى يوم الغد",
+      "meaning_en": "Until tomorrow",
+      "variants": [
+        "لبكرة"
+      ],
+      "example": "معنا وقت كافي إلى بكرة المساء."
+    },
+    {
+      "id": "sada_0136",
+      "term": "قبل أمس",
+      "vocalized": "قَبِلْ أَمْسْ",
+      "ipa_hint": "qabil ams",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أول من أمس (قبل يومين)",
+      "meaning_en": "The day before yesterday",
+      "variants": [
+        "أول أمس"
+      ],
+      "example": "بدأنا التخطيط للإصدار الثاني قبل أمس."
+    },
+    {
+      "id": "sada_0137",
+      "term": "بعد بكرة",
+      "vocalized": "بَعْدْ بُكْرَة",
+      "ipa_hint": "ba'd bukrah",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بعد غد (بعد يومين)",
+      "meaning_en": "The day after tomorrow",
+      "variants": [],
+      "example": "موعد المراجعة النهائية بعد بكرة."
+    },
+    {
+      "id": "sada_0138",
+      "term": "طول اليوم",
+      "vocalized": "طُولْ الْيَوْمْ",
+      "ipa_hint": "tool al-yawm",
+      "category": "connectors_discourse",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "على امتداد النهار والليل",
+      "meaning_en": "All day long",
+      "variants": [],
+      "example": "الخادم شغال طول اليوم بدون توقف."
+    },
+    {
+      "id": "sada_0139",
+      "term": "نص ساعة",
+      "vocalized": "نُصّ سَاعَة",
+      "ipa_hint": "nuss sa'ah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ثلاثون دقيقة",
+      "meaning_en": "Half an hour",
+      "variants": [],
+      "example": "يخلص الاجتماع خلال نص ساعة."
+    },
+    {
+      "id": "sada_0140",
+      "term": "ربع ساعة",
+      "vocalized": "رُبْعْ سَاعَة",
+      "ipa_hint": "rub' sa'ah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "خمس عشرة دقيقة",
+      "meaning_en": "Fifteen minutes / Quarter hour",
+      "variants": [],
+      "example": "أكون عندك بعد ربع ساعة إن شاء الله."
+    },
+    {
+      "id": "sada_0141",
+      "term": "خمس دقايق",
+      "vocalized": "خَمْسْ دَقَايِقْ",
+      "ipa_hint": "khams daqayiq",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "فترة زمنية وجيزة (٥ دقائق)",
+      "meaning_en": "Five minutes",
+      "variants": [
+        "عشر دقايق"
+      ],
+      "example": "عطني خمس دقايق أجهز لك الملخص."
+    },
+    {
+      "id": "sada_0142",
+      "term": "ثانية بثانية",
+      "vocalized": "ثَانْيَة بِثَانْيَة",
+      "ipa_hint": "thanyah bi-thanyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بمتابعة لحظية دقيقة",
+      "meaning_en": "Second by second",
+      "variants": [],
+      "example": "يتابع تقطيع الصوت ثانية بثانية."
+    },
+    {
+      "id": "sada_0143",
+      "term": "أولوية",
+      "vocalized": "أَوْلَوِيَّة",
+      "ipa_hint": "awlawiyyah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "تقدم في الأهمية والترتيب",
+      "meaning_en": "Priority",
+      "variants": [
+        "الأولوية"
+      ],
+      "example": "السرعة والخصوصية لهم أعلى أولوية."
+    },
+    {
+      "id": "sada_0144",
+      "term": "مرونة",
+      "vocalized": "مُرُونَة",
+      "ipa_hint": "muroonah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "قابلية التكيف والتخصيص",
+      "meaning_en": "Flexibility",
+      "variants": [],
+      "example": "صممنا النظام بمرونة عالية تناسب كل شركة."
+    },
+    {
+      "id": "sada_0145",
+      "term": "كفاءة",
+      "vocalized": "كَفَاءَة",
+      "ipa_hint": "kafa'ah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "إتقان الأداء بأقل استهلاك للموارد",
+      "meaning_en": "Efficiency",
+      "variants": [],
+      "example": "كفاءة عالية في استهلاك الذاكرة والمعالج."
+    },
+    {
+      "id": "sada_0146",
+      "term": "موثوقية",
+      "vocalized": "مَوْثُوقِيَّة",
+      "ipa_hint": "mawthooqiyyah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "ثبات الاعتماد دون أعطال",
+      "meaning_en": "Reliability",
+      "variants": [],
+      "example": "حققنا موثوقية تامة في الاختبارات."
+    },
+    {
+      "id": "sada_0147",
+      "term": "سلاسة",
+      "vocalized": "سَلَاسَة",
+      "ipa_hint": "salasah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "انسيابية ويسر في التشغيل",
+      "meaning_en": "Smoothness / Fluency",
+      "variants": [],
+      "example": "تنتقل المقاطع الصوتية بكل سلاسة."
+    },
+    {
+      "id": "sada_0148",
+      "term": "وضوح",
+      "vocalized": "وُضُوحْ",
+      "ipa_hint": "wudooh",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "جلاء الصوت أو المعنى",
+      "meaning_en": "Clarity",
+      "variants": [],
+      "example": "وضوح النطق يفرق كثير في المكالمات."
+    },
+    {
+      "id": "sada_0149",
+      "term": "إيجاز",
+      "vocalized": "إِيجَازْ",
+      "ipa_hint": "eejaz",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "اختصار الكلام مع وفاء المعنى",
+      "meaning_en": "Brevity / Conciseness",
+      "variants": [
+        "بإيجاز"
+      ],
+      "example": "نحرص على الإيجاز في الردود الصوتية."
+    },
+    {
+      "id": "sada_0150",
+      "term": "إتقان",
+      "vocalized": "إِتْقَانْ",
+      "ipa_hint": "itqan",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "إحكام الصنعة والجودة",
+      "meaning_en": "Mastery / Precision",
+      "variants": [],
+      "example": "الإتقان بالتفاصيل الصغيرة يصنع الفرق."
+    },
+    {
+      "id": "sada_0151",
+      "term": "ابتكار",
+      "vocalized": "اِبْتِكَارْ",
+      "ipa_hint": "ibtikar",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "تقديم حلول إبداعية جديدة",
+      "meaning_en": "Innovation",
+      "variants": [],
+      "example": "ابتكار تقني يخدم المحتوى العربي."
+    },
+    {
+      "id": "sada_0152",
+      "term": "مبادرة",
+      "vocalized": "مُبَادَرَة",
+      "ipa_hint": "mubadarah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "خطوة عملية رائدة",
+      "meaning_en": "Initiative",
+      "variants": [],
+      "example": "مبادرة مفتوحة المصدر لدعم المطورين."
+    },
+    {
+      "id": "sada_0153",
+      "term": "مساهمة",
+      "vocalized": "مُسَاهَمَة",
+      "ipa_hint": "musahamah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مشاركة بناءة في التطوير",
+      "meaning_en": "Contribution",
+      "variants": [
+        "مساهمات"
+      ],
+      "example": "نرحب بكل مساهمة تضيف مفردات جديدة."
+    },
+    {
+      "id": "sada_0154",
+      "term": "مجتمع المطورين",
+      "vocalized": "مُجْتَمَعْ الْمُطَوِّرِينْ",
+      "ipa_hint": "mujtama' al-mutawwireen",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المبرمجون والباحثون المشاركون",
+      "meaning_en": "Developer community",
+      "variants": [],
+      "example": "بنينا الحزمة لخدمة مجتمع المطورين."
+    },
+    {
+      "id": "sada_0155",
+      "term": "توطين التقنية",
+      "vocalized": "تَوْطِينْ التِّقْنِيَة",
+      "ipa_hint": "tawteen at-tiqniyah",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "بناء وتكييف الحلول التقنية محلياً",
+      "meaning_en": "Tech localization",
+      "variants": [],
+      "example": "توطين التقنية الصوتية يرفع جودة الخدمات."
+    },
+    {
+      "id": "sada_0156",
+      "term": "معالجة اللغات",
+      "vocalized": "مُعَالَجَةْ اللُّغَاتْ",
+      "ipa_hint": "mu'alajat al-lughat",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "علوم البرمجة اللغوية الحاسوبية",
+      "meaning_en": "Natural Language Processing (NLP)",
+      "variants": [],
+      "example": "تقدم كبير في معالجة اللغات واللهجات العربية."
+    },
+    {
+      "id": "sada_0157",
+      "term": "بث متدفق",
+      "vocalized": "بَثّ مُتَدَفِّقْ",
+      "ipa_hint": "bath mutadaffiq",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "إرسال البيانات الصوتية أو النصية أجزاءً متتابعة",
+      "meaning_en": "Streaming",
+      "variants": [
+        "ستريمنق"
+      ],
+      "example": "يدعم البث المتدفق لتقليل زمن الانتظار."
+    },
+    {
+      "id": "sada_0158",
+      "term": "أول كلمة مسموعة",
+      "vocalized": "أَوَّلْ كَلِمَة مَسْمُوعَة",
+      "ipa_hint": "awwal kalimah masmoo'ah",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "الزمن من بدء التوليد حتى سماع أول مقطع صوتي",
+      "meaning_en": "Time-to-First-Audio (TTFA)",
+      "variants": [],
+      "example": "خفضنا وقت أول كلمة مسموعة لأقل حد ممكن."
+    },
+    {
+      "id": "sada_0159",
+      "term": "كاشف النشاط الصوتي",
+      "vocalized": "كَاشِفْ النَّشَاطْ الصَّوْتِي",
+      "ipa_hint": "kashif an-nashat as-sawti",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "محدد بدء وانتهاء كلام المتحدث",
+      "meaning_en": "Voice Activity Detection (VAD)",
+      "variants": [],
+      "example": "يتكامل المحلل مع كاشف النشاط الصوتي بذكاء."
+    },
+    {
+      "id": "sada_0160",
+      "term": "نبرة طبيعية",
+      "vocalized": "نَبْرَة طَبِيعِيَّة",
+      "ipa_hint": "nabrah tabee'iyyah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أداء صوتي يشبه الإنسان بلا آلية",
+      "meaning_en": "Natural prosody / tone",
+      "variants": [],
+      "example": "التشكيل الوقفي يعطي نبرة طبيعية للمتحدث."
+    },
+    {
+      "id": "sada_0161",
+      "term": "تسكين أواخر الكلمات",
+      "vocalized": "تَسْكِينْ أَوَاخِرْ الْكَلِمَاتْ",
+      "ipa_hint": "taskeen awakhir al-kalimat",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "إيقاف الحرف الأخير بالسكون كما في الحديث اليومي",
+      "meaning_en": "Pausal sukun on word endings",
+      "variants": [],
+      "example": "تسكين أواخر الكلمات يمنع التفاصح الآلي الغريب."
+    },
+    {
+      "id": "sada_0162",
+      "term": "كسرة المضارعة",
+      "vocalized": "كَسْرَةْ الْمُضَارَعَة",
+      "ipa_hint": "kasrat al-mudara'ah",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "كسر حرف الفعل المضارع في اللهجة النجدية والبيضاء",
+      "meaning_en": "Imperfective prefix kasrah",
+      "variants": [],
+      "example": "كسرة المضارعة من أبرز سمات النطق النجدي."
+    },
+    {
+      "id": "sada_0163",
+      "term": "رسالة",
+      "vocalized": "رِسَالَة",
+      "ipa_hint": "risalah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مكتوب نصي أو صوتي مرسل",
+      "meaning_en": "Message",
+      "variants": [
+        "الرسالة",
+        "رسائل"
+      ],
+      "example": "وصلتني رسالة تأكيد واضحة."
+    },
+    {
+      "id": "sada_0164",
+      "term": "طلبية",
+      "vocalized": "طَلَبِيَّة",
+      "ipa_hint": "talabiyyah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "شحنة مشتريات",
+      "meaning_en": "Order",
+      "variants": [
+        "طلبيات"
+      ],
+      "example": "جهزنا كل طلبية في وقتها."
+    },
+    {
+      "id": "sada_0165",
+      "term": "ملاحظة",
+      "vocalized": "مُلَاحَظَة",
+      "ipa_hint": "mulahadhah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "تنبيه أو تعليق مهم",
+      "meaning_en": "Note / Observation",
+      "variants": [
+        "الملاحظة",
+        "ملاحظات"
+      ],
+      "example": "سجلت كل ملاحظة ذكرتها."
+    },
+    {
+      "id": "sada_0166",
+      "term": "مشكلة",
+      "vocalized": "مُشْكِلَة",
+      "ipa_hint": "mushkilah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "عائق أو خلل يحتاج حلاً",
+      "meaning_en": "Problem / Issue",
+      "variants": [
+        "المشكلة",
+        "مشاكل"
+      ],
+      "example": "ما واجهتنا أي مشكلة وقت التشغيل."
+    },
+    {
+      "id": "sada_0167",
+      "term": "خدمة",
+      "vocalized": "خِدْمَة",
+      "ipa_hint": "khidmah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "منفعة أو مساعدة مقدمة للمستفيد",
+      "meaning_en": "Service",
+      "variants": [
+        "الخدمة",
+        "خدمات"
+      ],
+      "example": "مستوى الخدمة ممتاز وسريع."
+    },
+    {
+      "id": "sada_0168",
+      "term": "خطة",
+      "vocalized": "خُطَّة",
+      "ipa_hint": "khuttah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "ترتيب العمل المستقبلي",
+      "meaning_en": "Plan",
+      "variants": [
+        "الخطة",
+        "خطط"
+      ],
+      "example": "مشينا على خطة واضحة من البداية."
+    },
+    {
+      "id": "sada_0169",
+      "term": "جلسة",
+      "vocalized": "جَلْسَة",
+      "ipa_hint": "jalsah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "اجتماع أو لقاء حواري",
+      "meaning_en": "Session / Sitting",
+      "variants": [
+        "الجلسة",
+        "جلسات"
+      ],
+      "example": "عقدنا جلسة مراجعة سريعة للكود."
+    },
+    {
+      "id": "sada_0170",
+      "term": "نسخة",
+      "vocalized": "نُسْخَة",
+      "ipa_hint": "nuskhah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "إصدار أو صورة مطابقة من الملف",
+      "meaning_en": "Copy / Version",
+      "variants": [
+        "النسخة",
+        "نسخ"
+      ],
+      "example": "احتفظت بنسخة نظيفة على جهازي."
+    },
+    {
+      "id": "sada_0171",
+      "term": "صفحة",
+      "vocalized": "صَفْحَة",
+      "ipa_hint": "safhah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "واجهة عرض في موقع أو مستند",
+      "meaning_en": "Page",
+      "variants": [
+        "الصفحة",
+        "صفحات"
+      ],
+      "example": "فتحت الصفحة الرئيسية بدون بطء."
+    },
+    {
+      "id": "sada_0172",
+      "term": "نقطة",
+      "vocalized": "نُقْطَة",
+      "ipa_hint": "nuqtah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مسألة محددة في النقاش",
+      "meaning_en": "Point / Item",
+      "variants": [
+        "النقطة",
+        "نقاط"
+      ],
+      "example": "حسمنا كل نقطة في جدول الأعمال."
+    },
+    {
+      "id": "sada_0173",
+      "term": "خطوة",
+      "vocalized": "خَطْوَة",
+      "ipa_hint": "khatwah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مرحلة إجرائية متتابعة",
+      "meaning_en": "Step",
+      "variants": [
+        "الخطوة",
+        "خطوات"
+      ],
+      "example": "بقيت خطوة أخيرة ونقفل التحديث."
+    },
+    {
+      "id": "sada_0174",
+      "term": "ساعة",
+      "vocalized": "سَاعَة",
+      "ipa_hint": "sa'ah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "وحدة زمنية (ستون دقيقة) أو آلة الوقت",
+      "meaning_en": "Hour / Clock / Watch",
+      "variants": [
+        "الساعة",
+        "ساعات"
+      ],
+      "example": "خلصنا المراجعة في أقل من ساعة."
+    },
+    {
+      "id": "sada_0175",
+      "term": "دقيقة",
+      "vocalized": "دَقِيقَة",
+      "ipa_hint": "daqeeqah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "ستون ثانية",
+      "meaning_en": "Minute",
+      "variants": [
+        "الدقيقة",
+        "دقائق",
+        "دقايق"
+      ],
+      "example": "عطني دقيقة وحدة أراجع الرقم."
+    },
+    {
+      "id": "sada_0176",
+      "term": "ثانية",
+      "vocalized": "ثَانْيَة",
+      "ipa_hint": "thanyah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "جزء من ستين من الدقيقة",
+      "meaning_en": "Second",
+      "variants": [
+        "الثانية",
+        "ثواني"
+      ],
+      "example": "يرد المحرك في جزء من ألف من الثانية."
+    },
+    {
+      "id": "sada_0177",
+      "term": "لحظة",
+      "vocalized": "لَحْظَة",
+      "ipa_hint": "lahdhah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "برهة وجيزة جداً من الوقت",
+      "meaning_en": "Moment",
+      "variants": [
+        "لحظات"
+      ],
+      "example": "انتظر لحظة يكتمل التحميل."
+    },
+    {
+      "id": "sada_0178",
+      "term": "موضوع",
+      "vocalized": "مَوْضُوعْ",
+      "ipa_hint": "mawdoo'",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "شأن أو مسألة قيد الحديث",
+      "meaning_en": "Topic / Subject / Matter",
+      "variants": [
+        "الموضوع",
+        "مواضيع"
+      ],
+      "example": "تطرقنا لكل موضوع يهم المطورين."
+    },
+    {
+      "id": "sada_0179",
+      "term": "اجتماع",
+      "vocalized": "اِجْتِمَاعْ",
+      "ipa_hint": "ijtima'",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "لقاء عمل منظم",
+      "meaning_en": "Meeting",
+      "variants": [
+        "الاجتماع",
+        "اجتماعات"
+      ],
+      "example": "طلعنا من الاجتماع بقرارات عملية."
+    },
+    {
+      "id": "sada_0180",
+      "term": "اتصال",
+      "vocalized": "اِتِّصَالْ",
+      "ipa_hint": "ittisal",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مكالمة هاتفية أو ربط شبكي",
+      "meaning_en": "Call / Connection",
+      "variants": [
+        "الاتصال",
+        "اتصالات"
+      ],
+      "example": "جاني اتصال مهم من فريق التشغيل."
+    },
+    {
+      "id": "sada_0181",
+      "term": "جواب",
+      "vocalized": "جَوَابْ",
+      "ipa_hint": "jawab",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "رد على سؤال",
+      "meaning_en": "Answer / Reply",
+      "variants": [
+        "الجواب",
+        "أجوبة"
+      ],
+      "example": "الجواب واضح ومختصر."
+    },
+    {
+      "id": "sada_0182",
+      "term": "سؤال",
+      "vocalized": "سُؤَالْ",
+      "ipa_hint": "su'al",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "استفهام لطلب المعلومة",
+      "meaning_en": "Question",
+      "variants": [
+        "السؤال",
+        "أسئلة"
+      ],
+      "example": "تفضل اسأل أي سؤال يخطر ببالك."
+    },
+    {
+      "id": "sada_0183",
+      "term": "قرار",
+      "vocalized": "قَرَارْ",
+      "ipa_hint": "qarar",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "حسم واعتماد نهائي",
+      "meaning_en": "Decision",
+      "variants": [
+        "القرار",
+        "قرارات"
+      ],
+      "example": "اتخذنا قرار الترقية بالإجماع."
+    },
+    {
+      "id": "sada_0184",
+      "term": "خيار",
+      "vocalized": "خِيَارْ",
+      "ipa_hint": "khiyar",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "بديل متاح للاختيار",
+      "meaning_en": "Option / Choice",
+      "variants": [
+        "الخيار",
+        "خيارات"
+      ],
+      "example": "وفرنا أكثر من خيار لتشغيل الصوت."
+    },
+    {
+      "id": "sada_0185",
+      "term": "نظام",
+      "vocalized": "نِظَامْ",
+      "ipa_hint": "nidham",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "برنامج متكامل أو قاعدة تنظيمية",
+      "meaning_en": "System",
+      "variants": [
+        "النظام",
+        "أنظمة"
+      ],
+      "example": "النظام مصمم للعمل المتواصل."
+    },
+    {
+      "id": "sada_0186",
+      "term": "جهاز",
+      "vocalized": "جِهَازْ",
+      "ipa_hint": "jihaz",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "حاسوب أو هاتف أو آلة إلكترونية",
+      "meaning_en": "Device / Machine",
+      "variants": [
+        "الجهاز",
+        "أجهزة"
+      ],
+      "example": "يشتغل على أي جهاز بدون بطء."
+    },
+    {
+      "id": "sada_0187",
+      "term": "تطبيق",
+      "vocalized": "تَطْبِيقْ",
+      "ipa_hint": "tatbeeq",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "برنامج على الجوال أو الويب",
+      "meaning_en": "Application / App",
+      "variants": [
+        "التطبيق",
+        "تطبيقات"
+      ],
+      "example": "ربطنا المحرك داخل تطبيق المحادثة."
+    },
+    {
+      "id": "sada_0188",
+      "term": "برنامج",
+      "vocalized": "بَرْنَامَجْ",
+      "ipa_hint": "barnamaj",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "حزمة برمجية حاسوبية",
+      "meaning_en": "Program / Software",
+      "variants": [
+        "البرنامج",
+        "برامج"
+      ],
+      "example": "البرنامج خفيف وسريع الإقلاع."
+    },
+    {
+      "id": "sada_0189",
+      "term": "مشروع",
+      "vocalized": "مَشْرُوعْ",
+      "ipa_hint": "mashroo'",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "عمل هندسي أو تجاري منظم",
+      "meaning_en": "Project",
+      "variants": [
+        "المشروع",
+        "مشاريع"
+      ],
+      "example": "المشروع يخدم شريحة واسعة من المطورين."
+    },
+    {
+      "id": "sada_0190",
+      "term": "فريق",
+      "vocalized": "فَرِيقْ",
+      "ipa_hint": "fareeq",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مجموعة عمل متعاونة",
+      "meaning_en": "Team",
+      "variants": [
+        "الفريق",
+        "فرق"
+      ],
+      "example": "كل فريق يقدر يبني حزمته الخاصة."
+    },
+    {
+      "id": "sada_0191",
+      "term": "مكتب",
+      "vocalized": "مَكْتَبْ",
+      "ipa_hint": "maktab",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مقر العمل الإداري",
+      "meaning_en": "Office / Desk",
+      "variants": [
+        "المكتب",
+        "مكاتب"
+      ],
+      "example": "أكون في المكتب الساعة ثمان الصبح."
+    },
+    {
+      "id": "sada_0192",
+      "term": "طريق",
+      "vocalized": "طَرِيقْ",
+      "ipa_hint": "tareeq",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مسار السير أو الأسلوب",
+      "meaning_en": "Road / Way",
+      "variants": [
+        "الطريق",
+        "بالطريق"
+      ],
+      "example": "أنا بالطريق، عشر دقايق وأوصل."
+    },
+    {
+      "id": "sada_0193",
+      "term": "موعد",
+      "vocalized": "مَوْعِدْ",
+      "ipa_hint": "maw'id",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "وقت محدد للقاء أو التسليم",
+      "meaning_en": "Appointment / Deadline",
+      "variants": [
+        "الموعد",
+        "مواعيد"
+      ],
+      "example": "التزمنا بكل موعد محدد في الخطة."
+    },
+    {
+      "id": "sada_0194",
+      "term": "تقرير",
+      "vocalized": "تَقْرِيرْ",
+      "ipa_hint": "taqreer",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "عرض موثق للنتائج والأرقام",
+      "meaning_en": "Report",
+      "variants": [
+        "التقرير",
+        "تقارير"
+      ],
+      "example": "رفعت التقرير النهائي للإدارة."
+    },
+    {
+      "id": "sada_0195",
+      "term": "جدول",
+      "vocalized": "جَدْوَلْ",
+      "ipa_hint": "jadwal",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "تنظيم زمني أو قائمة بيانات",
+      "meaning_en": "Schedule / Table",
+      "variants": [
+        "الجدول",
+        "جداول"
+      ],
+      "example": "رتبنا المهام في جدول واضح."
+    },
+    {
+      "id": "sada_0196",
+      "term": "عقد",
+      "vocalized": "عَقْدْ",
+      "ipa_hint": "aqd",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "اتفاقية رسمية موثقة",
+      "meaning_en": "Contract",
+      "variants": [
+        "العقد",
+        "عقود"
+      ],
+      "example": "راجعنا بنود العقد قبل التوقيع."
+    },
+    {
+      "id": "sada_0197",
+      "term": "بند",
+      "vocalized": "بَنْدْ",
+      "ipa_hint": "band",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "فقرة أو مادة في عقد أو ميزانية",
+      "meaning_en": "Clause / Line item",
+      "variants": [
+        "البند",
+        "بنود"
+      ],
+      "example": "كل بند في الاتفاقية واضح ومحدد."
+    },
+    {
+      "id": "sada_0198",
+      "term": "حساب",
+      "vocalized": "حِسَابْ",
+      "ipa_hint": "hisab",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "سجل المستخدم أو الحساب البنكي",
+      "meaning_en": "Account",
+      "variants": [
+        "الحساب",
+        "حسابات"
+      ],
+      "example": "دخلت على الحساب وحدثت الإعدادات."
+    },
+    {
+      "id": "sada_0199",
+      "term": "بطاقة",
+      "vocalized": "بِطَاقَة",
+      "ipa_hint": "bitaqah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "كرت دفع أو تعريف",
+      "meaning_en": "Card",
+      "variants": [
+        "البطاقة",
+        "بطاقات"
+      ],
+      "example": "تم الدفع بالبطاقة البنكية بنجاح."
+    },
+    {
+      "id": "sada_0200",
+      "term": "محفظة",
+      "vocalized": "مِحْفَظَة",
+      "ipa_hint": "mihfadhah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "وعاء حفظ البطاقات أو الرصيد الرقمي",
+      "meaning_en": "Wallet",
+      "variants": [
+        "المحفظة",
+        "محافظ"
+      ],
+      "example": "شحنت الرصيد في المحفظة الإلكترونية."
+    },
+    {
+      "id": "sada_0201",
+      "term": "مبلغ",
+      "vocalized": "مَبْلَغْ",
+      "ipa_hint": "mablagh",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "قيمة مالية محددة",
+      "meaning_en": "Amount / Sum",
+      "variants": [
+        "المبلغ",
+        "مبالغ"
+      ],
+      "example": "المبلغ مطابق للفاتورة بالضبط."
+    },
+    {
+      "id": "sada_0202",
+      "term": "سعر",
+      "vocalized": "سِعْرْ",
+      "ipa_hint": "si'r",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "ثمن السلعة أو الخدمة",
+      "meaning_en": "Price",
+      "variants": [
+        "السعر",
+        "أسعار"
+      ],
+      "example": "السعر منافس ومناسب للجميع."
+    },
+    {
+      "id": "sada_0203",
+      "term": "قيمة",
+      "vocalized": "قِيمَة",
+      "ipa_hint": "qeemah",
+      "category": "finance_commerce",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مقدار الثمن أو الأثر المعنوي",
+      "meaning_en": "Value",
+      "variants": [
+        "القيمة"
+      ],
+      "example": "أضفنا قيمة حقيقية لتجربة الصوت."
+    },
+    {
+      "id": "sada_0204",
+      "term": "رقم",
+      "vocalized": "رَقَمْ",
+      "ipa_hint": "raqam",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "عدد أو معرف عددي",
+      "meaning_en": "Number",
+      "variants": [
+        "الرقم",
+        "أرقام"
+      ],
+      "example": "سجلت الرقم عندي للمتابعة."
+    },
+    {
+      "id": "sada_0205",
+      "term": "صوت",
+      "vocalized": "صَوْتْ",
+      "ipa_hint": "sawt",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الأثر المسموع للكلام",
+      "meaning_en": "Voice / Audio / Sound",
+      "variants": [
+        "الصوت",
+        "أصوات"
+      ],
+      "example": "نقاء الصوت ممتاز في المكالمة."
+    },
+    {
+      "id": "sada_0206",
+      "term": "خط",
+      "vocalized": "خَطّ",
+      "ipa_hint": "khatt",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مسار الاتصال الهاتفي أو طريقة الكتابة",
+      "meaning_en": "Phone line / Font / Line",
+      "variants": [
+        "الخط",
+        "خطوط"
+      ],
+      "example": "الخط واضح وما فيه أي تقطيع."
+    },
+    {
+      "id": "sada_0207",
+      "term": "شبكة",
+      "vocalized": "شَبَكَة",
+      "ipa_hint": "shabakah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "منظومة الاتصال أو أجهزة الدفع",
+      "meaning_en": "Network / POS terminal",
+      "variants": [
+        "الشبكة",
+        "شبكات"
+      ],
+      "example": "تغطية الشبكة قوية في كل المكتب."
+    },
+    {
+      "id": "sada_0208",
+      "term": "شاشة",
+      "vocalized": "شَاشَة",
+      "ipa_hint": "shashah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "لوحة العرض المرئية",
+      "meaning_en": "Screen",
+      "variants": [
+        "شاشات"
+      ],
+      "example": "كل المؤشرات معروضة على شاشة المتابعة."
+    },
+    {
+      "id": "sada_0209",
+      "term": "قائمة",
+      "vocalized": "قَائِمَة",
+      "ipa_hint": "qa'imah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مجموعة عناصر مرتبة",
+      "meaning_en": "List / Menu",
+      "variants": [
+        "القائمة",
+        "قوائم"
+      ],
+      "example": "اخترت الأداة من القائمة الرئيسية."
+    },
+    {
+      "id": "sada_0210",
+      "term": "واجهة",
+      "vocalized": "وَاجِهَة",
+      "ipa_hint": "wajihah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "technical",
+      "meaning_ar": "سطح التفاعل البرمجي أو المرئي",
+      "meaning_en": "Interface / UI",
+      "variants": [
+        "الواجهة",
+        "واجهات"
+      ],
+      "example": "الواجهة البرمجية سهلة ومباشرة."
+    },
+    {
+      "id": "sada_0211",
+      "term": "أداة",
+      "vocalized": "أَدَاة",
+      "ipa_hint": "adah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "وسيلة تقنية لإنجاز مهمة",
+      "meaning_en": "Tool / Utility",
+      "variants": [
+        "الأداة",
+        "أدوات"
+      ],
+      "example": "أضفنا سبع أدوات جاهزة للوكلاء."
+    },
+    {
+      "id": "sada_0212",
+      "term": "حزمة",
+      "vocalized": "حُزْمَة",
+      "ipa_hint": "huzmah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "technical",
+      "meaning_ar": "مكتبة برمجية أو مجموعة بيانات مدمجة",
+      "meaning_en": "Package / Pack",
+      "variants": [
+        "الحزمة",
+        "حزم"
+      ],
+      "example": "كل حزمة إضافية تتحمل في أجزاء من الألف من الثانية."
+    },
+    {
+      "id": "sada_0213",
+      "term": "إضافة",
+      "vocalized": "إِضَافَة",
+      "ipa_hint": "idafah",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "technical",
+      "meaning_ar": "ملحق برمجي يوسع قدرات النظام",
+      "meaning_en": "Plugin / Extension",
+      "variants": [
+        "الإضافة",
+        "إضافات"
+      ],
+      "example": "تشتغل الإضافة تلقائياً عند الإقلاع."
+    },
+    {
+      "id": "sada_0214",
+      "term": "محرك",
+      "vocalized": "مُحَرِّكْ",
+      "ipa_hint": "muharrik",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "technical",
+      "meaning_ar": "النواة البرمجية المعالجة",
+      "meaning_en": "Engine",
+      "variants": [
+        "المحرك",
+        "محركات"
+      ],
+      "example": "محرك الصوتيات سريع وحتمي."
+    },
+    {
+      "id": "sada_0215",
+      "term": "خادم",
+      "vocalized": "خَادِمْ",
+      "ipa_hint": "khadim",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "technical",
+      "meaning_ar": "جهاز أو برنامج يقدم الخدمة عبر البروتوكول",
+      "meaning_en": "Server",
+      "variants": [
+        "الخادم",
+        "خوادم"
+      ],
+      "example": "خادم البروتوكول جاهز للربط المباشر."
+    },
+    {
+      "id": "sada_0216",
+      "term": "مستخدم",
+      "vocalized": "مُسْتَخْدِمْ",
+      "ipa_hint": "mustakhdim",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الشخص المستفيد من النظام",
+      "meaning_en": "User",
+      "variants": [
+        "المستخدم",
+        "مستخدمين"
+      ],
+      "example": "يقدر كل مستخدم يخصص إعداداته بحرية."
+    },
+    {
+      "id": "sada_0217",
+      "term": "مطور",
+      "vocalized": "مُطَوِّرْ",
+      "ipa_hint": "mutawwir",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "technical",
+      "meaning_ar": "مبرمج ومهندس برمجيات",
+      "meaning_en": "Developer",
+      "variants": [
+        "المطور",
+        "مطورين"
+      ],
+      "example": "وفرنا أمثلة عملية لكل مطور."
+    },
+    {
+      "id": "sada_0218",
+      "term": "اختبار",
+      "vocalized": "اِخْتِبَارْ",
+      "ipa_hint": "ikhtibar",
+      "category": "tech_workplace",
+      "pos": "noun",
+      "register": "technical",
+      "meaning_ar": "فحص آلي للتحقق من صحة الكود",
+      "meaning_en": "Test",
+      "variants": [
+        "الاختبار",
+        "اختبارات"
+      ],
+      "example": "كل اختبار يفحص حالة حقيقية بدقة."
+    },
+    {
+      "id": "sada_0219",
+      "term": "سرعة",
+      "vocalized": "سُرْعَة",
+      "ipa_hint": "sur'ah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "خفة الإنجاز في أقل زمن",
+      "meaning_en": "Speed",
+      "variants": [
+        "السرعة"
+      ],
+      "example": "السرعة الفائقة أساسية في المكالمات الحية."
+    },
+    {
+      "id": "sada_0220",
+      "term": "دقة",
+      "vocalized": "دِقَّة",
+      "ipa_hint": "diqqah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "إحكام النتيجة وخلوها من الخطأ",
+      "meaning_en": "Accuracy / Precision",
+      "variants": [
+        "الدقة"
+      ],
+      "example": "جمعنا بين السرعة العالية والدقة اللغوية."
+    },
+    {
+      "id": "sada_0221",
+      "term": "جودة",
+      "vocalized": "جَوْدَة",
+      "ipa_hint": "jawdah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "مستوى الإتقان والتميز",
+      "meaning_en": "Quality",
+      "variants": [
+        "الجودة"
+      ],
+      "example": "جودة النطق تفرق كثير مع المتلقي."
+    },
+    {
+      "id": "sada_0222",
+      "term": "انتظر",
+      "vocalized": "اِنْتَظِرْ",
+      "ipa_hint": "intadhir",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "تمهل قليلاً",
+      "meaning_en": "Wait / Hold on",
+      "variants": [
+        "انتظرني"
+      ],
+      "example": "انتظر ثواني يطلع معي التقرير."
+    },
+    {
+      "id": "sada_0223",
+      "term": "اصبر",
+      "vocalized": "اِصْبِرْ",
+      "ipa_hint": "isbir",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "تمهل ولا تستعجل",
+      "meaning_en": "Hold on / Be patient",
+      "variants": [
+        "اصبر شوي"
+      ],
+      "example": "اصبر شوي خلني أتأكد من الرقم."
+    },
+    {
+      "id": "sada_0224",
+      "term": "اسمع",
+      "vocalized": "اِسْمَعْ",
+      "ipa_hint": "isma'",
+      "category": "verbs_desire_cognition",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "أنصت أو انتبه لما سأقوله",
+      "meaning_en": "Listen",
+      "variants": [
+        "اسمعني"
+      ],
+      "example": "اسمع، عندي لك اقتراح يختصر الوقت."
+    },
+    {
+      "id": "sada_0225",
+      "term": "سجّل",
+      "vocalized": "سَجِّلْ",
+      "ipa_hint": "sajjil",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "دوّن أو قيد المعلومة",
+      "meaning_en": "Record / Register / Log",
+      "variants": [
+        "سجلت",
+        "نسجل"
+      ],
+      "example": "سجّل عندك موعد المراجعة يوم الأحد."
+    },
+    {
+      "id": "sada_0226",
+      "term": "أكّد",
+      "vocalized": "أَكِّدْ",
+      "ipa_hint": "akkid",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "ثبّت المعلومة أو الحجز",
+      "meaning_en": "Confirm",
+      "variants": [
+        "أكدت",
+        "نأكد"
+      ],
+      "example": "أكّد لي استلام الملف لاهنت."
+    },
+    {
+      "id": "sada_0227",
+      "term": "أرسلها",
+      "vocalized": "أَرْسِلْهَا",
+      "ipa_hint": "arsilha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "ابعث الرسالة أو الوثيقة",
+      "meaning_en": "Send it",
+      "variants": [],
+      "example": "جهزت النسخة المحدثة، أرسلها لك الحين؟"
+    },
+    {
+      "id": "sada_0228",
+      "term": "اعتمدناها",
+      "vocalized": "اِعْتَمَدْنَاهَا",
+      "ipa_hint": "i'tamadnaha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "executive",
+      "meaning_ar": "وافقنا عليها رسمياً",
+      "meaning_en": "We approved it",
+      "variants": [],
+      "example": "راجعنا الخطة واعتمدناها بالإجماع."
+    },
+    {
+      "id": "sada_0229",
+      "term": "خلّصتوها",
+      "vocalized": "خَلَّصْتُوهَا",
+      "ipa_hint": "khallastooha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "أنهيتموها (للجمع المخاطب)",
+      "meaning_en": "Did you finish it? / You finished it",
+      "variants": [
+        "خلصتوها"
+      ],
+      "example": "ما شاء الله، خلّصتوها في وقت قياسي!"
+    },
+    {
+      "id": "sada_0230",
+      "term": "شيكتوها",
+      "vocalized": "شَيَّكْتُوهَا",
+      "ipa_hint": "shayyaktooha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "فحصتموها وتأكدتم منها",
+      "meaning_en": "You all checked it",
+      "variants": [],
+      "example": "شيكتوها من ناحية الأداء والخصوصية؟"
+    },
+    {
+      "id": "sada_0231",
+      "term": "جرّبتوها",
+      "vocalized": "جَرَّبْتُوهَا",
+      "ipa_hint": "jarrabtooha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "اختبرتموها عملياً",
+      "meaning_en": "Did you test it out?",
+      "variants": [
+        "جربتوها"
+      ],
+      "example": "جرّبتوها على جمل طويلة وقصيرة؟"
+    },
+    {
+      "id": "sada_0232",
+      "term": "رتّبناها",
+      "vocalized": "رَتَّبْنَاهَا",
+      "ipa_hint": "rattabnaha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "نظمناها بالكامل",
+      "meaning_en": "We organized/arranged it",
+      "variants": [],
+      "example": "رتّبناها في أربع حزم معيارية واضحة."
+    },
+    {
+      "id": "sada_0233",
+      "term": "ضبّطناها",
+      "vocalized": "ضَبَّطْنَاهَا",
+      "ipa_hint": "dabbatnaha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "أتقنّا إعدادها وإصلاحها",
+      "meaning_en": "We tuned/fixed it nicely",
+      "variants": [],
+      "example": "ضبّطناها عشان تشتغل بسرعة البرق."
+    },
+    {
+      "id": "sada_0234",
+      "term": "جهّزناها",
+      "vocalized": "جَهَّزْنَاهَا",
+      "ipa_hint": "jahhaznaha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "هيأناها وأعددناها للاستخدام",
+      "meaning_en": "We prepared it",
+      "variants": [],
+      "example": "جهّزناها للنشر المفتوح بأعلى معيار."
+    },
+    {
+      "id": "sada_0235",
+      "term": "حدّثناها",
+      "vocalized": "حَدَّثْنَاهَا",
+      "ipa_hint": "haddathnaha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "رقيناها لآخر نسخة",
+      "meaning_en": "We updated it",
+      "variants": [],
+      "example": "حدّثناها للإصدار الثاني بميزات صوتية متكاملة."
+    },
+    {
+      "id": "sada_0236",
+      "term": "فحصناها",
+      "vocalized": "فَحَصْنَاهَا",
+      "ipa_hint": "fahasnaha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "اختبرنا سلامتها بدقة",
+      "meaning_en": "We inspected/verified it",
+      "variants": [],
+      "example": "فحصناها سطر بسطر وما فيها أي خطأ."
+    },
+    {
+      "id": "sada_0237",
+      "term": "قفلناها",
+      "vocalized": "قَفَّلْنَاهَا",
+      "ipa_hint": "qaffalnaha",
+      "category": "verbs_action_motion",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "أنهينا المهمة وأغلقناها",
+      "meaning_en": "We wrapped it up / closed it",
+      "variants": [],
+      "example": "قفلناها بالكامل وجاهزين للإطلاق."
+    },
+    {
+      "id": "sada_0238",
+      "term": "على طول اليوم",
+      "vocalized": "عَلَى طُولْ الْيَوْمْ",
+      "ipa_hint": "ala tool al-yawm",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طوال ساعات اليوم",
+      "meaning_en": "Throughout the day",
+      "variants": [],
+      "example": "الخدمة متوفرة على طول اليوم."
+    },
+    {
+      "id": "sada_0239",
+      "term": "من أول وجديد",
+      "vocalized": "مِنْ أَوَّلْ وَجْدِيدْ",
+      "ipa_hint": "min awwal w jdeed",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "إعادة البدء من الصفر بنظافة",
+      "meaning_en": "From scratch / All over again",
+      "variants": [],
+      "example": "عدنا ترتيب الفهرس من أول وجديد."
+    },
+    {
+      "id": "sada_0240",
+      "term": "ما يضر",
+      "vocalized": "مَا يِضُرّ",
+      "ipa_hint": "ma yidurr",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "لا بأس ولا مشكلة في ذلك",
+      "meaning_en": "It wouldn't hurt / No harm",
+      "variants": [],
+      "example": "ما يضر لو أضفنا فحص احتياطي زيادة."
+    },
+    {
+      "id": "sada_0241",
+      "term": "ينفع ونص",
+      "vocalized": "يِنْفَعْ وَنُصّ",
+      "ipa_hint": "yinfa' w nuss",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "casual",
+      "meaning_ar": "يصلح بالتأكيد وبامتياز",
+      "meaning_en": "Works more than well / Definitely works!",
+      "variants": [],
+      "example": "سألتني إذا ينفع للمكالمات؟ ينفع ونص!"
+    },
+    {
+      "id": "sada_0242",
+      "term": "قد التحدي",
+      "vocalized": "قَدّ التَّحَدِّي",
+      "ipa_hint": "qadd at-tahaddi",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أهل للمهمة الصعبة",
+      "meaning_en": "Up to the challenge",
+      "variants": [],
+      "example": "فريقنا قد التحدي وبيخلصها بوقتها."
+    },
+    {
+      "id": "sada_0243",
+      "term": "كلامك عين العقل",
+      "vocalized": "كَلَامِكْ عَيْنْ الْعَقِلْ",
+      "ipa_hint": "kalamik ain al-aqil",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "رأي حكيم ومتزن جداً",
+      "meaning_en": "Your words are pure wisdom",
+      "variants": [
+        "عين العقل"
+      ],
+      "example": "التدرج بالإطلاق كلامك عين العقل."
+    },
+    {
+      "id": "sada_0244",
+      "term": "في محله",
+      "vocalized": "فِي مَحَلِّهْ",
+      "ipa_hint": "fi mahallih",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مناسب وفي موضعه الصحيح تماماً",
+      "meaning_en": "Spot on / Well-placed",
+      "variants": [
+        "في محلها"
+      ],
+      "example": "سؤالك في محله، وهذي الإجابة بالتفصيل."
+    },
+    {
+      "id": "sada_0245",
+      "term": "على أصوله",
+      "vocalized": "عَلَى أُصُولِهْ",
+      "ipa_hint": "ala usoolih",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "متقن وفق القواعد الصحيحة",
+      "meaning_en": "By the book / Done properly",
+      "variants": [
+        "على الأصول"
+      ],
+      "example": "بنينا التحليل الصرفي على أصوله."
+    },
+    {
+      "id": "sada_0246",
+      "term": "ما عليه كلام",
+      "vocalized": "مَا عَلَيْهْ كَلَامْ",
+      "ipa_hint": "ma alaih kalam",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "ممتاز لا غبار عليه",
+      "meaning_en": "Beyond reproach / Top-notch",
+      "variants": [],
+      "example": "الأداء الجديد ما عليه كلام."
+    },
+    {
+      "id": "sada_0247",
+      "term": "بيض الله وجيهكم",
+      "vocalized": "بَيَّضْ اللَّهْ وْجِيهْكُمْ",
+      "ipa_hint": "bayyad allah wjeehkum",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "شكر جزيل وثناء لمجموعة أو فريق",
+      "meaning_en": "May God honor you all",
+      "variants": [],
+      "example": "بيض الله وجيهكم على سرعة الإنجاز."
+    },
+    {
+      "id": "sada_0248",
+      "term": "وجيهكم بيضاء",
+      "vocalized": "وْجِيهْكُمْ بَيْضَاءْ",
+      "ipa_hint": "wjeehkum baida'",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الرد الجماعي على بيض الله وجيهكم",
+      "meaning_en": "Reply to group gratitude",
+      "variants": [],
+      "example": "وجيهكم بيضاء، تستاهلون الطيب."
+    },
+    {
+      "id": "sada_0249",
+      "term": "ما سوينا إلا الواجب",
+      "vocalized": "مَا سَوَّيْنَا إِلَّا الْوَاجِبْ",
+      "ipa_hint": "ma sawwaina illa al-wajib",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رد متواضع على الشكر",
+      "meaning_en": "We only did our duty",
+      "variants": [],
+      "example": "العفو طال عمرك، ما سوينا إلا الواجب."
+    },
+    {
+      "id": "sada_0250",
+      "term": "أبركها من ساعة",
+      "vocalized": "أَبْرَكْهَا مِنْ سَاعَة",
+      "ipa_hint": "abrakha min sa'ah",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "ترحيب حار بلحظة التواصل أو الخدمة",
+      "meaning_en": "Most blessed moment to help",
+      "variants": [],
+      "example": "تبي نبدأ اليوم؟ أبركها من ساعة."
+    },
+    {
+      "id": "sada_0251",
+      "term": "الهمة",
+      "vocalized": "الْهِمَّة",
+      "ipa_hint": "al-himmah",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "العزيمة والنشاط العالي",
+      "meaning_en": "Drive / Determination",
+      "variants": [
+        "همتكم"
+      ],
+      "example": "ما شاء الله الهمة عالية عند الفريق."
+    },
+    {
+      "id": "sada_0252",
+      "term": "إنجاز",
+      "vocalized": "إِنْجَازْ",
+      "ipa_hint": "injaz",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "executive",
+      "meaning_ar": "إتمام عمل متميز بنجاح",
+      "meaning_en": "Achievement / Accomplishment",
+      "variants": [
+        "إنجازات"
+      ],
+      "example": "إطلاق النسخة الثانية إنجاز نفخر فيه."
+    },
+    {
+      "id": "sada_0253",
+      "term": "تطور",
+      "vocalized": "تَطَوُّرْ",
+      "ipa_hint": "tatawwur",
+      "category": "everyday_urban",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "تقدم وتحسن ملموس",
+      "meaning_en": "Progress / Evolution",
+      "variants": [],
+      "example": "تطور كبير بين الإصدار الأول والثاني."
+    },
+    {
+      "id": "sada_0254",
+      "term": "نقلة نوعية",
+      "vocalized": "نَقْلَة نَوْعِيَّة",
+      "ipa_hint": "naqlah naw'iyyah",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "قفزة كبيرة في مستوى الجودة والأداء",
+      "meaning_en": "Quantum leap / Major step forward",
+      "variants": [],
+      "example": "دعم المكالمات الحية سوا نقلة نوعية."
+    },
+    {
+      "id": "sada_0255",
+      "term": "فرق شاسع",
+      "vocalized": "فَرْقْ شَاسِعْ",
+      "ipa_hint": "farq shasi'",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اختلاف كبير وواضح جداً",
+      "meaning_en": "Huge difference",
+      "variants": [],
+      "example": "فيه فرق شاسع بين النطق الآلي والطبيعي."
+    },
+    {
+      "id": "sada_0256",
+      "term": "سريع البديهة",
+      "vocalized": "سَرِيعْ الْبَدِيهَة",
+      "ipa_hint": "saree' al-badeehah",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "يفهم المقصد بسرعة وذكاء",
+      "meaning_en": "Quick-witted / Fast-understanding",
+      "variants": [],
+      "example": "المساعد الذكي صار سريع البديهة في الردود."
+    },
+    {
+      "id": "sada_0257",
+      "term": "قليل الكلام",
+      "vocalized": "قَلِيلْ الْكَلَامْ",
+      "ipa_hint": "qaleel al-kalam",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "موجز يركز على الفعل والنتيجة",
+      "meaning_en": "Concise / Action-oriented",
+      "variants": [],
+      "example": "الوضع التنفيذي قليل الكلام كثير الإنجاز."
+    },
+    {
+      "id": "sada_0258",
+      "term": "واضح المعالم",
+      "vocalized": "وَاضِحْ الْمَعَالِمْ",
+      "ipa_hint": "wadih al-ma'alim",
+      "category": "everyday_urban",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "محدد الأركان والخطوات بجلاء",
+      "meaning_en": "Well-defined / Clear-cut",
+      "variants": [],
+      "example": "خارطة الطريق واضحة المعالم."
+    },
+    {
+      "id": "sada_0259",
+      "term": "متعدد المهام",
+      "vocalized": "مُتَعَدِّدْ الْمَهَامّ",
+      "ipa_hint": "muta'addid al-mahamm",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "ينجز عدة وظائف في وقت واحد",
+      "meaning_en": "Multitasking / Multi-purpose",
+      "variants": [],
+      "example": "محرك خفيف ومتعدد المهام."
+    },
+    {
+      "id": "sada_0260",
+      "term": "فائق السرعة",
+      "vocalized": "فَائِقْ السُّرْعَة",
+      "ipa_hint": "fa'iq as-sur'ah",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "يعمل في أجزاء دقيقة من الألف من الثانية",
+      "meaning_en": "Ultra-fast",
+      "variants": [],
+      "example": "معالج نصوص فائق السرعة."
+    },
+    {
+      "id": "sada_0261",
+      "term": "قليل الاستهلاك",
+      "vocalized": "قَلِيلْ الْاِسْتِهْلَاكْ",
+      "ipa_hint": "qaleel al-istihlak",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "لا يرهق المعالج أو الذاكرة",
+      "meaning_en": "Low-footprint / Resource-efficient",
+      "variants": [],
+      "example": "تصميم قليل الاستهلاك للذاكرة."
+    },
+    {
+      "id": "sada_0262",
+      "term": "ثابت الأداء",
+      "vocalized": "ثَابِتْ الْأَدَاءْ",
+      "ipa_hint": "thabit al-ada'",
+      "category": "tech_workplace",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "يحافظ على نفس السرعة تحت الضغط",
+      "meaning_en": "Consistent performance",
+      "variants": [],
+      "example": "مفهرس ذكي وثابت الأداء مع التوسع."
+    }
+  ]
+}

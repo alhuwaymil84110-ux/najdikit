@@ -1,0 +1,2606 @@
+{
+  "id": "telephony_calls",
+  "name": "Saudi Live Telephony & Voice Call Pack",
+  "version": "2.0.0",
+  "domain": "telephony",
+  "priority": 10,
+  "license": "MIT",
+  "description": "Live phone-call etiquette, audio clarity checks, hold/transfer/callback phrases, and real-time Saudi voice openers & closings.",
+  "entry_count": 186,
+  "entries": [
+    {
+      "id": "tele_0001",
+      "term": "عزّك الله",
+      "vocalized": "عَزِّكْ اللَّهْ",
+      "ipa_hint": "azzik allah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "عبارة توقير وتقدير رفيعة في المحادثة",
+      "meaning_en": "May God honor/elevate you",
+      "variants": [
+        "عزك الله"
+      ],
+      "example": "عزّك الله، طلبك جاهز للتنفيذ."
+    },
+    {
+      "id": "tele_0002",
+      "term": "سم طال عمرك",
+      "vocalized": "سَمّ طَالْ عُمْرِكْ",
+      "ipa_hint": "samm tal umrik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "أرقى عبارات الترحيب وتلبية النداء في المكالمات",
+      "meaning_en": "At your service, sir/ma'am",
+      "variants": [],
+      "example": "سم طال عمرك، معك على الخط."
+    },
+    {
+      "id": "tele_0003",
+      "term": "توصي على شي",
+      "vocalized": "تْوَصِّي عَلَى شَيْ",
+      "ipa_hint": "twassi ala shay",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سؤال ختامي لبق في نهاية المكالمة (هل تحتاج خدمة أخرى؟)",
+      "meaning_en": "Anything else I can do for you before we hang up?",
+      "variants": [
+        "توصي شي",
+        "توصون على شي"
+      ],
+      "example": "خلصنا الترتيب، توصي على شي؟"
+    },
+    {
+      "id": "tele_0004",
+      "term": "تامر على شي",
+      "vocalized": "تَامِرْ عَلَى شَيْ",
+      "ipa_hint": "tamir ala shay",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "سؤال مهني راقٍ قبل إنهاء الاتصال",
+      "meaning_en": "May I assist you with anything else?",
+      "variants": [
+        "تأمر على شي",
+        "تامر بشي"
+      ],
+      "example": "اعتمدت لك الموعد، تامر على شي طال عمرك؟"
+    },
+    {
+      "id": "tele_0005",
+      "term": "سلامتك",
+      "vocalized": "سَلَامْتِكْ",
+      "ipa_hint": "salamtik",
+      "category": "greetings_courtesy",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الرد اللطيف على توصي على شي (لا شكراً، أريد سلامتك)",
+      "meaning_en": "Just your safety / Nothing else, thank you",
+      "variants": [
+        "بس سلامتك",
+        "أبي سلامتك"
+      ],
+      "example": "سلامتك، ما قصرت وبيض الله وجهك."
+    },
+    {
+      "id": "tele_0006",
+      "term": "يا هلا بك",
+      "vocalized": "يَا هَلَا بِكْ",
+      "ipa_hint": "ya hala bik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ترحيب دافئ في مستهل الاتصال",
+      "meaning_en": "Warm welcome to you",
+      "variants": [
+        "هلا بك"
+      ],
+      "example": "يا هلا بك، تفضل أسمعك."
+    },
+    {
+      "id": "tele_0007",
+      "term": "أسعد الله صباحك",
+      "vocalized": "أَسْعَدْ اللَّهْ صَبَاحِكْ",
+      "ipa_hint": "as'ad allah sabahik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تحية صباحية مهنية في المكالمات",
+      "meaning_en": "Good morning (blessed morning)",
+      "variants": [],
+      "example": "أسعد الله صباحك بكل خير."
+    },
+    {
+      "id": "tele_0008",
+      "term": "أسعد الله مساك",
+      "vocalized": "أَسْعَدْ اللَّهْ مَسَاكْ",
+      "ipa_hint": "as'ad allah masak",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تحية مسائية مهنية في المكالمات",
+      "meaning_en": "Good evening",
+      "variants": [
+        "أسعد الله مساءك"
+      ],
+      "example": "أسعد الله مساك، حياك الله."
+    },
+    {
+      "id": "tele_0009",
+      "term": "معك على الخط",
+      "vocalized": "مَعِكْ عَلَى الْخَطّ",
+      "ipa_hint": "ma'ik ala al-khatt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد الاستماع والحضور أثناء المكالمة",
+      "meaning_en": "I am with you on the line",
+      "variants": [
+        "معاك على الخط"
+      ],
+      "example": "تفضل كمل، معك على الخط."
+    },
+    {
+      "id": "tele_0010",
+      "term": "خلك معي",
+      "vocalized": "خَلِّكْ مَعِي",
+      "ipa_hint": "khallik ma'i",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب الانتظار اللحظي اللطيف على الهاتف",
+      "meaning_en": "Stay with me a moment",
+      "variants": [
+        "خلك معاي",
+        "خلج معي"
+      ],
+      "example": "خلك معي ثواني أشوف حالة الطلب."
+    },
+    {
+      "id": "tele_0011",
+      "term": "ثواني أشيك لك",
+      "vocalized": "ثَوَانِي أَشَيِّكْ لِكْ",
+      "ipa_hint": "thawani ashayyik lik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عبارة انتظار عملية رشيقة أثناء البحث في النظام",
+      "meaning_en": "Give me a few seconds to check for you",
+      "variants": [
+        "ثواني اشيك لك"
+      ],
+      "example": "أبشر، ثواني أشيك لك في النظام."
+    },
+    {
+      "id": "tele_0012",
+      "term": "عطني لحظة",
+      "vocalized": "عَطْنِي لَحْظَة",
+      "ipa_hint": "atni lahdhah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "استئذان قصير لمراجعة معلومة أثناء الاتصال",
+      "meaning_en": "Give me a moment",
+      "variants": [
+        "اعطني لحظة"
+      ],
+      "example": "عطني لحظة أفتح ملف الحساب."
+    },
+    {
+      "id": "tele_0013",
+      "term": "دقيقة بس",
+      "vocalized": "دَقِيقَة بَسّ",
+      "ipa_hint": "daqeeqah bass",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب مهلة وجيزة أثناء المكالمة",
+      "meaning_en": "Just one minute",
+      "variants": [
+        "دقيقه بس"
+      ],
+      "example": "دقيقة بس أتأكد من التوفر."
+    },
+    {
+      "id": "tele_0014",
+      "term": "معك",
+      "vocalized": "مَعِكْ",
+      "ipa_hint": "ma'ik",
+      "category": "telephony_live",
+      "pos": "particle",
+      "register": "universal",
+      "meaning_ar": "متابع لك ومستمع (إشعار متابعة صوتي)",
+      "meaning_en": "I'm listening / With you",
+      "variants": [
+        "معاك"
+      ],
+      "example": "إيه نعم، معك، كمل."
+    },
+    {
+      "id": "tele_0015",
+      "term": "أسمعك",
+      "vocalized": "أَسْمَعِكْ",
+      "ipa_hint": "asma'ik",
+      "category": "telephony_live",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "تأكيد وضوح الصوت والاستماع",
+      "meaning_en": "I hear you",
+      "variants": [
+        "اسمعك"
+      ],
+      "example": "تفضل، أسمعك بوضوح."
+    },
+    {
+      "id": "tele_0016",
+      "term": "أسمعك زين",
+      "vocalized": "أَسْمَعِكْ زَيْنْ",
+      "ipa_hint": "asma'ik zain",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد أن الصوت مسموع بجودة ممتازة",
+      "meaning_en": "I hear you loud and clear",
+      "variants": [],
+      "example": "الحين تمام، أسمعك زين."
+    },
+    {
+      "id": "tele_0017",
+      "term": "صوتك واضح",
+      "vocalized": "صَوْتِكْ وَاضِحْ",
+      "ipa_hint": "sawtik wadih",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طمأنة المتصل بجودة الصوت",
+      "meaning_en": "Your voice is clear",
+      "variants": [],
+      "example": "صوتك واضح، تفضل وش استفسارك؟"
+    },
+    {
+      "id": "tele_0018",
+      "term": "صوتك يقطّع",
+      "vocalized": "صَوْتِكْ يِقَطِّعْ",
+      "ipa_hint": "sawtik yiqatti'",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تنبيه المتصل بوجود تقطيع في الصوت",
+      "meaning_en": "Your voice is breaking up",
+      "variants": [
+        "صوتك يقطع"
+      ],
+      "example": "المعذرة، صوتك يقطّع شوي."
+    },
+    {
+      "id": "tele_0019",
+      "term": "الخط يقطّع",
+      "vocalized": "الْخَطّ يِقَطِّعْ",
+      "ipa_hint": "al-khatt yiqatti'",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ضعف خط الاتصال وتقطع الإشارة",
+      "meaning_en": "The line is breaking up",
+      "variants": [
+        "الخط يقطع"
+      ],
+      "example": "الظاهر الشبكة ضعيفة لأن الخط يقطّع."
+    },
+    {
+      "id": "tele_0020",
+      "term": "صوتك بعيد",
+      "vocalized": "صَوْتِكْ بَعِيدْ",
+      "ipa_hint": "sawtik ba'eed",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "انخفاض مستوى صوت المتصل",
+      "meaning_en": "Your voice sounds distant/faint",
+      "variants": [],
+      "example": "صوتك بعيد شوي، يمديك تقرب من المايك؟"
+    },
+    {
+      "id": "tele_0021",
+      "term": "الشبكة ضعيفة",
+      "vocalized": "الشَّبَكَة ضَعِيفَة",
+      "ipa_hint": "ash-shabakah da'eefah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ضعف تغطية الاتصال الهاتفي أو الإنترنت",
+      "meaning_en": "Weak network signal",
+      "variants": [],
+      "example": "المعذرة الشبكة ضعيفة بالمكان هذا."
+    },
+    {
+      "id": "tele_0022",
+      "term": "انقطع الخط",
+      "vocalized": "اِنْقَطَعْ الْخَطّ",
+      "ipa_hint": "inqata' al-khatt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "فصل المكالمة بشكل مفاجئ",
+      "meaning_en": "The call got disconnected",
+      "variants": [
+        "فصل الخط",
+        "انقطع الاتصال"
+      ],
+      "example": "المعذرة انقطع الخط فجأة ورجعت دقيت."
+    },
+    {
+      "id": "tele_0023",
+      "term": "رجع الصوت",
+      "vocalized": "رِجَعْ الصَّوْتْ",
+      "ipa_hint": "rija' as-sawt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عودة الصوت للوضوح بعد انقطاع قصير",
+      "meaning_en": "Audio is back now",
+      "variants": [],
+      "example": "ممتاز، الحين رجع الصوت واضح."
+    },
+    {
+      "id": "tele_0024",
+      "term": "تسمعني الحين",
+      "vocalized": "تِسْمَعْنِي الْحِينْ",
+      "ipa_hint": "tisma'ni al-heen",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "فحص استعادة الصوت في المكالمة",
+      "meaning_en": "Can you hear me now?",
+      "variants": [
+        "تسمعني"
+      ],
+      "example": "ألو، تسمعني الحين زين؟"
+    },
+    {
+      "id": "tele_0025",
+      "term": "مسموع",
+      "vocalized": "مَسْمُوعْ",
+      "ipa_hint": "masmoo'",
+      "category": "telephony_live",
+      "pos": "adj",
+      "register": "universal",
+      "meaning_ar": "رد موجز يؤكد وضوح الصوت",
+      "meaning_en": "Loud and clear / Audible",
+      "variants": [],
+      "example": "إيه مسموع، تفضل."
+    },
+    {
+      "id": "tele_0026",
+      "term": "فيه صدى",
+      "vocalized": "فِيهْ صَدَى",
+      "ipa_hint": "feeh sada",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "وجود ارتداد صوتي في المكالمة",
+      "meaning_en": "There is an echo on the line",
+      "variants": [],
+      "example": "كأن فيه صدى خفيف بالخط."
+    },
+    {
+      "id": "tele_0027",
+      "term": "تشويش",
+      "vocalized": "تَشْوِيشْ",
+      "ipa_hint": "tashweesh",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "ضوضاء أو خشخشة على خط الهاتف",
+      "meaning_en": "Static / Background noise",
+      "variants": [
+        "وشوشة"
+      ],
+      "example": "فيه تشويش بسيط بالخلفية."
+    },
+    {
+      "id": "tele_0028",
+      "term": "على السبيكر",
+      "vocalized": "عَلَى السِّبِيكَرْ",
+      "ipa_hint": "ala as-speaker",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "وضع الهاتف على مكبر الصوت الخارجي",
+      "meaning_en": "On speakerphone",
+      "variants": [
+        "حاطه سبيكر"
+      ],
+      "example": "شلت السبيكر عشان يوضح لك الصوت."
+    },
+    {
+      "id": "tele_0029",
+      "term": "ميوت",
+      "vocalized": "مِيُوتْ",
+      "ipa_hint": "mute",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "كتم الميكروفون مؤقتاً",
+      "meaning_en": "Muted",
+      "variants": [
+        "كتم الصوت"
+      ],
+      "example": "كنت حاط ميوت بالغلط، تسمعني الحين؟"
+    },
+    {
+      "id": "tele_0030",
+      "term": "أحولك",
+      "vocalized": "أَحَوْلِكْ",
+      "ipa_hint": "ahawlik",
+      "category": "telephony_live",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "أنقل مكالمتك لموظف أو قسم آخر",
+      "meaning_en": "I will transfer your call",
+      "variants": [
+        "احولك",
+        "نحول المكالمة"
+      ],
+      "example": "أبشر، الحين أحولك على القسم المختص."
+    },
+    {
+      "id": "tele_0031",
+      "term": "تحويلة",
+      "vocalized": "تَحْوِيلَة",
+      "ipa_hint": "tahweelah",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "الرقم الداخلي للمكتب أو القسم",
+      "meaning_en": "Phone extension",
+      "variants": [
+        "التحويلة"
+      ],
+      "example": "تقدر تطلب تحويلة الدعم الفني مباشرة."
+    },
+    {
+      "id": "tele_0032",
+      "term": "أرجع أدق عليك",
+      "vocalized": "أَرْجَعْ أَدِقّ عَلَيْكْ",
+      "ipa_hint": "arja' adiqq alaik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "معاودة الاتصال لاحقاً",
+      "meaning_en": "I will call you back",
+      "variants": [
+        "اكلمك بعد شوي"
+      ],
+      "example": "أخلص المعاملة وأرجع أدق عليك فوراً."
+    },
+    {
+      "id": "tele_0033",
+      "term": "عاود الاتصال",
+      "vocalized": "عَاوِدْ الْاِتِّصَالْ",
+      "ipa_hint": "awid al-ittisal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "اتصل مرة أخرى في وقت لاحق",
+      "meaning_en": "Call back again",
+      "variants": [],
+      "example": "إذا انشغل الخط عاود الاتصال بعد دقايق."
+    },
+    {
+      "id": "tele_0034",
+      "term": "مكالمة فائتة",
+      "vocalized": "مُكَالَمَة فَائِتَة",
+      "ipa_hint": "mukalamah fa'itah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اتصال لم يُرد عليه",
+      "meaning_en": "Missed call",
+      "variants": [
+        "اتصال فائت"
+      ],
+      "example": "شفت منك مكالمة فائتة، عسى ما شر؟"
+    },
+    {
+      "id": "tele_0035",
+      "term": "الخط مشغول",
+      "vocalized": "الْخَطّ مَشْغُولْ",
+      "ipa_hint": "al-khatt mashghool",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "المتصل به في مكالمة أخرى",
+      "meaning_en": "The line is busy",
+      "variants": [],
+      "example": "حاولت أتصل بس كان الخط مشغول."
+    },
+    {
+      "id": "tele_0036",
+      "term": "يرن",
+      "vocalized": "يِرِنّ",
+      "ipa_hint": "yirinn",
+      "category": "telephony_live",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "يصدر جرس الرنين دون رد بعد",
+      "meaning_en": "Ringing",
+      "variants": [
+        "الجوال يرن"
+      ],
+      "example": "الجوال يرن بس ما أحد رد للحين."
+    },
+    {
+      "id": "tele_0037",
+      "term": "رد علي",
+      "vocalized": "رَدّ عَلَيّ",
+      "ipa_hint": "radd alayy",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أجاب على المكالمة أو الرسالة",
+      "meaning_en": "Answered me / Replied to me",
+      "variants": [],
+      "example": "تواصلت مع المندوب ورد علي على طول."
+    },
+    {
+      "id": "tele_0038",
+      "term": "قفل الخط",
+      "vocalized": "قَفَّلْ الْخَطّ",
+      "ipa_hint": "qaffal al-khatt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أنهى المكالمة الهاتفية",
+      "meaning_en": "Hung up / Ended the call",
+      "variants": [
+        "سكر الخط"
+      ],
+      "example": "شكرنا بعض وقفل الخط."
+    },
+    {
+      "id": "tele_0039",
+      "term": "لا تقفل",
+      "vocalized": "لَا تْقَفِّلْ",
+      "ipa_hint": "la tqaffil",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ابقَ على الاتصال ولا تنهِ المكالمة",
+      "meaning_en": "Please don't hang up",
+      "variants": [
+        "خلك على الخط"
+      ],
+      "example": "لا تقفل، باقي رقم الطلب أعطيك إياه."
+    },
+    {
+      "id": "tele_0040",
+      "term": "ممكن تعيد",
+      "vocalized": "مُمْكِنْ تْعِيدْ",
+      "ipa_hint": "mumkin t'eed",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب لطيف لإعادة الجملة غير المسموعة",
+      "meaning_en": "Could you repeat that, please?",
+      "variants": [
+        "يمديك تعيد"
+      ],
+      "example": "المعذرة ما سمعت آخر كلمة، ممكن تعيد؟"
+    },
+    {
+      "id": "tele_0041",
+      "term": "ما سمعتك زين",
+      "vocalized": "مَا سِمَعْتِكْ زَيْنْ",
+      "ipa_hint": "ma sima'tik zain",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اعتذار لطيف لعدم وضوح الجملة السابقة",
+      "meaning_en": "I didn't catch that clearly",
+      "variants": [
+        "ما سمعت واضح"
+      ],
+      "example": "ما سمعتك زين، تقدر ترفع صوتك شوي؟"
+    },
+    {
+      "id": "tele_0042",
+      "term": "وش قلت",
+      "vocalized": "وِشْ قِلْتْ",
+      "ipa_hint": "wish qilt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "استفسار سريع عما قيل للتو",
+      "meaning_en": "What did you say?",
+      "variants": [],
+      "example": "قطع الصوت ثانية، وش قلت قبل شوي؟"
+    },
+    {
+      "id": "tele_0043",
+      "term": "مع السلامة",
+      "vocalized": "مَعْ السَّلَامَة",
+      "ipa_hint": "ma' as-salamah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تحية ختام المكالمة والمغادرة",
+      "meaning_en": "Goodbye",
+      "variants": [],
+      "example": "تشرفنا بخدمتك، مع السلامة."
+    },
+    {
+      "id": "tele_0044",
+      "term": "يومك سعيد",
+      "vocalized": "يَوْمِكْ سَعِيدْ",
+      "ipa_hint": "yawmik sa'eed",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تمني يوم طيب في ختام المكالمة الصباحية/النهارية",
+      "meaning_en": "Have a great day",
+      "variants": [
+        "نهارك سعيد"
+      ],
+      "example": "يعطيك العافية ويومك سعيد."
+    },
+    {
+      "id": "tele_0045",
+      "term": "ليلتك سعيدة",
+      "vocalized": "لَيْلْتِكْ سَعِيدَة",
+      "ipa_hint": "lailtik sa'eedah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ختام لطيف للمكالمات المسائية",
+      "meaning_en": "Have a pleasant evening",
+      "variants": [
+        "مساك سعيد"
+      ],
+      "example": "أبشر بالخير وليلتك سعيدة."
+    },
+    {
+      "id": "tele_0046",
+      "term": "تشرفنا باتصالك",
+      "vocalized": "تَشَرَّفْنَا بِاتِّصَالِكْ",
+      "ipa_hint": "tasharrafna bittisalik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "عبارة ترحيب أو ختام رسمية راقية لخدمة العملاء",
+      "meaning_en": "Honored by your call",
+      "variants": [
+        "تشرفنا بخدمتك"
+      ],
+      "example": "حياك الله، تشرفنا باتصالك."
+    },
+    {
+      "id": "tele_0047",
+      "term": "في خدمتك",
+      "vocalized": "فِي خِدْمَتِكْ",
+      "ipa_hint": "fi khidmatk",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تأكيد الاستعداد الدائم للمساعدة",
+      "meaning_en": "At your service",
+      "variants": [
+        "بخدمتك"
+      ],
+      "example": "حنا دايم في خدمتك طال عمرك."
+    },
+    {
+      "id": "tele_0048",
+      "term": "سجّلت ملاحظتك",
+      "vocalized": "سَجَّلْتْ مُلَاحَظْتِكْ",
+      "ipa_hint": "sajjalt mulahadhtik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تأكيد توثيق طلب أو شكوى المتصل",
+      "meaning_en": "I have logged your note/feedback",
+      "variants": [],
+      "example": "أبشر، سجّلت ملاحظتك وبرفعها فوراً."
+    },
+    {
+      "id": "tele_0049",
+      "term": "رفعت لك طلب",
+      "vocalized": "رَفَعْتْ لِكْ طَلَبْ",
+      "ipa_hint": "rafa't lik talab",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد إنشاء تذكرة خدمة للمتصل",
+      "meaning_en": "I submitted a request for you",
+      "variants": [],
+      "example": "رفعت لك طلب عاجل وبيجيك إشعار الحين."
+    },
+    {
+      "id": "tele_0050",
+      "term": "يوصلك مسج",
+      "vocalized": "يُوصَلِكْ مَسِجْ",
+      "ipa_hint": "yoosalik masij",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إبلاغ المتصل بوصول رسالة نصية تأكيدية",
+      "meaning_en": "You will receive an SMS message",
+      "variants": [
+        "بتجيك رسالة"
+      ],
+      "example": "الحين يوصلك مسج فيه تفاصيل الموعد."
+    },
+    {
+      "id": "tele_0051",
+      "term": "مليت علي الرقم",
+      "vocalized": "مَلِّيتْ عَلَيّ الرَّقَمْ",
+      "ipa_hint": "mallait alayy ar-raqam",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "إملاء الأرقام رقمًا رقمًا عبر الهاتف",
+      "meaning_en": "Dictated the number to me",
+      "variants": [
+        "ملني الرقم"
+      ],
+      "example": "أقرأ لك الرقم للتأكيد مثل ما مليت علي."
+    },
+    {
+      "id": "tele_0052",
+      "term": "أقرأ لك الرقم",
+      "vocalized": "أَقْرَا لِكْ الرَّقَمْ",
+      "ipa_hint": "aqra lik ar-raqam",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مراجعة الرقم صوتياً للتثبت",
+      "meaning_en": "Let me read the number back to you",
+      "variants": [],
+      "example": "خلني أقرأ لك الرقم عشان نتأكد إنه صح."
+    },
+    {
+      "id": "tele_0053",
+      "term": "تأكيد الهوية",
+      "vocalized": "تَأْكِيدْ الْهُوِيَّة",
+      "ipa_hint": "ta'keed al-huwiyyah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "التحقق الأمني من صاحب الحساب في المكالمات",
+      "meaning_en": "Identity verification",
+      "variants": [],
+      "example": "نحتاج خطوة سريعة من فضلك لتأكيد الهوية."
+    },
+    {
+      "id": "tele_0054",
+      "term": "الرد الآلي",
+      "vocalized": "الرَّدّ الْآلِي",
+      "ipa_hint": "ar-radd al-ali",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "نظام الاستجابة الصوتية التفاعلية",
+      "meaning_en": "IVR / Automated voice response",
+      "variants": [
+        "المجيب الآلي"
+      ],
+      "example": "تقدر تنجزها مباشرة من الرد الآلي."
+    },
+    {
+      "id": "tele_0055",
+      "term": "الموظف المختص",
+      "vocalized": "الْمُوَظَّفْ الْمُخْتَصّ",
+      "ipa_hint": "al-muwadhdhaf al-mukhtass",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "ممثل الخدمة المعني بالطلب",
+      "meaning_en": "Specialist agent",
+      "variants": [
+        "القسم المختص"
+      ],
+      "example": "يتابع معك الموظف المختص خلال دقائق."
+    },
+    {
+      "id": "tele_0056",
+      "term": "وقت الذروة",
+      "vocalized": "وَقْتْ الذُّرْوَة",
+      "ipa_hint": "waqt adh-dhurwah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "فترة ازدحام المكالمات أو الطلبات",
+      "meaning_en": "Peak hours",
+      "variants": [],
+      "example": "بسبب وقت الذروة قد يستغرق الرد دقيقتين."
+    },
+    {
+      "id": "tele_0057",
+      "term": "قائمة الانتظار",
+      "vocalized": "قَائِمَةْ الْاِنْتِظَارْ",
+      "ipa_hint": "qa'imat al-intidhar",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ترتيب المتصلين أو الحجوزات المنتظرة",
+      "meaning_en": "Waiting list / Call queue",
+      "variants": [
+        "طابور الانتظار"
+      ],
+      "example": "رقمك الأول في قائمة الانتظار الحين."
+    },
+    {
+      "id": "tele_0058",
+      "term": "معاودة اتصال",
+      "vocalized": "مُعَاوَدَةْ اِتِّصَالْ",
+      "ipa_hint": "mu'awadat ittisal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "خدمة طلب الاتصال العكسي بدلاً من الانتظار",
+      "meaning_en": "Callback request",
+      "variants": [],
+      "example": "فعلنا لك طلب معاودة اتصال تلقائي."
+    },
+    {
+      "id": "tele_0059",
+      "term": "تقييم الخدمة",
+      "vocalized": "تَقْيِيمْ الْخِدْمَة",
+      "ipa_hint": "taqyeem al-khidmah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "استطلاع رأي المتصل بعد انتهاء المكالمة",
+      "meaning_en": "Service rating",
+      "variants": [],
+      "example": "يسعدنا تشاركنا رأيك في تقييم الخدمة."
+    },
+    {
+      "id": "tele_0060",
+      "term": "استفسار",
+      "vocalized": "اِسْتِفْسَارْ",
+      "ipa_hint": "istifsar",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "سؤال أو طلب توضيح",
+      "meaning_en": "Inquiry / Question",
+      "variants": [
+        "استفسارات",
+        "عندي سؤال"
+      ],
+      "example": "تفضل، وش عندك من استفسار؟"
+    },
+    {
+      "id": "tele_0061",
+      "term": "شكوى",
+      "vocalized": "شَكْوَى",
+      "ipa_hint": "shakwa",
+      "category": "telephony_live",
+      "pos": "noun",
+      "register": "universal",
+      "meaning_ar": "بلاغ رسمي عن مشكلة في الخدمة",
+      "meaning_en": "Complaint",
+      "variants": [
+        "بلاغ"
+      ],
+      "example": "سجلنا الشكوى وبنعالجها بأولوية عالية."
+    },
+    {
+      "id": "tele_0062",
+      "term": "أولوية قصوى",
+      "vocalized": "أَوْلَوِيَّة قُصْوَى",
+      "ipa_hint": "awlawiyyah quswa",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "أعلى درجات الأهمية والاستعجال",
+      "meaning_en": "Top priority",
+      "variants": [
+        "أولوية عالية"
+      ],
+      "example": "حطيت طلبك بأولوية قصوى."
+    },
+    {
+      "id": "tele_0063",
+      "term": "لحظات معي",
+      "vocalized": "لَحَظَاتْ مَعِي",
+      "ipa_hint": "lahadhat ma'i",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "استئذان مهني رقيق للانتظار ثواني معدودة",
+      "meaning_en": "Moments with me, please",
+      "variants": [],
+      "example": "لحظات معي طال عمرك، أتحقق من الرصيد."
+    },
+    {
+      "id": "tele_0064",
+      "term": "شكراً لانتظارك",
+      "vocalized": "شُكْرًا لِانْتِظَارِكْ",
+      "ipa_hint": "shukran lintidharik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "عبارة لباقة عند العودة للمتصل بعد الانتظار",
+      "meaning_en": "Thank you for holding",
+      "variants": [
+        "آسف على الإطالة"
+      ],
+      "example": "شكراً لانتظارك، لقيت كل التفاصيل جاهزة."
+    },
+    {
+      "id": "tele_0065",
+      "term": "ما أطول عليك",
+      "vocalized": "مَا أَطَوِّلْ عَلَيْكْ",
+      "ipa_hint": "ma atawwil alaik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مراعاة وقت المخاطب والاختصار",
+      "meaning_en": "I won't keep you long",
+      "variants": [
+        "عشان ما أطول عليك"
+      ],
+      "example": "عشان ما أطول عليك، هذي الخلاصة بدقيقة."
+    },
+    {
+      "id": "tele_0066",
+      "term": "خذ وقتك",
+      "vocalized": "خِذْ وَقْتِكْ",
+      "ipa_hint": "khidh waqtik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طمأنة المتصل بعدم الاستعجال أثناء بحثه عن رقم أو معلومة",
+      "meaning_en": "Take your time",
+      "variants": [],
+      "example": "لا تستعجل، خذ وقتك وأنا معك."
+    },
+    {
+      "id": "tele_0067",
+      "term": "واضح الصوت",
+      "vocalized": "وَاضِحْ الصَّوْتْ",
+      "ipa_hint": "wadih as-sawt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سؤال أو تأكيد عن نقاء الصوت",
+      "meaning_en": "Is the audio clear? / Audio is clear",
+      "variants": [],
+      "example": "واضح الصوت عندك الحين؟"
+    },
+    {
+      "id": "tele_0068",
+      "term": "تفضل كلّي آذان صاغية",
+      "vocalized": "تْفَضَّلْ كِلِّي آذَانْ صَاغْيَة",
+      "ipa_hint": "tfaddal killi adhan saghyah",
+      "category": "telephony_live",
+      "pos": "idiom",
+      "register": "executive",
+      "meaning_ar": "ترحيب راقٍ يدل على كامل الاهتمام بالمتصل",
+      "meaning_en": "Go ahead, I'm all ears",
+      "variants": [],
+      "example": "حياك الله، تفضل كلّي آذان صاغية."
+    },
+    {
+      "id": "tele_0069",
+      "term": "أعتذر على المقاطعة",
+      "vocalized": "أَعْتَذِرْ عَلَى الْمُقَاطَعَة",
+      "ipa_hint": "a'tadhir ala al-muqata'ah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "استئذان مهذب عند الحاجة لتوضيح نقطة أثناء الحديث",
+      "meaning_en": "Pardon the interruption",
+      "variants": [
+        "المعذرة أقاطعك"
+      ],
+      "example": "أعتذر على المقاطعة بس حبيت أأكد لك الرقم."
+    },
+    {
+      "id": "tele_0070",
+      "term": "لا تقاطعني",
+      "vocalized": "لَا تْقَاطِعْنِي",
+      "ipa_hint": "la tqati'ni",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب إكمال الفكرة قبل الرد",
+      "meaning_en": "Please let me finish",
+      "variants": [],
+      "example": "خلني أكمل الفكرة لاهنت."
+    },
+    {
+      "id": "tele_0071",
+      "term": "كمل حديثك",
+      "vocalized": "كَمِّلْ حَدِيثِكْ",
+      "ipa_hint": "kammil hadeethik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "دعوة المتصل لمواصلة كلامه بعد توقفه",
+      "meaning_en": "Please go on",
+      "variants": [
+        "كمل كلامك"
+      ],
+      "example": "العفو، تفضل كمل حديثك."
+    },
+    {
+      "id": "tele_0072",
+      "term": "وصلت الفكرة",
+      "vocalized": "وَصَلَتْ الْفِكْرَة",
+      "ipa_hint": "wasalat al-fikrah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد الفهم الكامل لمقصد المتصل",
+      "meaning_en": "Got the point completely",
+      "variants": [
+        "وصلت المعلومة"
+      ],
+      "example": "ممتاز، وصلت الفكرة وبنفذها الحين."
+    },
+    {
+      "id": "tele_0073",
+      "term": "أأكد لك",
+      "vocalized": "أَأَكِّدْ لِكْ",
+      "ipa_hint": "a'akkid lik",
+      "category": "telephony_live",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "أثبت وأضمن لك المعلومة",
+      "meaning_en": "I confirm for you",
+      "variants": [
+        "نأكد"
+      ],
+      "example": "خلني أأكد لك الموعد النهائي قبل نقفل."
+    },
+    {
+      "id": "tele_0074",
+      "term": "راجع معي",
+      "vocalized": "رَاجِعْ مَعِي",
+      "ipa_hint": "raji' ma'i",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "دعوة لمطابقة البيانات صوتياً",
+      "meaning_en": "Review with me",
+      "variants": [],
+      "example": "راجع معي البيانات هذي للتأكيد."
+    },
+    {
+      "id": "tele_0075",
+      "term": "صحيح كلامك",
+      "vocalized": "صَحِيحْ كَلَامِكْ",
+      "ipa_hint": "saheeh kalamik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "موافقة وتصديق على ما ذكره المتصل",
+      "meaning_en": "What you said is right",
+      "variants": [],
+      "example": "صحيح كلامك، الفاتورة صدرت أمس."
+    },
+    {
+      "id": "tele_0076",
+      "term": "عشت ولا هنت",
+      "vocalized": "عِشْتْ وَلَا هِنْتْ",
+      "ipa_hint": "isht wala hint",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عبارة شكر سعودية أصيلة في ختام طلب هاتفي",
+      "meaning_en": "Thank you kindly and may you be honored",
+      "variants": [],
+      "example": "عشت ولا هنت، كفيت ووفيت."
+    },
+    {
+      "id": "tele_0077",
+      "term": "الله يطول بعمرك",
+      "vocalized": "اللَّهْ يِطَوِّلْ بِعُمْرِكْ",
+      "ipa_hint": "allah yitawwil bi-umrik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "دعاء وتقدير دافئ للمتصل أو الموظف",
+      "meaning_en": "May God grant you a long life",
+      "variants": [
+        "يطول عمرك"
+      ],
+      "example": "الله يطول بعمرك ويسعدك."
+    },
+    {
+      "id": "tele_0078",
+      "term": "حاضرين للطيبين",
+      "vocalized": "حَاضِرِينْ لِلطَّيِّبِينْ",
+      "ipa_hint": "hadireen lit-tayyibeen",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "casual",
+      "meaning_ar": "رد ودود يعبر عن السرور بالمساعدة",
+      "meaning_en": "Always happy to help good folks",
+      "variants": [],
+      "example": "أبشر بسعدك، حنا حاضرين للطيبين."
+    },
+    {
+      "id": "tele_0079",
+      "term": "يسعدني أخدمك",
+      "vocalized": "يِسْعِدْنِي أَخْدِمِكْ",
+      "ipa_hint": "yis'idni akhdimik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "عبارة ترحيب احترافية دافئة",
+      "meaning_en": "Happy to assist you",
+      "variants": [
+        "تشرفني خدمتك"
+      ],
+      "example": "أهلاً وسهلاً، يسعدني أخدمك اليوم."
+    },
+    {
+      "id": "tele_0080",
+      "term": "بكل رحابة صدر",
+      "vocalized": "بِكِلّ رَحَابَةْ صَدْرْ",
+      "ipa_hint": "bikil rahabat sadr",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تعبير عن الترحيب التام بالاستفسارات",
+      "meaning_en": "Most gladly / With pleasure",
+      "variants": [
+        "على الرحب والسعة"
+      ],
+      "example": "نستقبل ملاحظاتك بكل رحابة صدر."
+    },
+    {
+      "id": "tele_0081",
+      "term": "ألو",
+      "vocalized": "أَلُو",
+      "ipa_hint": "alo",
+      "category": "telephony_live",
+      "pos": "interjection",
+      "register": "universal",
+      "meaning_ar": "كلمة استفتاح أو تفقد الاتصال الهاتفي",
+      "meaning_en": "Hello (on the phone)",
+      "variants": [
+        "الو"
+      ],
+      "example": "ألو، السلام عليكم."
+    },
+    {
+      "id": "tele_0082",
+      "term": "وعليكم السلام",
+      "vocalized": "وَعَلَيْكُمْ السَّلَامْ",
+      "ipa_hint": "wa alaikum as-salam",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رد تحية الإسلام القياسي",
+      "meaning_en": "Peace be upon you too",
+      "variants": [],
+      "example": "وعليكم السلام ورحمة الله، يا هلا."
+    },
+    {
+      "id": "tele_0083",
+      "term": "السلام عليكم",
+      "vocalized": "السَّلَامْ عَلَيْكُمْ",
+      "ipa_hint": "as-salam alaikum",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "التحية الرسمية والعامة في مستهل المكالمات",
+      "meaning_en": "Peace be upon you",
+      "variants": [],
+      "example": "السلام عليكم، صبحك الله بالخير."
+    },
+    {
+      "id": "tele_0084",
+      "term": "عسى ما شر",
+      "vocalized": "عَسَى مَا شَرّ",
+      "ipa_hint": "asa ma sharr",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "سؤال لطيف للاطمئنان عند اتصال مفاجئ أو مشكلة",
+      "meaning_en": "Hope everything is alright",
+      "variants": [
+        "خير إن شاء الله"
+      ],
+      "example": "دقيت مرتين، عسى ما شر؟"
+    },
+    {
+      "id": "tele_0085",
+      "term": "خير اللهم اجعله خير",
+      "vocalized": "خَيْرْ اللَّهُمَّ اِجْعَلْهْ خَيْرْ",
+      "ipa_hint": "khair allahumma ij'alh khair",
+      "category": "idioms_expressions",
+      "pos": "idiom",
+      "register": "casual",
+      "meaning_ar": "عبارة تفاؤل عند سماع خبر مفاجئ",
+      "meaning_en": "May it be good news",
+      "variants": [],
+      "example": "خير إن شاء الله، علمني وش صاير."
+    },
+    {
+      "id": "tele_0086",
+      "term": "ما من شر",
+      "vocalized": "مَا مِنْ شَرّ",
+      "ipa_hint": "ma min sharr",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الرد المطمئن على عسى ما شر",
+      "meaning_en": "All is well, nothing bad",
+      "variants": [
+        "ما فيه إلا الخير"
+      ],
+      "example": "ما من شر، بس حبيت أأكد الموعد."
+    },
+    {
+      "id": "tele_0087",
+      "term": "أبشر بالخير",
+      "vocalized": "أَبْشِرْ بِالْخَيْرْ",
+      "ipa_hint": "abshir bil-khair",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "وعد مطمئن بحل المشكلة",
+      "meaning_en": "Rest assured of a good outcome",
+      "variants": [],
+      "example": "أبشر بالخير، موضوعك منتهي اليوم."
+    },
+    {
+      "id": "tele_0088",
+      "term": "لا تحاتي",
+      "vocalized": "لَا تْحَاتِي",
+      "ipa_hint": "la thati",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "لا تقلق ولا تشغل بالك",
+      "meaning_en": "Don't worry / fret",
+      "variants": [],
+      "example": "لا تحاتي، الحجز مؤكد باسمك."
+    },
+    {
+      "id": "tele_0089",
+      "term": "ريّح بالك",
+      "vocalized": "رَيِّحْ بَالِكْ",
+      "ipa_hint": "rayyih balik",
+      "category": "idioms_expressions",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اطمئن تماماً",
+      "meaning_en": "Put your mind at ease",
+      "variants": [
+        "تطمن"
+      ],
+      "example": "ريّح بالك، النظام يجدد تلقائياً."
+    },
+    {
+      "id": "tele_0090",
+      "term": "تطمن",
+      "vocalized": "تَطَمَّنْ",
+      "ipa_hint": "tatamman",
+      "category": "verbs_desire_cognition",
+      "pos": "verb",
+      "register": "universal",
+      "meaning_ar": "كن مطمئناً وواثقاً",
+      "meaning_en": "Rest assured",
+      "variants": [
+        "اطمئن"
+      ],
+      "example": "تطمن، كل بياناتك محفوظة بأمان."
+    },
+    {
+      "id": "tele_0091",
+      "term": "أها",
+      "vocalized": "أَهَا",
+      "ipa_hint": "aha",
+      "category": "telephony_live",
+      "pos": "interjection",
+      "register": "universal",
+      "meaning_ar": "لفظ متابعة صوتي يفيد الفهم والإصغاء",
+      "meaning_en": "Aha / I see (backchannel)",
+      "variants": [],
+      "example": "أها، فهمت قصدك الحين."
+    },
+    {
+      "id": "tele_0092",
+      "term": "أيوه",
+      "vocalized": "أَيْوَهْ",
+      "ipa_hint": "aiwah",
+      "category": "telephony_live",
+      "pos": "interjection",
+      "register": "universal",
+      "meaning_ar": "نعم / متابع معك في الحديث",
+      "meaning_en": "Yes / Right (backchannel)",
+      "variants": [
+        "إيوه"
+      ],
+      "example": "أيوه بالضبط، هذي النقطة."
+    },
+    {
+      "id": "tele_0093",
+      "term": "همم",
+      "vocalized": "هَمْم",
+      "ipa_hint": "hmm",
+      "category": "telephony_live",
+      "pos": "interjection",
+      "register": "casual",
+      "meaning_ar": "صوت تفكير أو متابعة هادئة في المكالمة",
+      "meaning_en": "Hmm (listening/thinking)",
+      "variants": [
+        "اممم"
+      ],
+      "example": "همم، خلني أشوف الخيارات المتاحة."
+    },
+    {
+      "id": "tele_0094",
+      "term": "واضح معي",
+      "vocalized": "وَاضِحْ مَعِي",
+      "ipa_hint": "wadih ma'i",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ظهر لي في الشاشة أو فهمت الأمر",
+      "meaning_en": "Clear on my end",
+      "variants": [],
+      "example": "واضح معي الطلب على الشاشة الحين."
+    },
+    {
+      "id": "tele_0095",
+      "term": "ظاهر عندي",
+      "vocalized": "ظَاهِرْ عِنْدِي",
+      "ipa_hint": "dhahir indi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "مبين أمامي في النظام",
+      "meaning_en": "Showing up on my screen",
+      "variants": [
+        "طالع عندي"
+      ],
+      "example": "ظاهر عندي إن الشحنة بالطريق."
+    },
+    {
+      "id": "tele_0096",
+      "term": "مو طالع عندي",
+      "vocalized": "مُو طَالِعْ عِنْدِي",
+      "ipa_hint": "mu tali' indi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "لم يظهر في النظام بعد",
+      "meaning_en": "Not showing up on my system yet",
+      "variants": [
+        "ما طلع عندي"
+      ],
+      "example": "الطلب مو طالع عندي برقم الجوال هذا."
+    },
+    {
+      "id": "tele_0097",
+      "term": "محدث عندك",
+      "vocalized": "مْحَدَّثْ عِنْدِكْ",
+      "ipa_hint": "mhaddath indik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "هل ظهرت البيانات الجديدة لديك؟",
+      "meaning_en": "Updated on your end?",
+      "variants": [],
+      "example": "سو تحديث وشوف إذا صار محدث عندك."
+    },
+    {
+      "id": "tele_0098",
+      "term": "عطني الاسم الكريم",
+      "vocalized": "عَطْنِي الْاِسْمْ الْكَرِيمْ",
+      "ipa_hint": "atni al-ism al-kareem",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "طلب اسم المتصل بأسلوب مهذب",
+      "meaning_en": "May I have your name, please?",
+      "variants": [
+        "الاسم الكريم"
+      ],
+      "example": "حياك الله، عطني الاسم الكريم لاهنت."
+    },
+    {
+      "id": "tele_0099",
+      "term": "تاريخ الميلاد",
+      "vocalized": "تَارِيخْ الْمِيلَادْ",
+      "ipa_hint": "tareekh al-meelad",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بيان التحقق من الهوية",
+      "meaning_en": "Date of birth",
+      "variants": [],
+      "example": "تأكد لي تاريخ الميلاد للتحقق."
+    },
+    {
+      "id": "tele_0100",
+      "term": "آخر أربع أرقام",
+      "vocalized": "آخِرْ أَرْبَعْ أَرْقَامْ",
+      "ipa_hint": "akhir arba' arqam",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طريقة آمنة لمطابقة البطاقة أو الهوية هاتفياً",
+      "meaning_en": "Last four digits",
+      "variants": [],
+      "example": "عطني بس آخر أربع أرقام من البطاقة."
+    },
+    {
+      "id": "tele_0101",
+      "term": "رقم الهوية",
+      "vocalized": "رَقَمْ الْهُوِيَّة",
+      "ipa_hint": "raqam al-huwiyyah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رقم السجل المدني أو الإقامة",
+      "meaning_en": "National ID / Residency number",
+      "variants": [],
+      "example": "سجل رقم الهوية في الخانة الأولى."
+    },
+    {
+      "id": "tele_0102",
+      "term": "الرمز البريدي",
+      "vocalized": "الرَّمْزْ الْبَرِيدِي",
+      "ipa_hint": "ar-ramz al-bareedi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رمز المنطقة البريدية للعنوان الوطني",
+      "meaning_en": "Postal code",
+      "variants": [],
+      "example": "أضفنا الرمز البريدي للعنوان."
+    },
+    {
+      "id": "tele_0103",
+      "term": "العنوان الوطني",
+      "vocalized": "الْعُنْوَانْ الْوَطَنِي",
+      "ipa_hint": "al-unwan al-watani",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "نظام العنونة القياسي في السعودية",
+      "meaning_en": "National Address",
+      "variants": [
+        "العنوان المختصر"
+      ],
+      "example": "أرسل لي العنوان الوطني المختصر للتوصيل."
+    },
+    {
+      "id": "tele_0104",
+      "term": "الموقع على الخريطة",
+      "vocalized": "الْمَوْقِعْ عَلَى الْخَرِيطَة",
+      "ipa_hint": "al-mawqi' ala al-khareetah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إحداثيات المكان للتوصيل",
+      "meaning_en": "Map location / Pin",
+      "variants": [
+        "اللوكيشن",
+        "لوكيشن"
+      ],
+      "example": "أرسل اللوكيشن عشان يوصل المندوب بسرعة."
+    },
+    {
+      "id": "tele_0105",
+      "term": "رسالة نصية",
+      "vocalized": "رِسَالَة نَصِّيَّة",
+      "ipa_hint": "risalah nassiyyah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رسالة قصيرة عبر الجوال",
+      "meaning_en": "SMS text message",
+      "variants": [
+        "رسائل نصية"
+      ],
+      "example": "أرسلنا لك التفاصيل في رسالة نصية."
+    },
+    {
+      "id": "tele_0106",
+      "term": "الرقم المجاني",
+      "vocalized": "الرَّقَمْ الْمَجَّانِي",
+      "ipa_hint": "ar-raqam al-majjani",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رقم الاتصال الموحد المجاني",
+      "meaning_en": "Toll-free number",
+      "variants": [
+        "الرقم الموحد"
+      ],
+      "example": "تواصل معنا على الرقم المجاني بأي وقت."
+    },
+    {
+      "id": "tele_0107",
+      "term": "ساعات العمل",
+      "vocalized": "سَاعَاتْ الْعَمَلْ",
+      "ipa_hint": "sa'at al-amal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أوقات الدوام الرسمي لاستقبال المكالمات",
+      "meaning_en": "Working hours / Business hours",
+      "variants": [
+        "أوقات الدوام"
+      ],
+      "example": "خدمة الهاتف متاحة طوال ساعات العمل."
+    },
+    {
+      "id": "tele_0108",
+      "term": "خارج وقت الدوام",
+      "vocalized": "خَارِجْ وَقْتْ الدَّوَامْ",
+      "ipa_hint": "kharij waqt ad-dawam",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بعد انتهاء الساعات الرسمية",
+      "meaning_en": "After business hours",
+      "variants": [],
+      "example": "المساعد الصوتي يخدمك حتى خارج وقت الدوام."
+    },
+    {
+      "id": "tele_0109",
+      "term": "على مدار الساعة",
+      "vocalized": "عَلَى مَدَارْ السَّاعَة",
+      "ipa_hint": "ala madar as-sa'ah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طوال اليوم دون توقف (٢٤ ساعة)",
+      "meaning_en": "24/7 / Around the clock",
+      "variants": [],
+      "example": "الدعم الآلي شغال على مدار الساعة."
+    },
+    {
+      "id": "tele_0110",
+      "term": "مكالمة مسجلة",
+      "vocalized": "مُكَالَمَة مُسَجَّلَة",
+      "ipa_hint": "mukalamah musajjalah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "إشعار ضمان الجودة في مراكز الاتصال",
+      "meaning_en": "Recorded call",
+      "variants": [
+        "لضمان الجودة"
+      ],
+      "example": "المكالمة مسجلة لضمان جودة الخدمة."
+    },
+    {
+      "id": "tele_0111",
+      "term": "استبيان قصير",
+      "vocalized": "اِسْتِبْيَانْ قَصِيرْ",
+      "ipa_hint": "istibyan qaseer",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "أسئلة تقييم سريعة بعد الخدمة",
+      "meaning_en": "Brief survey",
+      "variants": [],
+      "example": "بعد نهاية الاتصال بيطلع لك استبيان قصير."
+    },
+    {
+      "id": "tele_0112",
+      "term": "لحظة من فضلك",
+      "vocalized": "لَحْظَة مِنْ فَضْلِكْ",
+      "ipa_hint": "lahdhah min fadlik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "طلب انتظار رسمي ومهذب",
+      "meaning_en": "One moment, please",
+      "variants": [],
+      "example": "لحظة من فضلك أراجع سجل العمليات."
+    },
+    {
+      "id": "tele_0113",
+      "term": "معي ولا فصل",
+      "vocalized": "مَعِي وَلَّا فَصَلْ",
+      "ipa_hint": "ma'i walla fasal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "التأكد من بقاء الطرف الآخر على الخط عند الصمت",
+      "meaning_en": "Are you still there or did it disconnect?",
+      "variants": [],
+      "example": "ألو، باقي معي ولا فصل الخط؟"
+    },
+    {
+      "id": "tele_0114",
+      "term": "باقي معك",
+      "vocalized": "بَاقِي مَعِكْ",
+      "ipa_hint": "baqi ma'ik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد الاستمرار على الخط",
+      "meaning_en": "Still here with you",
+      "variants": [
+        "موجود معك"
+      ],
+      "example": "لا ما فصل، باقي معك تفضل."
+    },
+    {
+      "id": "tele_0115",
+      "term": "صوتك واطي",
+      "vocalized": "صَوْتِكْ وَاطِي",
+      "ipa_hint": "sawtik wati",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "انخفاض الصوت في الهاتف",
+      "meaning_en": "Your volume is low",
+      "variants": [
+        "الصوت منخفض"
+      ],
+      "example": "صوتك واطي شوي، لو تقرب من الجوال."
+    },
+    {
+      "id": "tele_0116",
+      "term": "ارفع صوتك",
+      "vocalized": "اِرْفَعْ صَوْتِكْ",
+      "ipa_hint": "irfa' sawtik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب التحدث بصوت أعلى قليلاً",
+      "meaning_en": "Speak up a bit",
+      "variants": [
+        "علي صوتك"
+      ],
+      "example": "ارفع صوتك شوي لاهنت عشان أسمع الرقم صح."
+    },
+    {
+      "id": "tele_0117",
+      "term": "حرف بحرف",
+      "vocalized": "حَرْفْ بِحَرْفْ",
+      "ipa_hint": "harf bi-harf",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تهجئة الكلمة أو الرمز بدقة عبر الهاتف",
+      "meaning_en": "Letter by letter",
+      "variants": [],
+      "example": "ملني الكود حرف بحرف للتأكيد."
+    },
+    {
+      "id": "tele_0118",
+      "term": "رقم برقم",
+      "vocalized": "رَقَمْ بِرَقَمْ",
+      "ipa_hint": "raqam bi-raqam",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "قراءة الأرقام المتسلسلة بتأنٍ في المكالمات",
+      "meaning_en": "Digit by digit",
+      "variants": [],
+      "example": "بقرا لك المرجع رقم برقم."
+    },
+    {
+      "id": "tele_0119",
+      "term": "بدون كلفة",
+      "vocalized": "بِدُونْ كَلْفَة",
+      "ipa_hint": "bidoon kalfah",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بكل بساطة ودون رسميات زائدة",
+      "meaning_en": "Without formality / No trouble at all",
+      "variants": [
+        "ما بيننا كلفة"
+      ],
+      "example": "اطلب باللي تبي بدون كلفة."
+    },
+    {
+      "id": "tele_0120",
+      "term": "ساعة مباركة",
+      "vocalized": "سَاعَة مُبَارَكَة",
+      "ipa_hint": "sa'ah mubarakah",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "تعبير ترحيب حار بوقت اتصال المخاطب أو لقائه",
+      "meaning_en": "Blessed hour (wonderful talking to you)",
+      "variants": [],
+      "example": "والله إنها ساعة مباركة اللي سمعنا فيها صوتك."
+    },
+    {
+      "id": "tele_0121",
+      "term": "أبرك الساعات",
+      "vocalized": "أَبْرَكْ السَّاعَاتْ",
+      "ipa_hint": "abrak as-sa'at",
+      "category": "greetings_courtesy",
+      "pos": "idiom",
+      "register": "universal",
+      "meaning_ar": "الرد الودود على ساعة مباركة أو الترحيب بالموعد",
+      "meaning_en": "The most blessed of hours / My pleasure",
+      "variants": [],
+      "example": "أبرك الساعات طال عمرك، نتشرف بخدمتك."
+    },
+    {
+      "id": "tele_0122",
+      "term": "تفضل معك",
+      "vocalized": "تْفَضَّلْ مَعِكْ",
+      "ipa_hint": "tfaddal ma'ik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ترحيب هاتفي سريع يعني تفضل أنا أستمع إليك",
+      "meaning_en": "Go ahead, I'm with you",
+      "variants": [],
+      "example": "يا هلا، تفضل معك على الخط."
+    },
+    {
+      "id": "tele_0123",
+      "term": "معك الدعم الفني",
+      "vocalized": "مَعِكْ الدَّعْمْ الْفَنِّي",
+      "ipa_hint": "ma'ik ad-da'm al-fanni",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تعريف الموظف بقسمه عند الرد على الاتصال",
+      "meaning_en": "Technical support speaking",
+      "variants": [],
+      "example": "حياك الله، معك الدعم الفني كيف أخدمك؟"
+    },
+    {
+      "id": "tele_0124",
+      "term": "معك خدمة العملاء",
+      "vocalized": "مَعِكْ خِدْمَةْ الْعُمَلَاءْ",
+      "ipa_hint": "ma'ik khidmat al-umala'",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "تعريف الموظف أو المساعد الصوتي عند فتح الخط",
+      "meaning_en": "Customer service speaking",
+      "variants": [],
+      "example": "أهلاً بك، معك خدمة العملاء آمرني."
+    },
+    {
+      "id": "tele_0125",
+      "term": "كيف أقدر أخدمك",
+      "vocalized": "كَيْفْ أَقْدَرْ أَخْدِمِكْ",
+      "ipa_hint": "kaif aqdar akhdimik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "السؤال القياسي المهذب لتقديم المساعدة في المكالمات",
+      "meaning_en": "How can I help you today?",
+      "variants": [
+        "وشلون أقدر أخدمك"
+      ],
+      "example": "يا هلا والله، كيف أقدر أخدمك اليوم؟"
+    },
+    {
+      "id": "tele_0126",
+      "term": "وشلون أخدمك",
+      "vocalized": "وِشْلُونْ أَخْدِمِكْ",
+      "ipa_hint": "wishlon akhdimik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سؤال ترحيبي باللهجة النجدية البيضاء",
+      "meaning_en": "How may I assist you?",
+      "variants": [],
+      "example": "سم طال عمرك، وشلون أخدمك؟"
+    },
+    {
+      "id": "tele_0127",
+      "term": "بشيك لك الحين",
+      "vocalized": "بَشَيِّكْ لِكْ الْحِينْ",
+      "ipa_hint": "bashayyik lik al-heen",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إبلاغ المتصل بالبدء الفوري في البحث",
+      "meaning_en": "Checking for you right now",
+      "variants": [],
+      "example": "ولا يهمك، بشيك لك الحين على النظام."
+    },
+    {
+      "id": "tele_0128",
+      "term": "ثواني بس",
+      "vocalized": "ثَوَانِي بَسّ",
+      "ipa_hint": "thawani bass",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "طلب انتظار قصير جداً بالمكالمة",
+      "meaning_en": "Just a few seconds",
+      "variants": [],
+      "example": "ثواني بس تفتح معي الصفحة."
+    },
+    {
+      "id": "tele_0129",
+      "term": "لحظة وحدة",
+      "vocalized": "لَحْظَة وَحْدَة",
+      "ipa_hint": "lahdhah wahdah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "استئذان لانتظار وجيز",
+      "meaning_en": "Just one moment",
+      "variants": [
+        "لحظة واحدة"
+      ],
+      "example": "لحظة وحدة أراجع لك الرصيد."
+    },
+    {
+      "id": "tele_0130",
+      "term": "توني فاتح ملفك",
+      "vocalized": "تَوْنِي فَاتِحْ مِلَفِّكْ",
+      "ipa_hint": "tawni fatih milaffik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إشعار المتصل بظهور بياناته أمام الموظف",
+      "meaning_en": "I just opened your profile",
+      "variants": [],
+      "example": "توني فاتح ملفك وكل الفواتير مسددة."
+    },
+    {
+      "id": "tele_0131",
+      "term": "طلع عندي",
+      "vocalized": "طَلَعْ عِنْدِي",
+      "ipa_hint": "tala' indi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ظهرت النتيجة على شاشة النظام",
+      "meaning_en": "It just showed up on my screen",
+      "variants": [
+        "طلعت عندي"
+      ],
+      "example": "ممتاز، طلع عندي رقم الشحنة الحين."
+    },
+    {
+      "id": "tele_0132",
+      "term": "حدثت بياناتك",
+      "vocalized": "حَدَّثْتْ بَيَانَاتِكْ",
+      "ipa_hint": "haddatht bayanat-ik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد تعديل وحفظ معلومات المتصل",
+      "meaning_en": "I updated your details",
+      "variants": [],
+      "example": "أبشر، حدثت بياناتك في النظام فوراً."
+    },
+    {
+      "id": "tele_0133",
+      "term": "فعلت لك الخدمة",
+      "vocalized": "فَعَّلْتْ لِكْ الْخِدْمَة",
+      "ipa_hint": "fa''alt lik al-khidmah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد تنشيط الميزة المطلوبة أثناء المكالمة",
+      "meaning_en": "I activated the service for you",
+      "variants": [],
+      "example": "تم، فعلت لك الخدمة وتقدر تجربها الحين."
+    },
+    {
+      "id": "tele_0134",
+      "term": "ألغيت الطلب",
+      "vocalized": "أَلْغَيْتْ الطَّلَبْ",
+      "ipa_hint": "alghait at-talab",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد إلغاء العملية بناءً على رغبة المتصل",
+      "meaning_en": "I cancelled the request",
+      "variants": [],
+      "example": "أبشر، ألغيت الطلب القديم بدون أي رسوم."
+    },
+    {
+      "id": "tele_0135",
+      "term": "وصلك الكود",
+      "vocalized": "وَصَلِكْ الْكُودْ",
+      "ipa_hint": "wasalik al-kood",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سؤال المتصل عن استلام رمز التحقق النصي",
+      "meaning_en": "Did you receive the verification code?",
+      "variants": [
+        "وصلك الرمز"
+      ],
+      "example": "أرسلت لك رمز التفعيل، وصلك الكود على الجوال؟"
+    },
+    {
+      "id": "tele_0136",
+      "term": "باقي ما وصل",
+      "vocalized": "بَاقِي مَا وَصَلْ",
+      "ipa_hint": "baqi ma wasal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إفادة المتصل بعدم وصول الرسالة بعد",
+      "meaning_en": "It hasn't arrived yet",
+      "variants": [
+        "للحين ما وصل"
+      ],
+      "example": "باقي ما وصل، يمديك تعيد إرساله؟"
+    },
+    {
+      "id": "tele_0137",
+      "term": "أعدت الإرسال",
+      "vocalized": "أَعَدْتْ الْإِرْسَالْ",
+      "ipa_hint": "a'adt al-irsal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "إرسال رمز التحقق أو الإشعار مرة ثانية",
+      "meaning_en": "I resent it",
+      "variants": [
+        "أرسلته مرة ثانية"
+      ],
+      "example": "أبشر، أعدت الإرسال شيك على الرسائل الحين."
+    },
+    {
+      "id": "tele_0138",
+      "term": "وصل الحين",
+      "vocalized": "وَصَلْ الْحِينْ",
+      "ipa_hint": "wasal al-heen",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد وصول الرسالة أثناء المكالمة",
+      "meaning_en": "It just arrived now",
+      "variants": [],
+      "example": "إيه تمام، وصل الحين."
+    },
+    {
+      "id": "tele_0139",
+      "term": "نقلني الرقم",
+      "vocalized": "نَقِّلْنِي الرَّقَمْ",
+      "ipa_hint": "naqqilni ar-raqam",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "اطلب من المتصل قراءة الأرقام بالتتابع",
+      "meaning_en": "Read the number out to me",
+      "variants": [],
+      "example": "تفضل نقلني الرقم من اليسار لليمين."
+    },
+    {
+      "id": "tele_0140",
+      "term": "من اليسار لليمين",
+      "vocalized": "مِنْ الْيَسَارْ لِلْيَمِينْ",
+      "ipa_hint": "min al-yasar lil-yameen",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "توضيح اتجاه قراءة الأرقام والرموز",
+      "meaning_en": "From left to right",
+      "variants": [],
+      "example": "اقرا لي الرمز من اليسار لليمين لاهنت."
+    },
+    {
+      "id": "tele_0141",
+      "term": "واضح كذا",
+      "vocalized": "وَاضِحْ كِذَا",
+      "ipa_hint": "wadih kidha",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "التأكد من وضوح الشرح للمتصل",
+      "meaning_en": "Is that clear?",
+      "variants": [],
+      "example": "شرحت لك الخطوات، واضح كذا طال عمرك؟"
+    },
+    {
+      "id": "tele_0142",
+      "term": "عندك سؤال ثاني",
+      "vocalized": "عِنْدِكْ سُؤَالْ ثَانِي",
+      "ipa_hint": "indik su'al thani",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "التأكد من إجابة كافة استفسارات المتصل",
+      "meaning_en": "Do you have any other question?",
+      "variants": [
+        "أي استفسار ثاني"
+      ],
+      "example": "قبل نقفل، عندك سؤال ثاني أخدمك فيه؟"
+    },
+    {
+      "id": "tele_0143",
+      "term": "ما قصرت كفيت",
+      "vocalized": "مَا قَصَّرْتْ كَفَّيْتْ",
+      "ipa_hint": "ma qassart kaffait",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "شكر ختامي دافئ من المتصل",
+      "meaning_en": "Thank you, you've been very helpful",
+      "variants": [],
+      "example": "لا أبد سلامتك، ما قصرت كفيت ووفيت."
+    },
+    {
+      "id": "tele_0144",
+      "term": "سعيدين بخدمتك",
+      "vocalized": "سَعِيدِينْ بِخِدْمَتِكْ",
+      "ipa_hint": "sa'eedeen bi-khidmatk",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "خاتمة مهنية ودودة في نهاية المكالمة",
+      "meaning_en": "Happy to serve you",
+      "variants": [],
+      "example": "حياك الله بأي وقت، سعيدين بخدمتك."
+    },
+    {
+      "id": "tele_0145",
+      "term": "الله يحفظك",
+      "vocalized": "اللَّهْ يِحْفَظِكْ",
+      "ipa_hint": "allah yihfadhik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "دعاء وداع لطيف في ختام الاتصال",
+      "meaning_en": "May God protect you",
+      "variants": [
+        "ربي يحفظك"
+      ],
+      "example": "توصل بالسلامة، الله يحفظك."
+    },
+    {
+      "id": "tele_0146",
+      "term": "يرجى الانتظار",
+      "vocalized": "يُرْجَى الْاِنْتِظَارْ",
+      "ipa_hint": "yurja al-intidhar",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "عبارة انتظار رسمية مهذبة",
+      "meaning_en": "Please hold",
+      "variants": [],
+      "example": "يرجى الانتظار لحظات ريثما يرد الموظف."
+    },
+    {
+      "id": "tele_0147",
+      "term": "تحويل المكالمة",
+      "vocalized": "تَحْوِيلْ الْمُكَالَمَة",
+      "ipa_hint": "tahweel al-mukalamah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "نقل الخط لقسم متخصص",
+      "meaning_en": "Call transfer",
+      "variants": [],
+      "example": "جاري تحويل المكالمة لقسم المحاسبة."
+    },
+    {
+      "id": "tele_0148",
+      "term": "مكالمة جماعية",
+      "vocalized": "مُكَالَمَة جَمَاعِيَّة",
+      "ipa_hint": "mukalamah jama'iyyah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اتصال هاتفي يضم أكثر من طرفين",
+      "meaning_en": "Conference call",
+      "variants": [],
+      "example": "ندخل مدير المشروع معنا في مكالمة جماعية."
+    },
+    {
+      "id": "tele_0149",
+      "term": "بريد صوتي",
+      "vocalized": "بَرِيدْ صَوْتِي",
+      "ipa_hint": "bareed sawti",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "رسالة مسجلة عند عدم الرد",
+      "meaning_en": "Voicemail",
+      "variants": [],
+      "example": "تركت لك التفاصيل في بريد صوتي قصير."
+    },
+    {
+      "id": "tele_0150",
+      "term": "نغمة الانتظار",
+      "vocalized": "نَغْمَةْ الْاِنْتِظَارْ",
+      "ipa_hint": "naghmat al-intidhar",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الصوت المسموع أثناء انتظار رد الطرف الآخر",
+      "meaning_en": "Hold tone / Ringback tone",
+      "variants": [],
+      "example": "سمعت نغمة الانتظار ثواني ورد علي."
+    },
+    {
+      "id": "tele_0151",
+      "term": "جودة الاتصال",
+      "vocalized": "جَوْدَةْ الْاِتِّصَالْ",
+      "ipa_hint": "jawdat al-ittisal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "نقاء وثبات الصوت على الخط",
+      "meaning_en": "Call quality",
+      "variants": [],
+      "example": "جودة الاتصال اليوم عالية جداً وصافية."
+    },
+    {
+      "id": "tele_0152",
+      "term": "تأخر الصوت",
+      "vocalized": "تَأَخُّرْ الصَّوْتْ",
+      "ipa_hint": "ta'akhkhur as-sawt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "الفارق الزمني في وصول الصوت عبر الشبكة",
+      "meaning_en": "Audio lag / Latency",
+      "variants": [],
+      "example": "قللنا تأخر الصوت عشان تصير المحادثة طبيعية."
+    },
+    {
+      "id": "tele_0153",
+      "term": "رد فوري",
+      "vocalized": "رَدّ فَوْرِي",
+      "ipa_hint": "radd fawri",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "إجابة لحظية دون انتظار",
+      "meaning_en": "Instant response",
+      "variants": [],
+      "example": "المتصل يتوقع رد فوري في أول ثانية."
+    },
+    {
+      "id": "tele_0154",
+      "term": "تفاعل حي",
+      "vocalized": "تَفَاعُلْ حَيّ",
+      "ipa_hint": "tafa'ul hayy",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "حوار صوتي مباشر ثنائي الاتجاه",
+      "meaning_en": "Live interaction",
+      "variants": [],
+      "example": "يدعم النظام تفاعل حي مع مقاطعة المتصل."
+    },
+    {
+      "id": "tele_0155",
+      "term": "كلام متقطع",
+      "vocalized": "كَلَامْ مُتَقَطِّعْ",
+      "ipa_hint": "kalam mutaqatti'",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "وصول الجمل غير مكتملة بسبب الإشارة",
+      "meaning_en": "Choppy speech",
+      "variants": [],
+      "example": "وصلني كلام متقطع بسبب ضعف التغطية."
+    },
+    {
+      "id": "tele_0156",
+      "term": "أعد المحاولة",
+      "vocalized": "أَعِدْ الْمُحَاوَلَة",
+      "ipa_hint": "a'id al-muhawalah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "جرب مرة ثانية",
+      "meaning_en": "Please try again",
+      "variants": [
+        "حاول مرة ثانية"
+      ],
+      "example": "إذا تعذر الإرسال أعد المحاولة بعد دقيقة."
+    },
+    {
+      "id": "tele_0157",
+      "term": "خارج التغطية",
+      "vocalized": "خَارِجْ التَّغْطِيَة",
+      "ipa_hint": "kharij at-taghtiyah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الهاتف في منطقة بلا إشارة شبكة",
+      "meaning_en": "Out of coverage area",
+      "variants": [],
+      "example": "يطلع الجوال خارج التغطية داخل القبو."
+    },
+    {
+      "id": "tele_0158",
+      "term": "مقفل الجوال",
+      "vocalized": "مْقَفَّلْ الْجَوَّالْ",
+      "ipa_hint": "mqaffal al-jawwal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "الهاتف مغلق حالياً",
+      "meaning_en": "Phone is switched off",
+      "variants": [
+        "جواله مقفل"
+      ],
+      "example": "اتصلت عليه بس طلع مقفل الجوال."
+    },
+    {
+      "id": "tele_0159",
+      "term": "خل جوالك قريب",
+      "vocalized": "خَلّ جَوَّالِكْ قَرِيبْ",
+      "ipa_hint": "khall jawwalik qareeb",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تنبيه بانتظار مكالمة مهمة قريباً",
+      "meaning_en": "Keep your phone handy",
+      "variants": [],
+      "example": "خل جوالك قريب، بيدق عليك المندوب بعد شوي."
+    },
+    {
+      "id": "tele_0160",
+      "term": "تواصل هاتفي",
+      "vocalized": "تَوَاصُلْ هَاتِفِي",
+      "ipa_hint": "tawasul hatifi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "متابعة الأمر عبر الاتصال الصوتي",
+      "meaning_en": "Phone communication",
+      "variants": [],
+      "example": "حسمنا النقاط بسرعة عبر تواصل هاتفي مباشر."
+    },
+    {
+      "id": "tele_0161",
+      "term": "أنهيت المكالمة",
+      "vocalized": "أَنْهَيْتْ الْمُكَالَمَة",
+      "ipa_hint": "anhait al-mukalamah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أتممت الاتصال الهاتفي",
+      "meaning_en": "Ended the call",
+      "variants": [],
+      "example": "أنهيت المكالمة وأرسلت الملخص للفريق."
+    },
+    {
+      "id": "tele_0162",
+      "term": "على الانتظار",
+      "vocalized": "عَلَى الْاِنْتِظَارْ",
+      "ipa_hint": "ala al-intidhar",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "وضع المكالمة قيد الانتظار المؤقت",
+      "meaning_en": "On hold",
+      "variants": [
+        "حطني انتظار"
+      ],
+      "example": "استأذنك أحطك على الانتظار ثواني."
+    },
+    {
+      "id": "tele_0163",
+      "term": "رفعت السماعة",
+      "vocalized": "رَفَعْتْ السَّمَّاعَة",
+      "ipa_hint": "rafa't as-samma'ah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "بدأت الاتصال أو فتحت الخط",
+      "meaning_en": "Picked up the phone",
+      "variants": [],
+      "example": "أول ما رفعت السماعة جاني الرد."
+    },
+    {
+      "id": "tele_0164",
+      "term": "خط أرضي",
+      "vocalized": "خَطّ أَرْضِي",
+      "ipa_hint": "khatt ardi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "هاتف ثابت مكتبي أو منزلي",
+      "meaning_en": "Landline",
+      "variants": [
+        "ثابت"
+      ],
+      "example": "تقدر تتصل من جوال أو خط أرضي."
+    },
+    {
+      "id": "tele_0165",
+      "term": "تغطية ممتازة",
+      "vocalized": "تَغْطِيَة مُمْتَازَة",
+      "ipa_hint": "taghtiyah mumtazah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "قوة إشارة الشبكة كاملة",
+      "meaning_en": "Excellent signal coverage",
+      "variants": [],
+      "example": "الحمد لله هنا تغطية ممتازة والصوت صافي."
+    },
+    {
+      "id": "tele_0166",
+      "term": "مكبر الصوت",
+      "vocalized": "مُكَبِّرْ الصَّوْتْ",
+      "ipa_hint": "mukabbir as-sawt",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "السماعة الخارجية للهاتف",
+      "meaning_en": "Loudspeaker / Speakerphone",
+      "variants": [],
+      "example": "شغلت مكبر الصوت عشان الكل يسمع."
+    },
+    {
+      "id": "tele_0167",
+      "term": "سماعة بلوتوث",
+      "vocalized": "سَمَّاعَة بْلُوتُوثْ",
+      "ipa_hint": "samma'at bluetooth",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "سماعة لاسلكية للمكالمات",
+      "meaning_en": "Bluetooth headset",
+      "variants": [],
+      "example": "أتكلم من سماعة بلوتوث، الصوت واضح؟"
+    },
+    {
+      "id": "tele_0168",
+      "term": "عزل الضوضاء",
+      "vocalized": "عَزْلْ الضَّوْضَاءْ",
+      "ipa_hint": "azl ad-dawda'",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "technical",
+      "meaning_ar": "تنقية الصوت من ضجيج الخلفية",
+      "meaning_en": "Noise cancellation",
+      "variants": [],
+      "example": "فعلنا ميزة عزل الضوضاء في المكالمات."
+    },
+    {
+      "id": "tele_0169",
+      "term": "إزعاج بالخلفية",
+      "vocalized": "إِزْعَاجْ بِالْخَلْفِيَّة",
+      "ipa_hint": "iz'aj bil-khalfiyyah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "أصوات محيطة تؤثر على وضوح المتصل",
+      "meaning_en": "Background noise",
+      "variants": [],
+      "example": "المعذرة فيه إزعاج بالخلفية لأنني بالشارع."
+    },
+    {
+      "id": "tele_0170",
+      "term": "مكان هادي",
+      "vocalized": "مَكَانْ هَادِي",
+      "ipa_hint": "makan hadi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "موقع خالٍ من الضجيج للحديث بوضوح",
+      "meaning_en": "Quiet place",
+      "variants": [],
+      "example": "انتقلت إلى مكان هادي عشان أسمعك زين."
+    },
+    {
+      "id": "tele_0171",
+      "term": "أكلمك وأنا بالسيارة",
+      "vocalized": "أَكَلْمِكْ وَأَنَا بِالسَّيَّارَة",
+      "ipa_hint": "akalmik w ana bis-sayyarah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "casual",
+      "meaning_ar": "إشعار المتصل بالتحدث أثناء القيادة عبر البلوتوث",
+      "meaning_en": "Calling you from the car",
+      "variants": [],
+      "example": "أكلمك وأنا بالسيارة، عطني الزبدة لاهنت."
+    },
+    {
+      "id": "tele_0172",
+      "term": "أول ما أوصل أكلمك",
+      "vocalized": "أَوَّلْ مَا أُوصَلْ أَكَلْمِكْ",
+      "ipa_hint": "awwal ma oosal akalmik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "الوعد بمعاودة الاتصال فور الوصول",
+      "meaning_en": "I'll call you as soon as I arrive",
+      "variants": [],
+      "example": "قربت من البيت، أول ما أوصل أكلمك."
+    },
+    {
+      "id": "tele_0173",
+      "term": "وصلتني رسالتك",
+      "vocalized": "وَصَلَتْنِي رِسَالْتِكْ",
+      "ipa_hint": "wasalatni risaltik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "تأكيد استلام الرسالة النصية",
+      "meaning_en": "I got your message",
+      "variants": [],
+      "example": "وصلتني رسالتك وشفت الرابط المرفق."
+    },
+    {
+      "id": "tele_0174",
+      "term": "مكالمة سريعة",
+      "vocalized": "مُكَالَمَة سَرِيعَة",
+      "ipa_hint": "mukalamah saree'ah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "اتصال قصير لحسم نقطة محددة",
+      "meaning_en": "Quick call",
+      "variants": [],
+      "example": "نحتاج مكالمة سريعة دقيقتين بس."
+    },
+    {
+      "id": "tele_0175",
+      "term": "بدون إطالة",
+      "vocalized": "بِدُونْ إِطَالَة",
+      "ipa_hint": "bidoon italah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "باختصار مراعاة لوقت المتصل",
+      "meaning_en": "Without keeping you long / Briefly",
+      "variants": [],
+      "example": "بدون إطالة، هذي أهم ثلاث نقاط."
+    },
+    {
+      "id": "tele_0176",
+      "term": "آخذ من وقتك دقيقة",
+      "vocalized": "آخِذْ مِنْ وَقْتِكْ دَقِيقَة",
+      "ipa_hint": "akhidh min waqtik daqeeqah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "استئذان لبق في بداية الاتصال",
+      "meaning_en": "May I take a minute of your time?",
+      "variants": [],
+      "example": "السلام عليكم، ممكن آخذ من وقتك دقيقة؟"
+    },
+    {
+      "id": "tele_0177",
+      "term": "الوقت مناسب لك",
+      "vocalized": "الْوَقْتْ مُنَاسِبْ لِكْ",
+      "ipa_hint": "al-waqt munasib lik",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "التحقق من ملاءمة وقت الاتصال للمتلقي",
+      "meaning_en": "Is this a good time to talk?",
+      "variants": [
+        "وقتك يسمح"
+      ],
+      "example": "حياك الله، عسى الوقت مناسب لك نتكلم؟"
+    },
+    {
+      "id": "tele_0178",
+      "term": "وقتك يسمح",
+      "vocalized": "وَقْتِكْ يِسْمَحْ",
+      "ipa_hint": "waqtik yismah",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "سؤال مهذب عن تفرغ المتصل حالياً",
+      "meaning_en": "Do you have a moment?",
+      "variants": [],
+      "example": "إذا وقتك يسمح نراجع تفاصيل العرض."
+    },
+    {
+      "id": "tele_0179",
+      "term": "اتصل عليك وقت ثاني",
+      "vocalized": "أَتَّصِلْ عَلَيْكْ وَقْتْ ثَانِي",
+      "ipa_hint": "attasil alaik waqt thani",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "عرض تأجيل المكالمة إن كان المتلقي مشغولاً",
+      "meaning_en": "Call you at another time",
+      "variants": [],
+      "example": "إذا مشغول الحين اتصل عليك وقت ثاني."
+    },
+    {
+      "id": "tele_0180",
+      "term": "لا أبد تفضل",
+      "vocalized": "لَا أَبَدْ تْفَضَّلْ",
+      "ipa_hint": "la abad tfaddal",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ترحيب فوري ينفي الانشغال ويدعو للحديث",
+      "meaning_en": "Not at all, please go ahead",
+      "variants": [],
+      "example": "لا أبد تفضل، فاضي وأسمعك."
+    },
+    {
+      "id": "tele_0181",
+      "term": "سجلتها عندي",
+      "vocalized": "سَجَّلْتْهَا عِنْدِي",
+      "ipa_hint": "sajjaltha indi",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "دونت المعلومة لدي",
+      "meaning_en": "Noted it down",
+      "variants": [],
+      "example": "واضح، سجلتها عندي بالملف."
+    },
+    {
+      "id": "tele_0182",
+      "term": "تأكدت لك منها",
+      "vocalized": "تَأَكَّدْتْ لِكْ مِنْهَا",
+      "ipa_hint": "ta'akkadt lik minha",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "فحصت المعلومة خصيصاً لأجلك",
+      "meaning_en": "I double-checked it for you",
+      "variants": [],
+      "example": "تأكدت لك منها والطلب شغال تمام."
+    },
+    {
+      "id": "tele_0183",
+      "term": "على تواصل",
+      "vocalized": "عَلَى تَوَاصُلْ",
+      "ipa_hint": "ala tawasul",
+      "category": "telephony_live",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "نستمر بالمتابعة الهاتفية أو النصية",
+      "meaning_en": "Stay in touch",
+      "variants": [
+        "نبقى على تواصل"
+      ],
+      "example": "نخلص الإجراء ونبقى على تواصل."
+    },
+    {
+      "id": "tele_0184",
+      "term": "شكراً لتواصلك",
+      "vocalized": "شُكْرًا لِتَوَاصُلِكْ",
+      "ipa_hint": "shukran li-tawasulik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "executive",
+      "meaning_ar": "عبارة ختام رسمية للمكالمات",
+      "meaning_en": "Thank you for contacting us",
+      "variants": [],
+      "example": "شكراً لتواصلك معنا، في أمان الله."
+    },
+    {
+      "id": "tele_0185",
+      "term": "حياك بأي وقت",
+      "vocalized": "حَيَّاكْ بِأَيّ وَقْتْ",
+      "ipa_hint": "hayyak bi-ayy waqt",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "ترحيب مفتوح بالاتصال مجدداً متى لزم",
+      "meaning_en": "Welcome anytime",
+      "variants": [],
+      "example": "أبشر، وحياك بأي وقت تحتاجنا فيه."
+    },
+    {
+      "id": "tele_0186",
+      "term": "ما ننسى معروفك",
+      "vocalized": "مَا نِنْسَى مَعْرُوفِكْ",
+      "ipa_hint": "ma ninsa ma'roofik",
+      "category": "greetings_courtesy",
+      "pos": "phrase",
+      "register": "universal",
+      "meaning_ar": "امتنان عميق للمساعدة الكريمة",
+      "meaning_en": "We appreciate your kindness",
+      "variants": [],
+      "example": "بيض الله وجهك، ما ننسى معروفك."
+    }
+  ]
+}

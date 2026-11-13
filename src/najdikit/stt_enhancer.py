@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any, Callable, Mapping, Protocol, Sequence, runtime_checkable
 
 from .lexicon import NajdiLexicon, get_default_lexicon, strip_diacritics
+from .morphology import NajdiMorphAnalyzer, get_default_morph_analyzer
 
 _ELONGATION_RE = re.compile(r"([\u0621-\u064A])\1{2,}")
 _TATWEEL_RE = re.compile(r"\u0640+")
@@ -34,6 +35,10 @@ _DOMAIN_SEEDS: dict[str, str] = {
     "customer_care": (
         "يا هلا ومسهلا، أبشر بعزك ولا تشيل هم. الحين أشيك لك على الطلب وأعطيك خبر أول بأول، "
         "وإذا احتجت أي خدمة إضافية آمرني طال عمرك."
+    ),
+    "telephony": (
+        "يا هلا والله حياك الله، صوتك واضح طال عمرك. سم، ثواني أشيك لك على الموضوع الحين، "
+        "خذ راحتك وأنا معك على الخط، إذا توصي على شي آمرني في أمان الله."
     ),
 }
 
@@ -140,8 +145,14 @@ class NajdiSTTEnhancer:
         lexicon: NajdiLexicon | None = None,
         *,
         personal_adapter_hook: AdapterHook | None = None,
+        morph: NajdiMorphAnalyzer | None = None,
     ) -> None:
         self.lexicon = lexicon or get_default_lexicon()
+        self.morph = morph or (
+            NajdiMorphAnalyzer(lexicon=self.lexicon)
+            if lexicon is not None
+            else get_default_morph_analyzer()
+        )
         self.personal_adapter_hook = personal_adapter_hook
 
         env_adapter_path = os.environ.get("NAJDIKIT_PERSONAL_ADAPTER_JSON", "").strip()
@@ -269,23 +280,17 @@ class NajdiSTTEnhancer:
         # 2. Compress vocal elongations ("هلااااا" -> "هلا", "مررررة" -> "مرّة")
         work = _ELONGATION_RE.sub(r"\1", work)
 
-        # 3. Apply multi-word White Saudi orthographic normalization
-        normalized_count = 0
-        for pattern, replacement in self._multiword_fixes:
-            work, n = pattern.subn(replacement, work)
-            normalized_count += n
+        # 3. Single-pass O(N) multi-word orthographic canonicalization via compiled Aho-Corasick
+        work, normalized_count = self.lexicon.ortho_phrase_automaton.replace_all(work)
 
-        # 4. Token-level variant normalization via O(1) lexicon map
-        variant_map = self.lexicon.variant_map
+        # 4. Token-level variant & clitic-inflected stem normalization
+        morph = self.morph
 
         def _norm_word(match: re.Match[str]) -> str:
             nonlocal normalized_count
             tok = match.group(1)
-            mapped = variant_map.get(tok)
-            if mapped is None:
-                plain = strip_diacritics(tok)
-                mapped = variant_map.get(plain)
-            if mapped is not None and mapped != tok:
+            mapped = morph.normalize_inflected(tok)
+            if mapped != tok:
                 normalized_count += 1
                 return mapped
             return tok

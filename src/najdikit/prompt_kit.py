@@ -12,6 +12,7 @@ SUPPORTED_PROFILES: tuple[str, ...] = (
     "modern_white",
     "executive",
     "voice_assistant",
+    "voice_call_realtime",
     "technical",
 )
 
@@ -56,6 +57,22 @@ _PROFILE_DIRECTIVES: dict[str, dict[str, str]] = {
         ),
         "cadence": (
             "اجعل كل رد بين جملة إلى ثلاث جمل قصيرة يسهل نطقها في نفس واحد واضح."
+        ),
+    },
+    "voice_call_realtime": {
+        "title": "أسلوب المكالمات الصوتية الفورية (Real-Time Full-Duplex Saudi Telephony)",
+        "tone": (
+            "تحدث كمتحدث سعودي لبق على مكالمة هاتفية حية بلهجة سعودية بيضاء ونجدية حضرية طبيعية، "
+            "بلا أي رموز تنسيق (Markdown) أو قوائم نقطية أو روابط أو رموز تعبيرية."
+        ),
+        "anchors": (
+            "ابدأ دائماً بافتتاحية هاتفية سعودية سريعة متبوعة بفاصلة لتقليل زمن أول صوت (TTFA) مثل: "
+            "(أبشر، / سم طال عمرك، / يا هلا والله، / على خشمي، / ثواني أشيك لك،)، "
+            "وعند الحاجة لتنفيذ إجراء برمجي أدرجه بصيغة [ACTION: name] دون نطقه."
+        ),
+        "cadence": (
+            "التزم بمجموعة نفس إلى مجموعتين قصيرتين فقط في كل دور (٦ إلى ١٢ كلمة لكل شطر)، "
+            "واحترم مقاطعات المتصل والردود الخلفية مثل (طيب، إيه، كمّل، ثواني)."
         ),
     },
     "technical": {
@@ -112,17 +129,6 @@ class NajdiPromptKit:
 
     def __init__(self, lexicon: NajdiLexicon | None = None) -> None:
         self.lexicon = lexicon or get_default_lexicon()
-        self._drift_patterns: list[tuple[re.Pattern[str], str]] = [
-            (
-                re.compile(rf"(?<!\w){re.escape(rule.non_saudi)}(?!\w)"),
-                rule.saudi_white,
-            )
-            for rule in sorted(
-                self.lexicon.anti_confusion_rules,
-                key=lambda r: len(r.non_saudi),
-                reverse=True,
-            )
-        ]
 
     def build_grounding(
         self,
@@ -169,15 +175,28 @@ class NajdiPromptKit:
         )
 
     def harmonize_text(self, text: str) -> dict[str, Any]:
-        """Replace common non-Saudi / stiff-MSA drift phrases with natural White Saudi equivalents."""
-        out = text
+        """Replace non-Saudi / stiff-MSA drift phrases in O(N) time via compiled Aho-Corasick."""
+        matches = self.lexicon.anti_confusion_automaton.select_non_overlapping(text)
+        if not matches:
+            return {
+                "original": text,
+                "harmonized": text,
+                "replacements": 0,
+            }
+        chunks: list[str] = []
+        last_pos = 0
         replacements = 0
-        for pattern, target in self._drift_patterns:
-            out, n = pattern.subn(target, out)
-            replacements += n
+        for m in matches:
+            target = m.value.saudi_white
+            chunks.append(text[last_pos : m.start_char])
+            chunks.append(target)
+            last_pos = m.end_char
+            if target != m.matched_text:
+                replacements += 1
+        chunks.append(text[last_pos:])
         return {
             "original": text,
-            "harmonized": out,
+            "harmonized": "".join(chunks),
             "replacements": replacements,
         }
 

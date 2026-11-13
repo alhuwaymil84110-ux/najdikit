@@ -13,14 +13,15 @@ function formatOpenClawToolResult(payload) {
 }
 
 /**
- * OpenClaw Plugin Entrypoint for NajdiKit.
- * Registers `najdi_tts_prepare`, `najdi_stt_clean`, `najdi_style_grounding`, and `najdi_lexicon_lookup`.
+ * OpenClaw Plugin Entrypoint for NajdiKit v2.0.
+ * Registers all 7 tools: `najdi_tts_prepare`, `najdi_call_stream_chunk`, `najdi_call_turn_analyze`,
+ * `najdi_stt_clean`, `najdi_dialect_score`, `najdi_style_grounding`, and `najdi_lexicon_lookup`.
  */
 const najdikitPlugin = {
   id: "najdikit",
   name: "NajdiKit",
   description:
-    "Modern White Saudi & Urban Najdi Arabic phonetics (TTS), STT post-processing, lexicon lookup, and positive LLM grounding.",
+    "Real-time White Saudi & Urban Najdi voice-call streaming, full-duplex turn analysis, multi-backend TTS phonetics, STT post-processing, dialect scoring, and 1,250+ modular lexicon.",
 
   register(api) {
     const pluginConfig = (api && (api.pluginConfig || api.config?.plugins?.entries?.najdikit?.config)) || {};
@@ -29,6 +30,7 @@ const najdikitPlugin = {
       customLexiconPath: pluginConfig.customLexiconPath,
       personalAdapterJson: pluginConfig.personalAdapterJson,
       localLlmUrl: pluginConfig.localLlmUrl,
+      packsDir: pluginConfig.packsDir,
     });
 
     for (const def of TOOL_DEFINITIONS) {

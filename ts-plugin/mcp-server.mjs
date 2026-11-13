@@ -8,7 +8,7 @@ import { NajdiWorkerBridge, TOOL_DEFINITIONS, dispatchToolCall } from "./bridge.
 
 const SERVER_INFO = {
   name: "najdikit-mcp",
-  version: "1.0.0",
+  version: "2.0.0",
 };
 
 const DEFAULT_PROTOCOL_VERSION = "2024-11-05";
