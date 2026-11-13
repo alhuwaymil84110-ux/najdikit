@@ -1,0 +1,36 @@
+# Python bytecode & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments & caches
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+
+# Node / JS
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+
+# OS & Editor files
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local private user adapters / overrides (never committed)
+*.local.json
+*.private.json
+.env
+.env.*

@@ -1,0 +1,38 @@
+{
+  "name": "najdikit",
+  "version": "1.0.0",
+  "description": "Modern White Saudi & Urban Najdi Arabic Phonetics (TTS), STT Post-Processor, Lexicon, OpenClaw Plugin, and MCP Server.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./ts-plugin/index.mjs",
+  "exports": {
+    ".": "./ts-plugin/index.mjs",
+    "./mcp-server": "./ts-plugin/mcp-server.mjs"
+  },
+  "bin": {
+    "najdikit-mcp": "./ts-plugin/mcp-server.mjs"
+  },
+  "scripts": {
+    "mcp": "node ./ts-plugin/mcp-server.mjs",
+    "test": "python3 -m unittest discover -s tests -v"
+  },
+  "openclaw": {
+    "extensions": [
+      "./ts-plugin/index.mjs"
+    ],
+    "runtimeExtensions": [
+      "./ts-plugin/index.mjs"
+    ]
+  },
+  "files": [
+    "openclaw.plugin.json",
+    "ts-plugin/**",
+    "skills/**",
+    "src/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

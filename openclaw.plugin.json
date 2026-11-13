@@ -1,0 +1,44 @@
+{
+  "id": "najdikit",
+  "name": "NajdiKit",
+  "description": "Sub-millisecond Modern White Saudi & Urban Najdi Arabic phonetics (TTS G2P/tashkeel), STT post-processing, lexicon lookup, and LLM style grounding.",
+  "categories": ["language", "voice", "arabic-nlp"],
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "najdi_tts_prepare",
+      "najdi_stt_clean",
+      "najdi_style_grounding",
+      "najdi_lexicon_lookup"
+    ]
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "pythonBin": {
+        "type": "string",
+        "description": "Optional Python 3 executable path (defaults to python3)."
+      },
+      "customLexiconPath": {
+        "type": "string",
+        "description": "Optional path to an external user lexicon JSON overlay."
+      },
+      "personalAdapterJson": {
+        "type": "string",
+        "description": "Optional path to a private runtime STT personal adapter JSON."
+      },
+      "localLlmUrl": {
+        "type": "string",
+        "description": "Optional OpenAI-compatible local MLX server URL for contextual homograph disambiguation."
+      },
+      "defaultProfile": {
+        "type": "string",
+        "enum": ["modern_white", "executive", "voice_assistant", "technical"],
+        "description": "Default LLM style grounding profile."
+      }
+    }
+  }
+}
